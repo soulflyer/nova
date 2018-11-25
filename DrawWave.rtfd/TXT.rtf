@@ -1,0 +1,118 @@
+{\rtf1\mac\ansicpg10000\cocoartf102
+{\fonttbl\f0\fswiss\fcharset77 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww8180\viewh14400\viewkind0
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+
+\f0\fs30 \cf0 Drawing the OSC output\
+
+\fs24 Square wave softens to a sine wave\
+Pulse width moves centre zero crossing\
+\
+m is the x distance from 0 to b when soften=1\
+p+1 is the x distance from 0 to f/g when soften=1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 3.tiff \width3320 \height2720
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs24 \cf0  \
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+\cf0 ay=fy=-gy=-iy			=	1-s\
+by=cy=dy=ey=-hy=-iy=-ky	=	1\
+\
+where p=0:\
+ax=1-fx=gx-1=2-lx		=	(1-s)sm\
+bx=1-ex=hx-1=2-kx		=	sm\
+\
+or:\
+ax=((1-s)sm)(1+p)\
+fx=(1-(1-s)sm))(1+p)\
+gx=1+p+((1-s)sm)(1-p)\
+lx=2-((1-s)sm)(1-p)\
+\
+bx=sm(1+p)\
+ex=1+p-sm(1+p)\
+hx=1+p+sm(1+p)\
+kx=2-sm(1+p)\
+\
+\
+soften = 1				soften = 0\
+\
+a 	0		0			0		1\
+b 	m		1			0		1\
+c 	1/2		1			0		1\
+d 	1/2		1			1		1\
+e 	1-m		1			1		1\
+f 	1		0			1		1\
+g 	1		0			1		-1\
+h 	1+m		-1			1		-1\
+i 	1+1/2	-1			1		-1\
+j 	1+1/2	-1			2		-1\
+k 	2-m		-1			2		-1\
+l 	2		0			2		-1\
+\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+\cf0 ax=(1-s)sm\
+ay=(1-s)\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+\cf0 bx=sm\
+by=1\
+cx=s/2\
+cy=1\
+dx=1-s/2\
+dy=1\
+ex=1-sm\
+ey=1\
+fx=1-(1-s)sm\
+fy=1-s\
+\
+\pard\tx565\tx1133\tx1700\tx2266\tx2832\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+
+\fs40 \cf0 Take 2
+\fs24 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 {{\NeXTGraphic Pasted Graphic 1.tiff \width3520 \height2820
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs24 \cf0 \
+\pard\tx565\tx1133\tx1700\tx2266\tx2833\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+\cf0 start a in x dir = upperCurveStart\
+start b in x dir = upperControlPointX\
+start c in x dir = centreUpperWave\
+i end in x dir = centreLowerWave\
+k end in x dir = lowerCurveStart\
+j end in x dir = lowerControlPointX\
+\
+start a in y dir = curveStartY\
+\
+
+\fs42 Take 3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 {{\NeXTGraphic 1__#$!@%!#__Pasted Graphic 3.tiff \width3520 \height2880
+}¬}\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\fs42 \cf0 \
+\pard\tx565\tx1133\tx1700\tx2266\tx2833\tx3401\tx3967\tx4535\tx5102\tx5669\tx6235\tx6802\ql\qnatural
+
+\fs24 \cf0 ax=ms\
+bx=s(1+p)/2\
+cx=1+p-s(1+p)/2\
+\
+\
+
+\fs40 Saw Wave\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 {{\NeXTGraphic Pasted Graphic.tiff \width3340 \height3340
+}¬}\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\ql\qnatural
+\cf0 \
+
+\f0\fs24 a=0,1\
+b=s,1\
+c=1,s\
+d=1,-s\
+e=2-s,-1\
+f=2,-1\
+}

@@ -1,0 +1,24 @@
+Nova_Prefix.pch
+4.0.0 20041026 (Apple Computer, Inc. build 4061)
+-x
+objective-c
+-arch
+ppc
+-pipe
+-Wno-trigraphs
+-fpascal-strings
+-fasm-blocks
+-g
+-O0
+-Wno-four-char-constants
+-fmessage-length=0
+-fzero-link
+-mtune=G4
+-mfix-and-continue
+-Wmost
+-Wno-four-char-constants
+-Wno-unknown-pragmas
+-O0
+-F/Users/ndiw/prog/Nova/build
+-F/Users/ndiw/prog/PYMidiTest
+-I/Users/ndiw/prog/Nova/build/include

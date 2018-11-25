@@ -1,0 +1,4 @@
+s/^\([0-9]*\)[ ]*\([a-z,A-Z,0-9]*\)[ ]*\([0-9,a-z,A-Z]*\)[ ]*\([0-9]*\)\(.*\)/\
+   NSPoint \3Start;\
+   NSPoint \3End;\
+   NSColor * \3Colour;/

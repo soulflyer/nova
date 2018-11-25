@@ -1,0 +1,23 @@
+cat CC | awk '{printf "%s %s ",$1,toupper(substr($3,1,1)) substr($3,2); for (i=3;i<=NF;i++) printf "%s ", $i;printf "\n"}'
+
+awk '{printf "-(IBAction)%sIn:(id)sender\
+\{\
+    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\
+    MIDIPacket *packet;\
+    packet=MIDIPacketListInit (packetList);\
+    midiMessage[0]=175+channel;\
+    midiMessage[1]=98;\
+    midiMessage[2]=%s;\
+    midiMessage[3]=175+channel;\
+    midiMessage[4]=6;\
+    midiMessage[5]=[sender intValue];\
+    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,0,6,midiMessage);\
+    [program set%s:[sender intValue]];\
+    [destination processMIDIPacketList:packetList sender:self];\
+    [display2 insertText:\[NSString localizedStringWithFormat:@\"\\nNRPN %%d %%d %%d %%d %%d %%d\",midiMessage[0],midiMessage[1],midiMessage[2],midiMessage[3],midiMessage[4],midiMessage[5]]];\
+    [display insertText:[NSString localizedStringWithFormat:@\"\\n\\n%s %%d\",midiMessage[2]]];\
+    [defaults setInteger:[sender intValue] forKey:@\"%s\"];\
+    ",$1,$5,toupper(substr($3,1,1)) substr($3,2),$1,$1;\
+    for(i=8;i<=NF;i++) printf("%s ",$i);\
+    printf( "\
+\}\n")}' parameters/new/NRPN            >GeneratedFiles/IBActions

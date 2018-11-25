@@ -1,0 +1,20 @@
+s/^\([0-9]*\)[ ]*\([a-z,A-Z,0-9]*\)[ ]*\([0-9,a-z,A-Z]*\)[ ]*\([0-9]*\)[ ]*\([0-9]*\)[ ]*\([0-9]*\)[ ]*\(.*\)/-(IBAction)\3In:(id)sender\
+{\
+    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\
+    MIDIPacket *packet;\
+    packet=MIDIPacketListInit (packetList);\
+    midiMessage[0]=175+channel;\
+    midiMessage[1]=98;\
+    midiMessage[2]=\1;\
+    midiMessage[3]=175+channel;\
+    midiMessage[4]=6;\
+    midiMessage[5]=[sender selectedTag]+\5;\
+    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,0,6,midiMessage);\
+    [program set\2:[sender selectedTag]];\
+    [destination processMIDIPacketList:packetList sender:self];\
+    [display2 insertText:[NSString localizedStringWithFormat:@"\\nNRPN %d %d %d %d %d %d",midiMessage[0],midiMessage[1],midiMessage[2],midiMessage[3],midiMessage[4],midiMessage[5]]];\
+    [display insertText:[NSString localizedStringWithFormat:@"\\n\\n\2 %d",midiMessage[2]]];\
+    [defaults setInteger:[sender intValue] forKey:@"\3"];\
+    \7\
+}\
+/

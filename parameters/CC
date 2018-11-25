@@ -1,0 +1,71 @@
+bankSelect                       0   0   0  32   0   0   0 
+sustain                          0   0   0  64   0   0   0 
+masterVolume                     0   0   0  97   0   0   0 
+portamento                       5   0   0   5   0   0   0 
+osc1Fine                        34   0   0  11   0   0   0 [osc1FineText setIntValue:[program osc1Fine]]; 
+osc1Soften                      44   0   0  13   0   0   0 [osc1 drawWave:[program osc1Wave] soften:[program osc1Soften] pulseWidth:[program osc1Width]]; 
+osc1Width                       50   0   0  22   0   0   0 [osc1 drawWave:[program osc1Wave] soften:[program osc1Soften] pulseWidth:[program osc1Width]]; 
+osc1Sync                        56   0   0  49   0   0   0 
+osc2Fine                        68   0   0  23   0   0   0 [osc2FineText setIntValue:[program osc2Fine]]; 
+osc2Soften                      78   0   0  14   0   0   0 [osc2 drawWave:[program osc2Wave] soften:[program osc2Soften] pulseWidth:[program osc2Width]]; 
+osc2Width                       84   0   0  27   0   0   0 [osc2 drawWave:[program osc2Wave] soften:[program osc2Soften] pulseWidth:[program osc2Width]]; 
+osc2Sync                        90   0   0  50   0   0   0 
+osc3Fine                       102   0   0  12   0   0   0 [osc3FineText setIntValue:[program osc3Fine]]; 
+osc3Soften                     112   0   0  15   0   0   0 [osc3 drawWave:[program osc3Wave] soften:[program osc3Soften] pulseWidth:[program osc3Width]]; 
+osc3Width                      118   0   0  42   0   0   0 [osc3 drawWave:[program osc3Wave] soften:[program osc3Soften] pulseWidth:[program osc3Width]]; 
+osc3Sync                       124   0   0  51   0   0   0 
+osc1Mix                        133   0   0  28   0   0   0 
+osc2Mix                        139   0   0  29   0   0   0 
+osc3Mix                        145   0   0  33   0   0   0 
+ring13Mix                      151   0   0  31   0   0   0 
+ring23Mix                      157   0   0   4   0   0   0 
+noiseMix                       163   0   0  30   0   0   0 
+lfo1Delay                      169   0   0  17   0   0   0 
+lfo1Offset                     171   0   0  82   0   0   0 
+lfo1Speed                      172   0   0  16   0   0   0 
+lfo2Delay                      179   0   0  19   0   0   0 
+lfo2Offset                     181   0   0  83   0   0   0 
+lfo2Speed                      182   0   0  18   0   0   0 
+env3Attack                     191   0   0  75   0   0   0 [env3 drawEnvWithAttack:[program env3Attack] decay:[program env3Decay] sustain:[program env3Sustain] release:[program env3Release]]; 
+env3Decay                      192   0   0  76   0   0   0 [env3 drawEnvWithAttack:[program env3Attack] decay:[program env3Decay] sustain:[program env3Sustain] release:[program env3Release]]; 
+env3Sustain                    193   0   0  77   0   0   0 [env3 drawEnvWithAttack:[program env3Attack] decay:[program env3Decay] sustain:[program env3Sustain] release:[program env3Release]]; 
+env3Release                    194   0   0  78   0   0   0 [env3 drawEnvWithAttack:[program env3Attack] decay:[program env3Decay] sustain:[program env3Sustain] release:[program env3Release]]; 
+env3Velocity                   195   0   0  79   0   0   0 
+env3Delay                      196   0   0  74   0   0   0 
+env2Attack                     197   0   0 114   0   0   0 [env2 drawEnvWithAttack:[program env2Attack] decay:[program env2Decay] sustain:[program env2Sustain] release:[program env2Release]]; 
+env2Decay                      198   0   0 115   0   0   0 [env2 drawEnvWithAttack:[program env2Attack] decay:[program env2Decay] sustain:[program env2Sustain] release:[program env2Release]]; 
+env2Sustain                    199   0   0 116   0   0   0 [env2 drawEnvWithAttack:[program env2Attack] decay:[program env2Decay] sustain:[program env2Sustain] release:[program env2Release]]; 
+env2Release                    200   0   0 117   0   0   0 [env2 drawEnvWithAttack:[program env2Attack] decay:[program env2Decay] sustain:[program env2Sustain] release:[program env2Release]]; 
+env2Velocity                   201   0   0 118   0   0   0 
+env2Delay                      202   0   0 113   0   0   0 
+env1Attack                     203   0   0 108   0   0   0 [env1 drawEnvWithAttack:[program env1Attack] decay:[program env1Decay] sustain:[program env1Sustain] release:[program env1Release]]; 
+env1Decay                      204   0   0 109   0   0   0 [env1 drawEnvWithAttack:[program env1Attack] decay:[program env1Decay] sustain:[program env1Sustain] release:[program env1Release]]; 
+env1Sustain                    205   0   0 110   0   0   0 [env1 drawEnvWithAttack:[program env1Attack] decay:[program env1Decay] sustain:[program env1Sustain] release:[program env1Release]]; 
+env1Release                    206   0   0 111   0   0   0 [env1 drawEnvWithAttack:[program env1Attack] decay:[program env1Decay] sustain:[program env1Sustain] release:[program env1Release]]; 
+env1Velocity                   207   0   0 112   0   0   0 
+noiseSoften                    210   0   0  24   0   0   0 [noise drawNoiseWithSoften:[program noiseSoften]]; 
+filterOverdrive                219   0   0 104   0   0   0 
+filterFrequency                220   0   0 105   0   0   0 [filter drawFilter:[program filterType] slope:[program filterDB] frequency:[program filterFrequency] resonance:[program filterResonance] width:[program filterWidth]]; 
+filterTracking                 229   0   0  34   0   0   0 
+filterResonance                230   0   0 106   0   0   0 [filter drawFilter:[program filterType] slope:[program filterDB] frequency:[program filterFrequency] resonance:[program filterResonance] width:[program filterWidth]]; 
+arpSpeed                       248   0   0   9   0   0   0 
+arpPattern                     250   0   0   3   0   0   0 
+arpLatch                       256   0   0  65   0   0   0 
+distortionSend                 263   0   0  90   0   0   0 
+distortionWheel                264   0   0  58   0   0   0 
+panPosition                    270   0   0  10   0   0   0 
+reverbSend                     274   0   0  91   0   0   0 
+reverbWheel                    275   0   0  84   0   0   0 
+reverbDecay                    276   0   0  95   0   0   0 
+reverbHfDamp                   277   0   0  96   0   0   0 
+chorusSend                     279   0   0  93   0   0   0 
+chorusWheel                    280   0   0  94   0   0   0 
+chorusSpeed                    281   0   0  87   0   0   0 
+chorusModDepth                 282   0   0  88   0   0   0 
+chorusFeedback                 283   0   0  89   0   0   0 
+delaySend                      285   0   0  92   0   0   0 
+delayWheel                     286   0   0 119   0   0   0 
+delayTime                      287   0   0 101   0   0   0 
+delayFeedback                  288   0   0 102   0   0   0 
+delayHfDamp                    289   0   0 103   0   0   0 
+configMorph                    294   0   0   8   0   0   0 

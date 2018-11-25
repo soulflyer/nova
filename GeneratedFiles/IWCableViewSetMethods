@@ -1,0 +1,500 @@
+-(void)setOsc1PitchLfo2Colour:(NSColor *)value
+{
+    osc1PitchLfo2Colour=value;
+}
+-(void)setOsc1PitchWheelColour:(NSColor *)value
+{
+    osc1PitchWheelColour=value;
+}
+-(void)setOsc1WidthEnv3Colour:(NSColor *)value
+{
+    osc1WidthEnv3Colour=value;
+}
+-(void)setOsc1WidthWheelColour:(NSColor *)value
+{
+    osc1WidthWheelColour=value;
+}
+-(void)setOsc1SyncEnv3Colour:(NSColor *)value
+{
+    osc1SyncEnv3Colour=value;
+}
+-(void)setOsc1SyncLfo2Colour:(NSColor *)value
+{
+    osc1SyncLfo2Colour=value;
+}
+-(void)setOsc1SyncWheelColour:(NSColor *)value
+{
+    osc1SyncWheelColour=value;
+}
+-(void)setOsc1SoftenEnv3Colour:(NSColor *)value
+{
+    osc1SoftenEnv3Colour=value;
+}
+-(void)setOsc1SoftenLfo1Colour:(NSColor *)value
+{
+    osc1SoftenLfo1Colour=value;
+}
+-(void)setOsc1SoftenLfo2Colour:(NSColor *)value
+{
+    osc1SoftenLfo2Colour=value;
+}
+-(void)setOsc1SoftenWheelColour:(NSColor *)value
+{
+    osc1SoftenWheelColour=value;
+}
+-(void)setOsc1MixEnv3Colour:(NSColor *)value
+{
+    osc1MixEnv3Colour=value;
+}
+-(void)setOsc1MixLfo1Colour:(NSColor *)value
+{
+    osc1MixLfo1Colour=value;
+}
+-(void)setOsc1MixLfo2Colour:(NSColor *)value
+{
+    osc1MixLfo2Colour=value;
+}
+-(void)setOsc1MixWheelColour:(NSColor *)value
+{
+    osc1MixWheelColour=value;
+}
+-(void)setOsc2PitchLfo2Colour:(NSColor *)value
+{
+    osc2PitchLfo2Colour=value;
+}
+-(void)setOsc2PitchWheelColour:(NSColor *)value
+{
+    osc2PitchWheelColour=value;
+}
+-(void)setOsc2WidthEnv3Colour:(NSColor *)value
+{
+    osc2WidthEnv3Colour=value;
+}
+-(void)setOsc2WidthWheelColour:(NSColor *)value
+{
+    osc2WidthWheelColour=value;
+}
+-(void)setOsc2SyncEnv3Colour:(NSColor *)value
+{
+    osc2SyncEnv3Colour=value;
+}
+-(void)setOsc2SyncLfo2Colour:(NSColor *)value
+{
+    osc2SyncLfo2Colour=value;
+}
+-(void)setOsc2SyncWheelColour:(NSColor *)value
+{
+    osc2SyncWheelColour=value;
+}
+-(void)setOsc2SoftenEnv3Colour:(NSColor *)value
+{
+    osc2SoftenEnv3Colour=value;
+}
+-(void)setOsc2SoftenLfo1Colour:(NSColor *)value
+{
+    osc2SoftenLfo1Colour=value;
+}
+-(void)setOsc2SoftenLfo2Colour:(NSColor *)value
+{
+    osc2SoftenLfo2Colour=value;
+}
+-(void)setOsc2SoftenWheelColour:(NSColor *)value
+{
+    osc2SoftenWheelColour=value;
+}
+-(void)setOsc2MixEnv3Colour:(NSColor *)value
+{
+    osc2MixEnv3Colour=value;
+}
+-(void)setOsc2MixLfo1Colour:(NSColor *)value
+{
+    osc2MixLfo1Colour=value;
+}
+-(void)setOsc2MixLfo2Colour:(NSColor *)value
+{
+    osc2MixLfo2Colour=value;
+}
+-(void)setOsc2MixWheelColour:(NSColor *)value
+{
+    osc2MixWheelColour=value;
+}
+-(void)setOsc3PitchLfo2Colour:(NSColor *)value
+{
+    osc3PitchLfo2Colour=value;
+}
+-(void)setOsc3PitchWheelColour:(NSColor *)value
+{
+    osc3PitchWheelColour=value;
+}
+-(void)setOsc3WidthEnv3Colour:(NSColor *)value
+{
+    osc3WidthEnv3Colour=value;
+}
+-(void)setOsc3WidthWheelColour:(NSColor *)value
+{
+    osc3WidthWheelColour=value;
+}
+-(void)setOsc3SyncEnv3Colour:(NSColor *)value
+{
+    osc3SyncEnv3Colour=value;
+}
+-(void)setOsc3SyncLfo2Colour:(NSColor *)value
+{
+    osc3SyncLfo2Colour=value;
+}
+-(void)setOsc3SyncWheelColour:(NSColor *)value
+{
+    osc3SyncWheelColour=value;
+}
+-(void)setOsc3SoftenEnv3Colour:(NSColor *)value
+{
+    osc3SoftenEnv3Colour=value;
+}
+-(void)setOsc3SoftenLfo1Colour:(NSColor *)value
+{
+    osc3SoftenLfo1Colour=value;
+}
+-(void)setOsc3SoftenLfo2Colour:(NSColor *)value
+{
+    osc3SoftenLfo2Colour=value;
+}
+-(void)setOsc3SoftenWheelColour:(NSColor *)value
+{
+    osc3SoftenWheelColour=value;
+}
+-(void)setOsc3MixEnv3Colour:(NSColor *)value
+{
+    osc3MixEnv3Colour=value;
+}
+-(void)setOsc3MixLfo1Colour:(NSColor *)value
+{
+    osc3MixLfo1Colour=value;
+}
+-(void)setOsc3MixLfo2Colour:(NSColor *)value
+{
+    osc3MixLfo2Colour=value;
+}
+-(void)setOsc3MixWheelColour:(NSColor *)value
+{
+    osc3MixWheelColour=value;
+}
+-(void)setRingMod13MixEnv2Colour:(NSColor *)value
+{
+    ringMod13MixEnv2Colour=value;
+}
+-(void)setRingMod13MixEnv3Colour:(NSColor *)value
+{
+    ringMod13MixEnv3Colour=value;
+}
+-(void)setRingMod13MixLfo1Colour:(NSColor *)value
+{
+    ringMod13MixLfo1Colour=value;
+}
+-(void)setRingMod13MixLfo2Colour:(NSColor *)value
+{
+    ringMod13MixLfo2Colour=value;
+}
+-(void)setRingMod13MixWheelColour:(NSColor *)value
+{
+    ringMod13MixWheelColour=value;
+}
+-(void)setRingMod23MixEnv2Colour:(NSColor *)value
+{
+    ringMod23MixEnv2Colour=value;
+}
+-(void)setRingMod23MixEnv3Colour:(NSColor *)value
+{
+    ringMod23MixEnv3Colour=value;
+}
+-(void)setRingMod23MixLfo1Colour:(NSColor *)value
+{
+    ringMod23MixLfo1Colour=value;
+}
+-(void)setRingMod23MixLfo2Colour:(NSColor *)value
+{
+    ringMod23MixLfo2Colour=value;
+}
+-(void)setRingMod23MixWheelColour:(NSColor *)value
+{
+    ringMod23MixWheelColour=value;
+}
+-(void)setNoiseSoftenEnv2Colour:(NSColor *)value
+{
+    noiseSoftenEnv2Colour=value;
+}
+-(void)setNoiseSoftenEnv3Colour:(NSColor *)value
+{
+    noiseSoftenEnv3Colour=value;
+}
+-(void)setNoiseSoftenLfo1Colour:(NSColor *)value
+{
+    noiseSoftenLfo1Colour=value;
+}
+-(void)setNoiseSoftenLfo2Colour:(NSColor *)value
+{
+    noiseSoftenLfo2Colour=value;
+}
+-(void)setNoiseSoftenWheelColour:(NSColor *)value
+{
+    noiseSoftenWheelColour=value;
+}
+-(void)setNoiseMixEnv3Colour:(NSColor *)value
+{
+    noiseMixEnv3Colour=value;
+}
+-(void)setNoiseMixLfo1Colour:(NSColor *)value
+{
+    noiseMixLfo1Colour=value;
+}
+-(void)setNoiseMixLfo2Colour:(NSColor *)value
+{
+    noiseMixLfo2Colour=value;
+}
+-(void)setNoiseMixWheelColour:(NSColor *)value
+{
+    noiseMixWheelColour=value;
+}
+-(void)setOsc1WheelLfo1Colour:(NSColor *)value
+{
+    osc1WheelLfo1Colour=value;
+}
+-(void)setOsc2WheelLfo1Colour:(NSColor *)value
+{
+    osc2WheelLfo1Colour=value;
+}
+-(void)setOsc3WheelLfo1Colour:(NSColor *)value
+{
+    osc3WheelLfo1Colour=value;
+}
+-(void)setOsc1AfterTouchLfo1Colour:(NSColor *)value
+{
+    osc1AfterTouchLfo1Colour=value;
+}
+-(void)setOsc2AfterTouchLfo1Colour:(NSColor *)value
+{
+    osc2AfterTouchLfo1Colour=value;
+}
+-(void)setOsc3AfterTouchLfo1Colour:(NSColor *)value
+{
+    osc3AfterTouchLfo1Colour=value;
+}
+-(void)setLfo1AfterTouchSpeedModColour:(NSColor *)value
+{
+    lfo1AfterTouchSpeedModColour=value;
+}
+-(void)setLfo2AfterTouchSpeedModColour:(NSColor *)value
+{
+    lfo2AfterTouchSpeedModColour=value;
+}
+-(void)setFilterFrequencyWheelColour:(NSColor *)value
+{
+    filterFrequencyWheelColour=value;
+}
+-(void)setFilterResonanceWheelColour:(NSColor *)value
+{
+    filterResonanceWheelColour=value;
+}
+-(void)setFilterFrequencyWheelLfo2Colour:(NSColor *)value
+{
+    filterFrequencyWheelLfo2Colour=value;
+}
+-(void)setFilterResonanceWheelLfo2Colour:(NSColor *)value
+{
+    filterResonanceWheelLfo2Colour=value;
+}
+-(void)setFilterFrequencyAfterTouchLfo2Colour:(NSColor *)value
+{
+    filterFrequencyAfterTouchLfo2Colour=value;
+}
+-(void)setFilterResonanceAfterTouchLfo2Colour:(NSColor *)value
+{
+    filterResonanceAfterTouchLfo2Colour=value;
+}
+-(void)setFilterFrequencyAfterTouchColour:(NSColor *)value
+{
+    filterFrequencyAfterTouchColour=value;
+}
+-(void)setFilterResonanceAfterTouchColour:(NSColor *)value
+{
+    filterResonanceAfterTouchColour=value;
+}
+-(void)setLfo1WheelSpeedModColour:(NSColor *)value
+{
+    lfo1WheelSpeedModColour=value;
+}
+-(void)setLfo2WheelSpeedModColour:(NSColor *)value
+{
+    lfo2WheelSpeedModColour=value;
+}
+-(void)setEnv1WheelColour:(NSColor *)value
+{
+    env1WheelColour=value;
+}
+-(void)setEnv1AfterTouchColour:(NSColor *)value
+{
+    env1AfterTouchColour=value;
+}
+-(void)setOsc1PitchEnv2Colour:(NSColor *)value
+{
+    osc1PitchEnv2Colour=value;
+}
+-(void)setOsc1PitchEnv3Colour:(NSColor *)value
+{
+    osc1PitchEnv3Colour=value;
+}
+-(void)setOsc1PitchLfo1Colour:(NSColor *)value
+{
+    osc1PitchLfo1Colour=value;
+}
+-(void)setOsc1SoftenEnv2Colour:(NSColor *)value
+{
+    osc1SoftenEnv2Colour=value;
+}
+-(void)setOsc1WidthEnv2Colour:(NSColor *)value
+{
+    osc1WidthEnv2Colour=value;
+}
+-(void)setOsc1WidthLfo1Colour:(NSColor *)value
+{
+    osc1WidthLfo1Colour=value;
+}
+-(void)setOsc1WidthLfo2Colour:(NSColor *)value
+{
+    osc1WidthLfo2Colour=value;
+}
+-(void)setOsc1SyncEnv2Colour:(NSColor *)value
+{
+    osc1SyncEnv2Colour=value;
+}
+-(void)setOsc1SyncLfo1Colour:(NSColor *)value
+{
+    osc1SyncLfo1Colour=value;
+}
+-(void)setOsc2PitchEnv2Colour:(NSColor *)value
+{
+    osc2PitchEnv2Colour=value;
+}
+-(void)setOsc2PitchEnv3Colour:(NSColor *)value
+{
+    osc2PitchEnv3Colour=value;
+}
+-(void)setOsc2PitchLfo1Colour:(NSColor *)value
+{
+    osc2PitchLfo1Colour=value;
+}
+-(void)setOsc2SoftenEnv2Colour:(NSColor *)value
+{
+    osc2SoftenEnv2Colour=value;
+}
+-(void)setOsc2WidthEnv2Colour:(NSColor *)value
+{
+    osc2WidthEnv2Colour=value;
+}
+-(void)setOsc2WidthLfo1Colour:(NSColor *)value
+{
+    osc2WidthLfo1Colour=value;
+}
+-(void)setOsc2WidthLfo2Colour:(NSColor *)value
+{
+    osc2WidthLfo2Colour=value;
+}
+-(void)setOsc2SyncEnv2Colour:(NSColor *)value
+{
+    osc2SyncEnv2Colour=value;
+}
+-(void)setOsc2SyncLfo1Colour:(NSColor *)value
+{
+    osc2SyncLfo1Colour=value;
+}
+-(void)setOsc3PitchEnv2Colour:(NSColor *)value
+{
+    osc3PitchEnv2Colour=value;
+}
+-(void)setOsc3PitchEnv3Colour:(NSColor *)value
+{
+    osc3PitchEnv3Colour=value;
+}
+-(void)setOsc3PitchLfo1Colour:(NSColor *)value
+{
+    osc3PitchLfo1Colour=value;
+}
+-(void)setOsc3SoftenEnv2Colour:(NSColor *)value
+{
+    osc3SoftenEnv2Colour=value;
+}
+-(void)setOsc3WidthEnv2Colour:(NSColor *)value
+{
+    osc3WidthEnv2Colour=value;
+}
+-(void)setOsc3WidthLfo1Colour:(NSColor *)value
+{
+    osc3WidthLfo1Colour=value;
+}
+-(void)setOsc3WidthLfo2Colour:(NSColor *)value
+{
+    osc3WidthLfo2Colour=value;
+}
+-(void)setOsc3SyncEnv2Colour:(NSColor *)value
+{
+    osc3SyncEnv2Colour=value;
+}
+-(void)setOsc3SyncLfo1Colour:(NSColor *)value
+{
+    osc3SyncLfo1Colour=value;
+}
+-(void)setOsc1MixEnv2Colour:(NSColor *)value
+{
+    osc1MixEnv2Colour=value;
+}
+-(void)setOsc2MixEnv2Colour:(NSColor *)value
+{
+    osc2MixEnv2Colour=value;
+}
+-(void)setOsc3MixEnv2Colour:(NSColor *)value
+{
+    osc3MixEnv2Colour=value;
+}
+-(void)setFilterFrequencyEnv2Colour:(NSColor *)value
+{
+    filterFrequencyEnv2Colour=value;
+}
+-(void)setFilterFrequencyEnv3Colour:(NSColor *)value
+{
+    filterFrequencyEnv3Colour=value;
+}
+-(void)setFilterFrequencyLfo1Colour:(NSColor *)value
+{
+    filterFrequencyLfo1Colour=value;
+}
+-(void)setFilterFrequencyLfo2Colour:(NSColor *)value
+{
+    filterFrequencyLfo2Colour=value;
+}
+-(void)setFilterResonanceEnv2Colour:(NSColor *)value
+{
+    filterResonanceEnv2Colour=value;
+}
+-(void)setFilterResonanceEnv3Colour:(NSColor *)value
+{
+    filterResonanceEnv3Colour=value;
+}
+-(void)setFilterResonanceLfo1Colour:(NSColor *)value
+{
+    filterResonanceLfo1Colour=value;
+}
+-(void)setFilterResonanceLfo2Colour:(NSColor *)value
+{
+    filterResonanceLfo2Colour=value;
+}
+-(void)setLfo1Env3SpeedModColour:(NSColor *)value
+{
+    lfo1Env3SpeedModColour=value;
+}
+-(void)setLfo2Env3SpeedModColour:(NSColor *)value
+{
+    lfo2Env3SpeedModColour=value;
+}
+-(void)setNoiseMixEnv2Colour:(NSColor *)value
+{
+    noiseMixEnv2Colour=value;
+}

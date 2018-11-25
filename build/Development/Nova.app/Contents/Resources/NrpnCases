@@ -1,0 +1,847 @@
+        case 17:
+            //[osc1Pitch setLit];
+            [osc1Pitch setIntValue:value];
+            [progr setOsc1Pitch:value];
+            
+            break;
+
+        case 33:
+            //[osc2Pitch setLit];
+            [osc2Pitch setIntValue:value];
+            [progr setOsc2Pitch:value];
+            
+            break;
+
+        case 49:
+            //[osc3Pitch setLit];
+            [osc3Pitch setIntValue:value];
+            [progr setOsc3Pitch:value];
+            
+            break;
+
+        case 75:
+            //[osc1FormantWidth setLit];
+            [osc1FormantWidth setIntValue:value];
+            [progr setOsc1FormantWidth:value];
+            
+            break;
+
+        case 76:
+            //[osc2FormantWidth setLit];
+            [osc2FormantWidth setIntValue:value];
+            [progr setOsc2FormantWidth:value];
+            
+            break;
+
+        case 77:
+            //[osc3FormantWidth setLit];
+            [osc3FormantWidth setIntValue:value];
+            [progr setOsc3FormantWidth:value];
+            
+            break;
+
+        case 78:
+            //[osc1SyncKeyFollow setLit];
+            [osc1SyncKeyFollow setIntValue:value];
+            [progr setOsc1SyncKeyFollow:value];
+            
+            break;
+
+        case 79:
+            //[osc2SyncKeyFollow setLit];
+            [osc2SyncKeyFollow setIntValue:value];
+            [progr setOsc2SyncKeyFollow:value];
+            
+            break;
+
+        case 80:
+            //[osc3SyncKeyFollow setLit];
+            [osc3SyncKeyFollow setIntValue:value];
+            [progr setOsc3SyncKeyFollow:value];
+            
+            break;
+
+        case 81:
+            //[osc1SyncSkew setLit];
+            [osc1SyncSkew setIntValue:value];
+            [progr setOsc1SyncSkew:value];
+            
+            break;
+
+        case 82:
+            //[osc2SyncSkew setLit];
+            [osc2SyncSkew setIntValue:value];
+            [progr setOsc2SyncSkew:value];
+            
+            break;
+
+        case 83:
+            //[osc3SyncSkew setLit];
+            [osc3SyncSkew setIntValue:value];
+            [progr setOsc3SyncSkew:value];
+            
+            break;
+
+        case 95:
+            //[combFrequency setLit];
+            [combFrequency setIntValue:value];
+            [progr setCombFrequency:value];
+            
+            break;
+
+        case 96:
+            //[combBoost setLit];
+            [combBoost setIntValue:value];
+            [progr setCombBoost:value];
+            
+            break;
+
+        case 97:
+            //[panDryLevel setLit];
+            [panDryLevel setIntValue:value];
+            [progr setPanDryLevel:value];
+            
+            break;
+
+        case 98:
+            //[panSpeed setLit];
+            [panSpeed setIntValue:value];
+            [progr setPanSpeed:value];
+            
+            break;
+
+        case 99:
+            //[panDepth setLit];
+            [panDepth setIntValue:value];
+            [progr setPanDepth:value];
+            
+            break;
+
+        case 101:
+            //[delayStereoWidth setLit];
+            [delayStereoWidth setIntValue:value];
+            [progr setDelayStereoWidth:value];
+            
+            break;
+
+        case 102:
+            //[vocoderBalance setLit];
+            [vocoderBalance setIntValue:value];
+            [progr setVocoderBalance:value];
+            
+            break;
+
+        case 107:
+            //[eqTreble setLit];
+            [eqTreble setIntValue:value];
+            [progr setEqTreble:value];
+            
+            break;
+
+        case 108:
+            //[eqBass setLit];
+            [eqBass setIntValue:value];
+            [progr setEqBass:value];
+            
+            break;
+
+        case 111:
+            //[partSemiDetune setLit];
+            [partSemiDetune setIntValue:value];
+            [progr setPartSemiDetune:value];
+            
+            break;
+
+        case 112:
+            //[partDetune setLit];
+            [partDetune setIntValue:value];
+            [progr setPartDetune:value];
+            
+            break;
+
+        case 114:
+            //[partRangeHigh setLit];
+            [partRangeHigh setIntValue:value];
+            [progr setPartRangeHigh:value];
+            
+            break;
+
+        case 115:
+            //[partRangeLow setLit];
+            [partRangeLow setIntValue:value];
+            [progr setPartRangeLow:value];
+            
+            break;
+
+        case 116:
+            //[masterTune setLit];
+            [masterTune setIntValue:value];
+            [progr setMasterTune:value];
+            
+            break;
+
+        case 117:
+            //[breathControlRemap setLit];
+            [breathControlRemap setIntValue:value];
+            [progr setBreathControlRemap:value];
+            
+            break;
+
+        case 118:
+            //[arpTransposeMidi setLit];
+            [arpTransposeMidi setIntValue:value];
+            [progr setArpTransposeMidi:value];
+            
+            break;
+
+        case 119:
+            //[arpTransposeRef setLit];
+            [arpTransposeRef setIntValue:value];
+            [progr setArpTransposeRef:value];
+            
+            break;
+
+        case 120:
+            //[programMapEditLoc setLit];
+            [programMapEditLoc setIntValue:value];
+            [progr setProgramMapEditLoc:value];
+            
+            break;
+
+        case 121:
+            //[programMapProgram setLit];
+            [programMapProgram setIntValue:value];
+            [progr setProgramMapProgram:value];
+            
+            break;
+
+        case 122:
+            //[arpUserPatternEditLoc setLit];
+            [arpUserPatternEditLoc setIntValue:value];
+            [progr setArpUserPatternEditLoc:value];
+            
+            break;
+
+        case 123:
+            //[arpUserPatternStep setLit];
+            [arpUserPatternStep setIntValue:value];
+            [progr setArpUserPatternStep:value];
+            
+            break;
+
+        case 124:
+            //[arpUserPatternNote setLit];
+            [arpUserPatternNote setIntValue:value];
+            [progr setArpUserPatternNote:value];
+            
+            break;
+
+        case 125:
+            //[arpUserPatternVel setLit];
+            [arpUserPatternVel setIntValue:value];
+            [progr setArpUserPatternVel:value];
+            
+            break;
+
+        case 126:
+            //[arpUserPatternSteps setLit];
+            [arpUserPatternSteps setIntValue:value];
+            [progr setArpUserPatternSteps:value];
+            
+            break;
+
+        case 127:
+            //[filterQNorm setLit];
+            [filterQNorm setIntValue:value];
+            [progr setFilterQNorm:value];
+            
+            break;
+
+        case 2:
+            //[osc1PitchLfo2 setLit];
+            [osc1PitchLfo2 setIntValue:value];
+            [progr setOsc1PitchLfo2:value];
+            
+            break;
+
+        case 3:
+            //[osc1PitchWheel setLit];
+            [osc1PitchWheel setIntValue:value];
+            [progr setOsc1PitchWheel:value];
+            
+            break;
+
+        case 4:
+            //[osc1WidthEnv3 setLit];
+            [osc1WidthEnv3 setIntValue:value];
+            [progr setOsc1WidthEnv3:value];
+            
+            break;
+
+        case 5:
+            //[osc1WidthWheel setLit];
+            [osc1WidthWheel setIntValue:value];
+            [progr setOsc1WidthWheel:value];
+            
+            break;
+
+        case 6:
+            //[osc1SyncEnv3 setLit];
+            [osc1SyncEnv3 setIntValue:value];
+            [progr setOsc1SyncEnv3:value];
+            
+            break;
+
+        case 7:
+            //[osc1SyncLfo2 setLit];
+            [osc1SyncLfo2 setIntValue:value];
+            [progr setOsc1SyncLfo2:value];
+            
+            break;
+
+        case 8:
+            //[osc1SyncWheel setLit];
+            [osc1SyncWheel setIntValue:value];
+            [progr setOsc1SyncWheel:value];
+            
+            break;
+
+        case 9:
+            //[osc1SoftenEnv3 setLit];
+            [osc1SoftenEnv3 setIntValue:value];
+            [progr setOsc1SoftenEnv3:value];
+            
+            break;
+
+        case 10:
+            //[osc1SoftenLfo1 setLit];
+            [osc1SoftenLfo1 setIntValue:value];
+            [progr setOsc1SoftenLfo1:value];
+            
+            break;
+
+        case 11:
+            //[osc1SoftenLfo2 setLit];
+            [osc1SoftenLfo2 setIntValue:value];
+            [progr setOsc1SoftenLfo2:value];
+            
+            break;
+
+        case 12:
+            //[osc1SoftenWheel setLit];
+            [osc1SoftenWheel setIntValue:value];
+            [progr setOsc1SoftenWheel:value];
+            
+            break;
+
+        case 13:
+            //[osc1MixEnv3 setLit];
+            [osc1MixEnv3 setIntValue:value];
+            [progr setOsc1MixEnv3:value];
+            
+            break;
+
+        case 14:
+            //[osc1MixLfo1 setLit];
+            [osc1MixLfo1 setIntValue:value];
+            [progr setOsc1MixLfo1:value];
+            
+            break;
+
+        case 15:
+            //[osc1MixLfo2 setLit];
+            [osc1MixLfo2 setIntValue:value];
+            [progr setOsc1MixLfo2:value];
+            
+            break;
+
+        case 16:
+            //[osc1MixWheel setLit];
+            [osc1MixWheel setIntValue:value];
+            [progr setOsc1MixWheel:value];
+            
+            break;
+
+        case 18:
+            //[osc2PitchLfo2 setLit];
+            [osc2PitchLfo2 setIntValue:value];
+            [progr setOsc2PitchLfo2:value];
+            
+            break;
+
+        case 19:
+            //[osc2PitchWheel setLit];
+            [osc2PitchWheel setIntValue:value];
+            [progr setOsc2PitchWheel:value];
+            
+            break;
+
+        case 20:
+            //[osc2WidthEnv3 setLit];
+            [osc2WidthEnv3 setIntValue:value];
+            [progr setOsc2WidthEnv3:value];
+            
+            break;
+
+        case 21:
+            //[osc2WidthWheel setLit];
+            [osc2WidthWheel setIntValue:value];
+            [progr setOsc2WidthWheel:value];
+            
+            break;
+
+        case 22:
+            //[osc2SyncEnv3 setLit];
+            [osc2SyncEnv3 setIntValue:value];
+            [progr setOsc2SyncEnv3:value];
+            
+            break;
+
+        case 23:
+            //[osc2SyncLfo2 setLit];
+            [osc2SyncLfo2 setIntValue:value];
+            [progr setOsc2SyncLfo2:value];
+            
+            break;
+
+        case 24:
+            //[osc2SyncWheel setLit];
+            [osc2SyncWheel setIntValue:value];
+            [progr setOsc2SyncWheel:value];
+            
+            break;
+
+        case 25:
+            //[osc2SoftenEnv3 setLit];
+            [osc2SoftenEnv3 setIntValue:value];
+            [progr setOsc2SoftenEnv3:value];
+            
+            break;
+
+        case 26:
+            //[osc2SoftenLfo1 setLit];
+            [osc2SoftenLfo1 setIntValue:value];
+            [progr setOsc2SoftenLfo1:value];
+            
+            break;
+
+        case 27:
+            //[osc2SoftenLfo2 setLit];
+            [osc2SoftenLfo2 setIntValue:value];
+            [progr setOsc2SoftenLfo2:value];
+            
+            break;
+
+        case 28:
+            //[osc2SoftenWheel setLit];
+            [osc2SoftenWheel setIntValue:value];
+            [progr setOsc2SoftenWheel:value];
+            
+            break;
+
+        case 29:
+            //[osc2MixEnv3 setLit];
+            [osc2MixEnv3 setIntValue:value];
+            [progr setOsc2MixEnv3:value];
+            
+            break;
+
+        case 30:
+            //[osc2MixLfo1 setLit];
+            [osc2MixLfo1 setIntValue:value];
+            [progr setOsc2MixLfo1:value];
+            
+            break;
+
+        case 31:
+            //[osc2MixLfo2 setLit];
+            [osc2MixLfo2 setIntValue:value];
+            [progr setOsc2MixLfo2:value];
+            
+            break;
+
+        case 32:
+            //[osc2MixWheel setLit];
+            [osc2MixWheel setIntValue:value];
+            [progr setOsc2MixWheel:value];
+            
+            break;
+
+        case 34:
+            //[osc3PitchLfo2 setLit];
+            [osc3PitchLfo2 setIntValue:value];
+            [progr setOsc3PitchLfo2:value];
+            
+            break;
+
+        case 35:
+            //[osc3PitchWheel setLit];
+            [osc3PitchWheel setIntValue:value];
+            [progr setOsc3PitchWheel:value];
+            
+            break;
+
+        case 36:
+            //[osc3WidthEnv3 setLit];
+            [osc3WidthEnv3 setIntValue:value];
+            [progr setOsc3WidthEnv3:value];
+            
+            break;
+
+        case 37:
+            //[osc3WidthWheel setLit];
+            [osc3WidthWheel setIntValue:value];
+            [progr setOsc3WidthWheel:value];
+            
+            break;
+
+        case 38:
+            //[osc3SyncEnv3 setLit];
+            [osc3SyncEnv3 setIntValue:value];
+            [progr setOsc3SyncEnv3:value];
+            
+            break;
+
+        case 39:
+            //[osc3SyncLfo2 setLit];
+            [osc3SyncLfo2 setIntValue:value];
+            [progr setOsc3SyncLfo2:value];
+            
+            break;
+
+        case 40:
+            //[osc3SyncWheel setLit];
+            [osc3SyncWheel setIntValue:value];
+            [progr setOsc3SyncWheel:value];
+            
+            break;
+
+        case 41:
+            //[osc3SoftenEnv3 setLit];
+            [osc3SoftenEnv3 setIntValue:value];
+            [progr setOsc3SoftenEnv3:value];
+            
+            break;
+
+        case 42:
+            //[osc3SoftenLfo1 setLit];
+            [osc3SoftenLfo1 setIntValue:value];
+            [progr setOsc3SoftenLfo1:value];
+            
+            break;
+
+        case 43:
+            //[osc3SoftenLfo2 setLit];
+            [osc3SoftenLfo2 setIntValue:value];
+            [progr setOsc3SoftenLfo2:value];
+            
+            break;
+
+        case 44:
+            //[osc3SoftenWheel setLit];
+            [osc3SoftenWheel setIntValue:value];
+            [progr setOsc3SoftenWheel:value];
+            
+            break;
+
+        case 45:
+            //[osc3MixEnv3 setLit];
+            [osc3MixEnv3 setIntValue:value];
+            [progr setOsc3MixEnv3:value];
+            
+            break;
+
+        case 46:
+            //[osc3MixLfo1 setLit];
+            [osc3MixLfo1 setIntValue:value];
+            [progr setOsc3MixLfo1:value];
+            
+            break;
+
+        case 47:
+            //[osc3MixLfo2 setLit];
+            [osc3MixLfo2 setIntValue:value];
+            [progr setOsc3MixLfo2:value];
+            
+            break;
+
+        case 48:
+            //[osc3MixWheel setLit];
+            [osc3MixWheel setIntValue:value];
+            [progr setOsc3MixWheel:value];
+            
+            break;
+
+        case 50:
+            //[ringMod13MixEnv2 setLit];
+            [ringMod13MixEnv2 setIntValue:value];
+            [progr setRingMod13MixEnv2:value];
+            
+            break;
+
+        case 51:
+            //[ringMod13MixEnv3 setLit];
+            [ringMod13MixEnv3 setIntValue:value];
+            [progr setRingMod13MixEnv3:value];
+            
+            break;
+
+        case 52:
+            //[ringMod13MixLfo1 setLit];
+            [ringMod13MixLfo1 setIntValue:value];
+            [progr setRingMod13MixLfo1:value];
+            
+            break;
+
+        case 53:
+            //[ringMod13MixLfo2 setLit];
+            [ringMod13MixLfo2 setIntValue:value];
+            [progr setRingMod13MixLfo2:value];
+            
+            break;
+
+        case 54:
+            //[ringMod13MixWheel setLit];
+            [ringMod13MixWheel setIntValue:value];
+            [progr setRingMod13MixWheel:value];
+            
+            break;
+
+        case 55:
+            //[ringMod23MixEnv2 setLit];
+            [ringMod23MixEnv2 setIntValue:value];
+            [progr setRingMod23MixEnv2:value];
+            
+            break;
+
+        case 56:
+            //[ringMod23MixEnv3 setLit];
+            [ringMod23MixEnv3 setIntValue:value];
+            [progr setRingMod23MixEnv3:value];
+            
+            break;
+
+        case 57:
+            //[ringMod23MixLfo1 setLit];
+            [ringMod23MixLfo1 setIntValue:value];
+            [progr setRingMod23MixLfo1:value];
+            
+            break;
+
+        case 58:
+            //[ringMod23MixLfo2 setLit];
+            [ringMod23MixLfo2 setIntValue:value];
+            [progr setRingMod23MixLfo2:value];
+            
+            break;
+
+        case 59:
+            //[ringMod23MixWheel setLit];
+            [ringMod23MixWheel setIntValue:value];
+            [progr setRingMod23MixWheel:value];
+            
+            break;
+
+        case 60:
+            //[noiseSoftenEnv2 setLit];
+            [noiseSoftenEnv2 setIntValue:value];
+            [progr setNoiseSoftenEnv2:value];
+            
+            break;
+
+        case 61:
+            //[noiseSoftenEnv3 setLit];
+            [noiseSoftenEnv3 setIntValue:value];
+            [progr setNoiseSoftenEnv3:value];
+            
+            break;
+
+        case 62:
+            //[noiseSoftenLfo1 setLit];
+            [noiseSoftenLfo1 setIntValue:value];
+            [progr setNoiseSoftenLfo1:value];
+            
+            break;
+
+        case 63:
+            //[noiseSoftenLfo2 setLit];
+            [noiseSoftenLfo2 setIntValue:value];
+            [progr setNoiseSoftenLfo2:value];
+            
+            break;
+
+        case 64:
+            //[noiseSoftenWheel setLit];
+            [noiseSoftenWheel setIntValue:value];
+            [progr setNoiseSoftenWheel:value];
+            
+            break;
+
+        case 65:
+            //[noiseMixEnv3 setLit];
+            [noiseMixEnv3 setIntValue:value];
+            [progr setNoiseMixEnv3:value];
+            
+            break;
+
+        case 66:
+            //[noiseMixLfo1 setLit];
+            [noiseMixLfo1 setIntValue:value];
+            [progr setNoiseMixLfo1:value];
+            
+            break;
+
+        case 67:
+            //[noiseMixLfo2 setLit];
+            [noiseMixLfo2 setIntValue:value];
+            [progr setNoiseMixLfo2:value];
+            
+            break;
+
+        case 68:
+            //[noiseMixWheel setLit];
+            [noiseMixWheel setIntValue:value];
+            [progr setNoiseMixWheel:value];
+            
+            break;
+
+        case 69:
+            //[osc1WheelLfo1 setLit];
+            [osc1WheelLfo1 setIntValue:value];
+            [progr setOsc1WheelLfo1:value];
+            
+            break;
+
+        case 70:
+            //[osc2WheelLfo1 setLit];
+            [osc2WheelLfo1 setIntValue:value];
+            [progr setOsc2WheelLfo1:value];
+            
+            break;
+
+        case 71:
+            //[osc3WheelLfo1 setLit];
+            [osc3WheelLfo1 setIntValue:value];
+            [progr setOsc3WheelLfo1:value];
+            
+            break;
+
+        case 72:
+            //[osc1AfterTouchLfo1 setLit];
+            [osc1AfterTouchLfo1 setIntValue:value];
+            [progr setOsc1AfterTouchLfo1:value];
+            
+            break;
+
+        case 73:
+            //[osc2AfterTouchLfo1 setLit];
+            [osc2AfterTouchLfo1 setIntValue:value];
+            [progr setOsc2AfterTouchLfo1:value];
+            
+            break;
+
+        case 74:
+            //[osc3AfterTouchLfo1 setLit];
+            [osc3AfterTouchLfo1 setIntValue:value];
+            [progr setOsc3AfterTouchLfo1:value];
+            
+            break;
+
+        case 85:
+            //[lfo1AfterTouchSpeedMod setLit];
+            [lfo1AfterTouchSpeedMod setIntValue:value];
+            [progr setLfo1AfterTouchSpeedMod:value];
+            
+            break;
+
+        case 86:
+            //[lfo2AfterTouchSpeedMod setLit];
+            [lfo2AfterTouchSpeedMod setIntValue:value];
+            [progr setLfo2AfterTouchSpeedMod:value];
+            
+            break;
+
+        case 87:
+            //[filterFrequencyWheel setLit];
+            [filterFrequencyWheel setIntValue:value];
+            [progr setFilterFrequencyWheel:value];
+            
+            break;
+
+        case 88:
+            //[filterResonanceWheel setLit];
+            [filterResonanceWheel setIntValue:value];
+            [progr setFilterResonanceWheel:value];
+            
+            break;
+
+        case 89:
+            //[filterFrequencyWheelLfo2 setLit];
+            [filterFrequencyWheelLfo2 setIntValue:value];
+            [progr setFilterFrequencyWheelLfo2:value];
+            
+            break;
+
+        case 90:
+            //[filterResonanceWheelLfo2 setLit];
+            [filterResonanceWheelLfo2 setIntValue:value];
+            [progr setFilterResonanceWheelLfo2:value];
+            
+            break;
+
+        case 91:
+            //[filterFrequencyAfterTouchLfo2 setLit];
+            [filterFrequencyAfterTouchLfo2 setIntValue:value];
+            [progr setFilterFrequencyAfterTouchLfo2:value];
+            
+            break;
+
+        case 92:
+            //[filterResonanceAfterTouchLfo2 setLit];
+            [filterResonanceAfterTouchLfo2 setIntValue:value];
+            [progr setFilterResonanceAfterTouchLfo2:value];
+            
+            break;
+
+        case 93:
+            //[filterFrequencyAfterTouch setLit];
+            [filterFrequencyAfterTouch setIntValue:value];
+            [progr setFilterFrequencyAfterTouch:value];
+            
+            break;
+
+        case 94:
+            //[filterResonanceAfterTouch setLit];
+            [filterResonanceAfterTouch setIntValue:value];
+            [progr setFilterResonanceAfterTouch:value];
+            
+            break;
+
+        case 103:
+            //[lfo1WheelSpeedMod setLit];
+            [lfo1WheelSpeedMod setIntValue:value];
+            [progr setLfo1WheelSpeedMod:value];
+            
+            break;
+
+        case 104:
+            //[lfo2WheelSpeedMod setLit];
+            [lfo2WheelSpeedMod setIntValue:value];
+            [progr setLfo2WheelSpeedMod:value];
+            
+            break;
+
+        case 105:
+            //[env1Wheel setLit];
+            [env1Wheel setIntValue:value];
+            [progr setEnv1Wheel:value];
+            
+            break;
+
+        case 106:
+            //[env1AfterTouch setLit];
+            [env1AfterTouch setIntValue:value];
+            [progr setEnv1AfterTouch:value];
+            
+            break;
+

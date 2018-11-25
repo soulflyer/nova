@@ -1,0 +1,1793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 39;
+	objects = {
+		080E96DDFE201D6D7F000001 = {
+			children = (
+				46C154DA0753667C00501B69,
+				46C1548A0753617000501B69,
+				4652FCFC07515637004699AF,
+				4652FCFD07515637004699AF,
+				4652FB86075133F6004699AF,
+				4652FB87075133F6004699AF,
+				4652FB430750CDBC004699AF,
+				4652FB440750CDBC004699AF,
+				4652FB1D0750CB2E004699AF,
+				4652FB1E0750CB2E004699AF,
+				46BB5CBD07084CC900F990FF,
+				46BB5CBE07084CC900F990FF,
+				46DFCF0F074E8B9C00DE1391,
+				46DFCF10074E8B9C00DE1391,
+				46178BAE075018230051BB15,
+				46178BAF075018230051BB15,
+			);
+			isa = PBXGroup;
+			name = Classes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C165CFE840E0CC02AAC07 = {
+			children = (
+				089C165DFE840E0CC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		089C165DFE840E0CC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist.strings;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A0FEA54F0111CA2CBB = {
+			children = (
+				46D8718E05A87F25000328C2,
+				1058C7A1FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = "Linked Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		1058C7A1FEA54F0111CA2CBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		1058C7A2FEA54F0111CA2CBB = {
+			children = (
+				29B97325FDCFA39411CA2CEA,
+				29B97324FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Frameworks";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//100
+//101
+//102
+//103
+//104
+//190
+//191
+//192
+//193
+//194
+		19C28FACFE9D520D11CA2CBB = {
+			children = (
+				8D1107320486CEB800E47090,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//190
+//191
+//192
+//193
+//194
+//290
+//291
+//292
+//293
+//294
+		29B97313FDCFA39411CA2CEA = {
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA,
+				4A9504CDFFE6A4B311CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 29B97314FDCFA39411CA2CEA;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090,
+			);
+		};
+		29B97314FDCFA39411CA2CEA = {
+			children = (
+				46C0657505F6345000247536,
+				466AE56A05E4E0BF001FF11A,
+				46A4676D05D171F00054076F,
+				080E96DDFE201D6D7F000001,
+				29B97315FDCFA39411CA2CEA,
+				29B97317FDCFA39411CA2CEA,
+				29B97323FDCFA39411CA2CEA,
+				19C28FACFE9D520D11CA2CBB,
+				4697A22E05B0DAFF008A45E2,
+				467AB43F07E3837300DE9044,
+				46FB340C05B32132008F0DBD,
+				4673D92407660192002013D7,
+				46547A360840797000102826,
+			);
+			isa = PBXGroup;
+			name = PYMidiTest;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA = {
+			children = (
+				32CA4F630368D1EE00C91783,
+				29B97316FDCFA39411CA2CEA,
+			);
+			isa = PBXGroup;
+			name = "Other Sources";
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97316FDCFA39411CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = main.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA = {
+			children = (
+				466D981F06BC699A00B935D2,
+				29B97318FDCFA39411CA2CEA,
+				463032F305CE5C6400C64A67,
+				46380001073EF9BB00EFD06D,
+				46380003073EF9D300EFD06D,
+				4639AEC606B860400001CC57,
+				46FE63B10607E56100681108,
+				46C7AB2207399E2A0030834E,
+				466E940F06BED59000887338,
+				46C1DF3006B72B68002182A5,
+				467AC13C073EED9F00F54F70,
+				46C7D6EA073C4B8A00D2E4C7,
+				460C955407132341002DA088,
+				46C7AB0C073993290030834E,
+				465993AE0742435A007D60BC,
+				465993AF0742435A007D60BC,
+				463EC179073ABDBF009DB983,
+				46FB34C00744C8EA0087098F,
+				46FB34E00744CA1E0087098F,
+				46FB34E40744CA4E0087098F,
+				46FB34E60744CA700087098F,
+				46FB34E80744CA7E0087098F,
+				46FB34EA0744CA8A0087098F,
+				46FB34EC0744CA950087098F,
+				8D1107310486CEB800E47090,
+				089C165CFE840E0CC02AAC07,
+			);
+			isa = PBXGroup;
+			name = Resources;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA = {
+			children = (
+				29B97319FDCFA39411CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97319FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA = {
+			children = (
+				1058C7A0FEA54F0111CA2CBB,
+				1058C7A2FEA54F0111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		29B97324FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+		29B97325FDCFA39411CA2CEA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+			sourceTree = "<absolute>";
+		};
+//290
+//291
+//292
+//293
+//294
+//320
+//321
+//322
+//323
+//324
+		32CA4F630368D1EE00C91783 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = Nova_Prefix.pch;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+//320
+//321
+//322
+//323
+//324
+//460
+//461
+//462
+//463
+//464
+		4600186D07358166008D047E = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IWCableViewDrawRect;
+			path = GeneratedFiles/IWCableViewDrawRect;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4600186E07358166008D047E = {
+			fileRef = 4600186D07358166008D047E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4602FA3206054A60000A0BC9 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				parameters/NRPN,
+				parameters/NRPNButtons,
+				parameters/CC,
+				parameters/NRPNParts,
+				CCSpecials,
+				sedCommands/buildProgSetMethodsH,
+				sedCommands/buildProgAccessMethodsH,
+				NRPNConnections,
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				Prog.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"//  IWProg.h\n// Do not edit this file directly. Edit the second shell script build phase instead\n\n#import <Foundation/Foundation.h>\n#import <PYMIDI/PYMIDIEndpoint.h>\n\n@interface IWProg : NSObject\n{\">IWProg.h\n\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/CC              >>IWProg.h\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/CCConnections   >>IWProg.h\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/NRPN            >>IWProg.h\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/NRPNConnections >>IWProg.h\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/NRPNButtons     >>IWProg.h\nawk '{printf \"    Byte %s;\\n\",$1}' parameters/NRPNParts       >>IWProg.h\n\n#sed -f sedCommands/buildProgVariables parameters/NRPNConnections >>IWProg.h\n#sed -f sedCommands/buildProgVariables parameters/NRPN            >>IWProg.h\n#sed -f sedCommands/buildProgVariables parameters/CC              >>IWProg.h\n#sed -f sedCommands/buildProgVariables parameters/CCConnections   >>IWProg.h\n#sed -f sedCommands/buildProgVariables parameters/NRPNButtons     >>IWProg.h\n#sed -f sedCommands/buildProgVariables parameters/NRPNParts       >>IWProg.h\n\necho \"  \n}\n\n-(id)initWithSysex:(NSData *)sysex;\">>IWProg.h\n\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/CC              >>IWProg.h\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/CCConnections   >>IWProg.h\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPN            >>IWProg.h\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPNConnections >>IWProg.h\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPNButtons     >>IWProg.h\nawk '{printf \"-(void)set%s:(Byte)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPNParts       >>IWProg.h\n\n#sed -f sedCommands/buildProgSetMethodsH parameters/NRPN            >>IWProg.h\n#sed -f sedCommands/buildProgSetMethodsH parameters/NRPNButtons     >>IWProg.h\n#sed -f sedCommands/buildProgSetMethodsH parameters/CC              >>IWProg.h\n#sed -f sedCommands/buildProgSetMethodsH parameters/NRPNParts       >>IWProg.h\n#sed -f sedCommands/buildProgSetMethodsH parameters/CCConnections   >>IWProg.h\n#sed -f sedCommands/buildProgSetMethodsH parameters/NRPNConnections >>IWProg.h\n\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/CC              >>IWProg.h\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/CCConnections   >>IWProg.h\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/NRPN            >>IWProg.h\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/NRPNConnections >>IWProg.h\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/NRPNButtons     >>IWProg.h\nawk '{printf \"-(Byte)%s;\\n\",$1}' parameters/NRPNParts       >>IWProg.h\n\n#sed -f sedCommands/buildProgAccessMethodsH parameters/NRPN            >>IWProg.h\n#sed -f sedCommands/buildProgAccessMethodsH parameters/NRPNButtons     >>IWProg.h\n#sed -f sedCommands/buildProgAccessMethodsH parameters/CC              >>IWProg.h\n#sed -f sedCommands/buildProgAccessMethodsH parameters/NRPNParts       >>IWProg.h\n#sed -f sedCommands/buildProgAccessMethodsH parameters/CCConnections   >>IWProg.h\n#sed -f sedCommands/buildProgAccessMethodsH parameters/NRPNConnections >>IWProg.h\n\necho \"\n-(NSDictionary *)asDictionary;\n-(void)fromDictionary:(NSDictionary *)dict;\n@end\">>IWProg.h\n";
+		};
+		460843D50732857300AFC5AA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IWCableViewAccessMethods;
+			path = GeneratedFiles/IWCableViewAccessMethods;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		460843D60732857300AFC5AA = {
+			fileRef = 460843D50732857300AFC5AA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		460844380732887500AFC5AA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IWCableViewSetMethods;
+			path = GeneratedFiles/IWCableViewSetMethods;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		460844410732887500AFC5AA = {
+			fileRef = 460844380732887500AFC5AA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		460C955407132341002DA088 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = LFO1Controls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		460C955507132341002DA088 = {
+			fileRef = 460C955407132341002DA088;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4616487D073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = CC;
+			path = parameters/CC;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4616487E073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = CCConnections;
+			path = parameters/CCConnections;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4616487F073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NRPN;
+			path = parameters/NRPN;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46164881073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NRPNButtons;
+			path = parameters/NRPNButtons;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46164882073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NRPNConnections;
+			path = parameters/NRPNConnections;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46164883073BB34400FA0E83 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NRPNParts;
+			path = parameters/NRPNParts;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46164884073BB34400FA0E83 = {
+			fileRef = 4616487D073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46164885073BB34400FA0E83 = {
+			fileRef = 4616487E073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46164886073BB34400FA0E83 = {
+			fileRef = 4616487F073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46164888073BB34400FA0E83 = {
+			fileRef = 46164881073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46164889073BB34400FA0E83 = {
+			fileRef = 46164882073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4616488A073BB34400FA0E83 = {
+			fileRef = 46164883073BB34400FA0E83;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46178BAE075018230051BB15 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWPanel.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46178BAF075018230051BB15 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWPanel.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46178BB0075018230051BB15 = {
+			fileRef = 46178BAE075018230051BB15;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46178BB1075018230051BB15 = {
+			fileRef = 46178BAF075018230051BB15;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		462B924905EE0257009BEF6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = nbOff.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		462B924A05EE0257009BEF6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.gif;
+			path = nbOn.gif;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		462B924B05EE0257009BEF6F = {
+			fileRef = 462B924905EE0257009BEF6F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		462B924C05EE0257009BEF6F = {
+			fileRef = 462B924A05EE0257009BEF6F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		462C8D9B089BDC4C006C110D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgInitWithSysex;
+			path = GeneratedFiles/ProgInitWithSysex;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		462C8D9C089BDC4C006C110D = {
+			fileRef = 462C8D9B089BDC4C006C110D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		463032F305CE5C6400C64A67 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Env1.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		463032F405CE5C6400C64A67 = {
+			fileRef = 463032F305CE5C6400C64A67;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46380001073EF9BB00EFD06D = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Env2.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46380002073EF9BB00EFD06D = {
+			fileRef = 46380001073EF9BB00EFD06D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46380003073EF9D300EFD06D = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Env3.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46380004073EF9D300EFD06D = {
+			fileRef = 46380003073EF9D300EFD06D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4639AEC606B860400001CC57 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Filter.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4639AEC706B860400001CC57 = {
+			fileRef = 4639AEC606B860400001CC57;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		463EC179073ABDBF009DB983 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = WheelControls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		463EC17A073ABDBF009DB983 = {
+			fileRef = 463EC179073ABDBF009DB983;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46482ECD0895B1A800606AF9 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgAsDictionary;
+			path = GeneratedFiles/ProgAsDictionary;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46482ECE0895B1A900606AF9 = {
+			fileRef = 46482ECD0895B1A800606AF9;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		465076E80730612000927940 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				parameters/NRPNConnections,
+				sedCommands/buildIWCableViewVariables,
+				sedCommands/buildIWCableViewProcsH,
+				sedCommands/buildIWCableViewAccessMethodsH,
+				sedCommands/buildIWCagleViewSetMethodsH,
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				IWCableView.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"//  IWCableView.h\n// Don't edit this file directly, go to the 3rd shell script build phase\n// and edit that instead\n\n#import <Cocoa/Cocoa.h>\n#import \\\"IWProg.h\\\"\n\n@interface IWCableView : NSView\n{\n   int y0, y1, y2;\n   int lfo1X, lfo2X, env2X, env3X, wheelX, noiseX, osc1X, osc2X, osc3X, env1X, filterX, ring13X, ring23X, afterTouchX;\n   float maxLineWidth;\n   int offset;\n   IWProg *program;\"> IWCableView.h\n\nawk '{printf \"\\n   NSPoint %sStart;\\n   NSPoint %sEnd;\\n   NSColor * %sColour;\\n\",$1,$1,$1}' parameters/CCConnections   >>IWCableView.h\nawk '{printf \"\\n   NSPoint %sStart;\\n   NSPoint %sEnd;\\n   NSColor * %sColour;\\n\",$1,$1,$1}' parameters/NRPNConnections >>IWCableView.h\n#sed -f sedCommands/buildIWCableViewVariables parameters/NRPNConnections >> IWCableView.h\n#sed -f sedCommands/buildIWCableViewVariables parameters/CCConnections   >> IWCableView.h\n\necho \"  \n}\">> IWCableView.h\n\necho \"\n-(void)drawLine:(int)width colour:(NSColor *)colour start:(NSPoint)start end:(NSPoint)end;\n-(void)setProg:(IWProg *)progr;\n\n\">>IWCableView.h\n\nawk '{printf \"-(void)draw%s:(int)width colour:(NSColor *)colour;\\n-(void)draw%s:(int)width;\\n\"\\\n     ,toupper(substr($1,1,1)) substr($1,2),toupper(substr($1,1,1)) substr($1,2)}' parameters/CCConnections   >>IWCableView.h\nawk '{printf \"-(void)draw%s:(int)width colour:(NSColor *)colour;\\n-(void)draw%s:(int)width;\\n\"\\\n     ,toupper(substr($1,1,1)) substr($1,2),toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPNConnections   >>IWCableView.h\n\n#awk '{printf \"-(void)draw%s:(int)width colour:(NSColor *)colour\\n\\{\\n    [self drawLine:width colour:colour start:%sStart end:%sEnd];\\n\\}\\n-(void)draw%s:(int)width\\n\\{\\n    [self drawLine:width colour:[self %sColour] start:%sStart end:%sEnd];\\n\\}\\n\",toupper(substr($1,1,1)) substr($1,2),$1,$1,toupper(substr($1,1,1)) substr($1,2),$1,$1,$1}' parameters/CCConnections   >>IWCableView.h\n\n#sed -f sedCommands/buildIWCableViewProcsH parameters/NRPNConnections         >> IWCableView.h\n#sed -f sedCommands/buildIWCableViewProcsH parameters/CCConnections           >> IWCableView.h\n\nawk '{printf \"-(NSColor *)%sColour;\\n\",$1}' parameters/CCConnections     >>IWCableView.h\nawk '{printf \"-(NSColor *)%sColour;\\n\",$1}' parameters/NRPNConnections   >>IWCableView.h\n\n#sed -f sedCommands/buildIWCableViewAccessMethodsH parameters/NRPNConnections >> IWCableView.h\n#sed -f sedCommands/buildIWCableViewAccessMethodsH parameters/CCConnections   >> IWCableView.h\n\nawk '{printf \"-(void)set%sColour:(NSColor *)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/CCConnections   >> IWCableView.h\nawk '{printf \"-(void)set%sColour:(NSColor *)value;\\n\",toupper(substr($1,1,1)) substr($1,2)}' parameters/NRPNConnections >> IWCableView.h\n\n#sed -f sedCommands/buildIWCableViewSetMethodsH parameters/NRPNConnections    >> IWCableView.h\n#sed -f sedCommands/buildIWCableViewSetMethodsH parameters/CCConnections      >> IWCableView.h\n\necho \"\n@end\">> IWCableView.h";
+		};
+		4650778E073139CB00927940 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IWCableViewVariablesInit;
+			path = GeneratedFiles/IWCableViewVariablesInit;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4650778F073139CB00927940 = {
+			fileRef = 4650778E073139CB00927940;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB1D0750CB2E004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWProg.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB1E0750CB2E004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWProg.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB1F0750CB2E004699AF = {
+			fileRef = 4652FB1D0750CB2E004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB200750CB2E004699AF = {
+			fileRef = 4652FB1E0750CB2E004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB430750CDBC004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWGraphButton.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB440750CDBC004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWGraphButton.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB450750CDBC004699AF = {
+			fileRef = 4652FB430750CDBC004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB460750CDBC004699AF = {
+			fileRef = 4652FB440750CDBC004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB86075133F6004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWNovaColour.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB87075133F6004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWNovaColour.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FB88075133F6004699AF = {
+			fileRef = 4652FB86075133F6004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FB89075133F6004699AF = {
+			fileRef = 4652FB87075133F6004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FCFC07515637004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWDarkSliderCell.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FCFD07515637004699AF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWDarkSliderCell.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4652FCFE07515637004699AF = {
+			fileRef = 4652FCFC07515637004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4652FCFF07515637004699AF = {
+			fileRef = 4652FCFD07515637004699AF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46547A360840797000102826 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.xcclassmodel;
+			path = untitled.xcclassmodel;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		465993AE0742435A007D60BC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Env2Controls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		465993AF0742435A007D60BC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Env3Controls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		465993B00742435A007D60BC = {
+			fileRef = 465993AE0742435A007D60BC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		465993B10742435A007D60BC = {
+			fileRef = 465993AF0742435A007D60BC;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466AE56A05E4E0BF001FF11A = {
+			children = (
+				469AE480089EE83800F0614C,
+				46C5C22E082578BE0070B76E,
+				4600186D07358166008D047E,
+				460844380732887500AFC5AA,
+				460843D50732857300AFC5AA,
+				46A42BF50731944F008812FF,
+				4650778E073139CB00927940,
+				46C6822A05FD47BA00E39941,
+				466AE59305E4FF8B001FF11A,
+				46C5C20708256D340070B76E,
+				466AE59005E4FF8B001FF11A,
+				466AE59405E4FF8B001FF11A,
+				466AE59605E4FF8B001FF11A,
+				46B7FF0207DAFEEB0083BF90,
+				46B7FF0107DAFEEB0083BF90,
+				462C8D9B089BDC4C006C110D,
+				46E668FF0897C3550080C763,
+				46482ECD0895B1A800606AF9,
+			);
+			isa = PBXGroup;
+			name = "Generated files";
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466AE59005E4FF8B001FF11A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IBActions;
+			path = GeneratedFiles/IBActions;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466AE59305E4FF8B001FF11A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NrpnCases;
+			path = GeneratedFiles/NrpnCases;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466AE59405E4FF8B001FF11A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgAccessMethods;
+			path = GeneratedFiles/ProgAccessMethods;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466AE59605E4FF8B001FF11A = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgSetMethods;
+			path = GeneratedFiles/ProgSetMethods;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466AE59905E4FF8B001FF11A = {
+			fileRef = 466AE59005E4FF8B001FF11A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466AE59C05E4FF8B001FF11A = {
+			fileRef = 466AE59305E4FF8B001FF11A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466AE59D05E4FF8B001FF11A = {
+			fileRef = 466AE59405E4FF8B001FF11A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466AE59F05E4FF8B001FF11A = {
+			fileRef = 466AE59605E4FF8B001FF11A;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466AE5BD05E58DA9001FF11A = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				parameters/NRPN,
+				parameters/NRPNButtons,
+				parameters/CC,
+				parameters/NRPNParts,
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				IWNovaController.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"/* IWNovaController */\n\n/* Don't edit this file if you opened it as NovaController.h, all changes will be lost. \n   Edit the first shell script build phase */\n   \n#import <Cocoa/Cocoa.h>\n#import <PYMIDI/PYMIDIEndpoint.h>\n#import \\\"IWProg.h\\\"\n#import \\\"IWGraphButton.h\\\"\n#import \\\"IWCableView.h\\\"\n#import \\\"IWDarkSliderCell.h\\\"\n\n#define SYSEXBUFSIZE 1024\n\n@interface IWNovaController : NSObject\n{\n    NSUserDefaults *defaults;\n    IBOutlet NSTextView *display;\n    IBOutlet NSTextView *display2;\n    IBOutlet NSPopUpButton *sourcePopUp;\n    IBOutlet NSPopUpButton *destinationPopUp;\n    IBOutlet NSMatrix *channelButtons;\n    \n    IBOutlet NSWindow *mainWindow;\n    IBOutlet NSWindow *env1Window;\n    IBOutlet NSWindow *env2Window;\n    IBOutlet NSWindow *env3Window;\n    IBOutlet NSWindow *lfo1Window;\n    IBOutlet NSWindow *lfo2Window;\n    IBOutlet NSWindow *osc1Window;\n    IBOutlet NSWindow *osc2Window;\n    IBOutlet NSWindow *osc3Window;\n    IBOutlet NSWindow *noiseWindow;\n    IBOutlet NSWindow *filterWindow;\n    IBOutlet NSWindow *midiWindow;\n    IBOutlet NSWindow *lfo1ControlsWindow;\n    IBOutlet NSWindow *lfo2ControlsWindow;\n    IBOutlet NSWindow *env2ControlsWindow;\n    IBOutlet NSWindow *env3ControlsWindow;\n    IBOutlet NSWindow *wheelControlsWindow;\n    IBOutlet NSWindow *afterTouchControlsWindow;\n    IBOutlet NSWindow *osc1ControlledWindow;\n    IBOutlet NSWindow *osc2ControlledWindow;\n    IBOutlet NSWindow *osc3ControlledWindow;\n    IBOutlet NSWindow *ring13ControlledWindow;\n    IBOutlet NSWindow *ring23ControlledWindow;\n    IBOutlet NSWindow *noiseControlledWindow;\n    IBOutlet NSWindow *filterControlledWindow;\n    \n    IBOutlet NSTextField *osc1FineText;\n    IBOutlet NSTextField *osc2FineText;\n    IBOutlet NSTextField *osc3FineText;\n    IBOutlet NSTextField *osc1PitchText;\n    IBOutlet NSTextField *osc2PitchText;\n    IBOutlet NSTextField *osc3PitchText;\n\n    IBOutlet IWGraphButton *osc1;\n    IBOutlet IWGraphButton *osc2;\n    IBOutlet IWGraphButton *osc3;\n    IBOutlet IWGraphButton *noise;\n    IBOutlet IWGraphButton *env1;\n    IBOutlet IWGraphButton *env2;\n    IBOutlet IWGraphButton *env3;\n    IBOutlet IWGraphButton *lfo1;\n    IBOutlet IWGraphButton *lfo2;\n    IBOutlet IWGraphButton *filter;\n    IBOutlet IWGraphButton *midi;\n\n    IBOutlet IWGraphButton *test;\n\n    IBOutlet IWCableView *cableView;\n\" >IWNovaController.h\n\nawk '{printf \"    IBOutlet IWDarkSliderCell *%s;\\n\",$1}'  parameters/CC              >>IWNovaController.h\nawk '{printf \"    IBOutlet IWDarkSliderCell *%s;\\n\",$1}'  parameters/CCConnections   >>IWNovaController.h\nawk '{printf \"    IBOutlet IWDarkSliderCell *%s;\\n\",$1}'  parameters/NRPN            >>IWNovaController.h\nawk '{printf \"    IBOutlet IWDarkSliderCell *%s;\\n\",$1}'  parameters/NRPNConnections >>IWNovaController.h\nawk '{printf \"    IBOutlet NSMatrix     *%s;\\n\",$1}'  parameters/NRPNButtons     >>IWNovaController.h\nawk '{printf \"    IBOutlet IWDarkSliderCell *%s;\\n\",$1}'  parameters/NRPNParts       >>IWNovaController.h    \n    \necho \"\n    \n    NSColor *novaColour;\n    \n    PYMIDIEndpoint *source;\n    PYMIDIEndpoint *destination;\n    Boolean receivingSysex;\n    Boolean receivingNRPN;\n    Byte messageBuffer[SYSEXBUFSIZE];\n    int messageCounter;\n    bool messageComplete;\n    NSData *message;\n    IWProg *program;\n    Byte channel;\n    Byte midiMessage[6];\n    Byte savedSysexBuffer[SYSEXBUFSIZE];\n    NSMutableString *previousSlider;\n}\n\n\">>IWNovaController.h\n\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/CC              >>IWNovaController.h\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/CCConnections   >>IWNovaController.h\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/NRPN            >>IWNovaController.h\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/NRPNConnections >>IWNovaController.h\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/NRPNButtons     >>IWNovaController.h\nawk '{printf \"-(IBAction)%sIn:(id)sender;\\n\",$1}'  parameters/NRPNParts       >>IWNovaController.h\n\necho \"\n+(void)initialize;\n-(void)initIBOutlets;\n-(void)initGraphButtons;\n-(void)initPitchText;\n-(void)initAll;\n//-(void)setAllUnlit;\n-(IBAction)channelButtonsIn:(id)sender;\n//-(IBAction)osc1FineTextIn:(id)sender;\n-(IBAction)showEnv1Window:(id)sender;\n-(IBAction)showEnv2Window:(id)sender;\n-(IBAction)showEnv3Window:(id)sender;\n-(IBAction)showLFO1Window:(id)sender;\n-(IBAction)showLFO2Window:(id)sender;\n-(IBAction)showOsc1Window:(id)sender;\n-(IBAction)showOsc2Window:(id)sender;\n-(IBAction)showOsc3Window:(id)sender;\n-(IBAction)showFilterWindow:(id)sender;\n-(IBAction)showMidiWindow:(id)sender;\n-(IBAction)showLFO1ControlsWindow:(id)sender;\n-(IBAction)showLFO2ControlsWindow:(id)sender;\n-(IBAction)showEnv2ControlsWindow:(id)sender;\n-(IBAction)showEnv3ControlsWindow:(id)sender;\n-(IBAction)showWheelControlsWindow:(id)sender;\n-(IBAction)showAfterTouchControlsWindow:(id)sender;\n-(IBAction)showOsc1ControlledWindow:(id)sender;\n-(IBAction)showOsc2ControlledWindow:(id)sender;\n-(IBAction)showOsc3ControlledWindow:(id)sender;\n-(IBAction)showNoiseControlledWindow:(id)sender;\n-(IBAction)showRing13ControlledWindow:(id)sender;\n-(IBAction)showRing23ControlledWindow:(id)sender;\n-(IBAction)showFilterControlledWindow:(id)sender;\n\n-(IBAction)sendMidi:(id)sender;\n-(IBAction)requestProg:(id)sender;\n-(void)sendMidiNoteOn;\n-(void)sendMidiNoteOff;\n\n-(void)nrpnIn:(id)progr number:(Byte)number value:(Byte)value;\n-(void)ccIn:(id)progr number:(Byte)number value:(Byte)value;\n\n-(IBAction)saveProgram:(id)sender;\n-(IBAction)loadProgram:(id)sender;\n\n//-(IBAction)refresh:(id)sender;\n\n\n\n//-(id)getColour;\n@end\" >>IWNovaController.h\n";
+		};
+		466D981F06BC699A00B935D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Midi.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466D982006BC699A00B935D2 = {
+			fileRef = 466D981F06BC699A00B935D2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		466E940F06BED59000887338 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc3.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		466E941006BED59000887338 = {
+			fileRef = 466E940F06BED59000887338;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4673D92407660192002013D7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = Filter.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4673D92507660192002013D7 = {
+			fileRef = 4673D92407660192002013D7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		467AB43F07E3837300DE9044 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = NovaSysex;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		467AB45607E3918900DE9044 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = ParameterNotes;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		467AB45707E3918900DE9044 = {
+			fileRef = 467AB45607E3918900DE9044;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		467AC13C073EED9F00F54F70 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = LFO2.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		467AC13D073EEDA000F54F70 = {
+			fileRef = 467AC13C073EED9F00F54F70;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4688CAF7088C08C100430DDB = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkKnobHLit.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4688CAF8088C08C100430DDB = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkKnobVLit.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		4688CAF9088C08C100430DDB = {
+			fileRef = 4688CAF7088C08C100430DDB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4688CAFA088C08C100430DDB = {
+			fileRef = 4688CAF8088C08C100430DDB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		4691905805E027B30053AF10 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				sedCommands/buildNrpnIBActions,
+				sedCommands/buildCcIBActions,
+				parameters/CC,
+				parameters/NRPN,
+				parameters/NRPNButtons,
+				parameters/NRPNSpecials,
+				sedCommands/buildCases,
+				sedCommands/buildIWCableViewProcs,
+				sedCommands/buildIWCableViewVariablesInit,
+				sedCommands/buildIWCableViewSetMethods,
+				sedCommands/buildIWCableViewAccessMethods,
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				GeneratedFiles/IBActions,
+				GeneratedFiles/NRPNCases,
+				GeneratedFiles/CcCases,
+				GeneratedFiles/IWCableViewVariablesInit,
+				GeneratedFiles/IWCableViewProcs,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"*********** Building files for inclusion in NovaController.m ******************\"\necho \"*********** Building IBActions ************************************************\"\n\nawk '{printf \"-(IBAction)%sIn:(id)sender\\\n\\{\\\n    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\\\n    MIDIPacket *packet;\\\n    //[%s flash];\\\n    packet=MIDIPacketListInit (packetList);\\\n    midiMessage[0]=175+channel;\\\n    midiMessage[1]=98;\\\n    midiMessage[2]=%s;\\\n    midiMessage[3]=175+channel;\\\n    midiMessage[4]=6;\\\n    midiMessage[5]=[sender intValue]+%s;\\\n    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,0,6,midiMessage);\\\n    [program set%s:[sender intValue]];\\\n    [destination processMIDIPacketList:packetList sender:self];\\\n    [display2 insertText:\\[NSString localizedStringWithFormat:@\\\"\\\\nNRPN %%d %%d %%d %%d %%d %%d\\\",midiMessage[0],midiMessage[1],midiMessage[2],midiMessage[3],midiMessage[4],midiMessage[5]]];\\\n    [display insertText:[NSString localizedStringWithFormat:@\\\"\\\\n\\\\n%s %%d\\\",[sender intValue]]];\\\n    [defaults setInteger:[sender intValue] forKey:@\\\"%s\\\"];\\\n    //NSLog(@\\\"****%%@****\\\",previousSlider);\\\n    //if(![previousSlider isEqual:@\\\"%s\\\"])\\\n         //[self setAllUnlit];\\\n    //[previousSlider setString:@\\\"%s\\\"];\\\n    [self initAll];\\\n    \",$1,$1,$5,$6,toupper(substr($1,1,1)) substr($1,2),$1,$1,$1,$1;\\\n    for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n    printf( \"\\\n\\}\\n\")}' parameters/NRPN parameters/NRPNParts >GeneratedFiles/IBActions\n\nawk '{printf \"-(IBAction)%sIn:(id)sender\\\n\\{\\\n    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\\\n    MIDIPacket *packet;\\\n    //[%s flash];\\\n    packet=MIDIPacketListInit (packetList);\\\n    midiMessage[0]=175+channel;\\\n    midiMessage[1]=98;\\\n    midiMessage[2]=%s;\\\n    midiMessage[3]=175+channel;\\\n    midiMessage[4]=6;\\\n    midiMessage[5]=[sender intValue];\\\n    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,0,6,midiMessage);\\\n    [program set%s:[sender intValue]];\\\n    [destination processMIDIPacketList:packetList sender:self];\\\n    [display2 insertText:\\[NSString localizedStringWithFormat:@\\\"\\\\nNRPN %%d %%d %%d %%d %%d %%d\\\",midiMessage[0],midiMessage[1],midiMessage[2],midiMessage[3],midiMessage[4],midiMessage[5]]];\\\n    [display insertText:[NSString localizedStringWithFormat:@\\\"\\\\n\\\\n%s %%d\\\",midiMessage[5]]];\\\n    [cableView setNeedsDisplay:true];\\\n    [defaults setInteger:[sender intValue] forKey:@\\\"%s\\\"];\\\n    //NSLog(@\\\"****%%@****\\\",previousSlider);\\\n    //if(![previousSlider isEqual:@\\\"%s\\\"])\\\n         //[self setAllUnlit];\\\n    //[previousSlider setString:@\\\"%s\\\"];\\\n    [self initAll];\\\n    \",$1,$1,$5,toupper(substr($1,1,1)) substr($1,2),$1,$1,$1,$1;\\\n    for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n    printf( \"\\\n\\}\\n\")}' parameters/NRPNConnections >>GeneratedFiles/IBActions\n\nawk '{printf \"-(IBAction)%sIn:(id)sender\\\n\\{\\\n    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\\\n    MIDIPacket *packet;\\\n    packet=MIDIPacketListInit (packetList);\\\n    midiMessage[0]=175+channel;\\\n    midiMessage[1]=98;\\\n    midiMessage[2]=%s;\\\n    midiMessage[3]=175+channel;\\\n    midiMessage[4]=6;\\\n    midiMessage[5]=[[sender selectedCell] tag]+%s;\\\n    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,0,6,midiMessage);\\\n    [program set%s:[sender selectedTag]];\\\n    [destination processMIDIPacketList:packetList sender:self];\\\n    [display2 insertText:\\[NSString localizedStringWithFormat:@\\\"\\\\nNRPN %%d %%d %%d %%d %%d %%d\\\",midiMessage[0],midiMessage[1],midiMessage[2],midiMessage[3],midiMessage[4],midiMessage[5]]];\\\n    [display insertText:[NSString localizedStringWithFormat:@\\\"\\\\n\\\\n%s %%d\\\",[[sender selectedCell] tag]]];\\\n    [defaults setInteger:[[sender selectedCell] tag] forKey:@\\\"%s\\\"];\\\n    [self initAll];\\\n    \",$1,$5,$6,toupper(substr($1,1,1)) substr($1,2),$1,$1;\\\n    for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n    printf( \"\\\n\\}\\n\")}' parameters/NRPNButtons >>GeneratedFiles/IBActions\n\nawk '{printf \"-(IBAction)%sIn:(id)sender\\\n\\{\\\n    MIDITimeStamp now = 0;\\\n    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\\\n    MIDIPacket *packet;\\\n    //[%s flash];\\\n    packet=MIDIPacketListInit (packetList);\\\n    midiMessage[0]=175+channel;\\\n    midiMessage[2]=[sender intValue];\\\n    midiMessage[1]=%s;\\\n    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,now,6,midiMessage);\\\n    [program set%s:[sender intValue]];\\\n    [destination processMIDIPacketList:packetList sender:self];\\\n    [display2 insertText:\\[NSString localizedStringWithFormat:@\\\"\\\\nCC   %%d %%d %%d \\\",midiMessage[0],midiMessage[1],midiMessage[2]]];\\\n    [display insertText:[NSString localizedStringWithFormat:@\\\"\\\\n\\\\n%s %%d\\\",[sender intValue]]];\\\n    [defaults setInteger:[sender intValue] forKey:@\\\"%s\\\"];\\\n    //NSLog(@\\\"****%%@****\\\",previousSlider);\\\n    //if(![previousSlider isEqual:@\\\"%s\\\"])\\\n         //[self setAllUnlit];\\\n    //[previousSlider setString:@\\\"%s\\\"];\\\n    //[self setAllNeedsDisplay];\\\n    [self initAll];\\\n    \",$1,$1,$5,toupper(substr($1,1,1)) substr($1,2),$1,$1,$1,$1;\\\n    for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n    printf( \"\\\n\\}\\n\")}' parameters/CC >>GeneratedFiles/IBActions\n\nawk '{printf \"-(IBAction)%sIn:(id)sender\\\n\\{\\\n    MIDITimeStamp now = 0;\\\n    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\\\n    MIDIPacket *packet;\\\n    //[%s flash];\\\n    packet=MIDIPacketListInit (packetList);\\\n    midiMessage[0]=175+channel;\\\n    midiMessage[2]=[sender intValue];\\\n    midiMessage[1]=%s;\\\n    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,now,6,midiMessage);\\\n    [program set%s:[sender intValue]];\\\n    [destination processMIDIPacketList:packetList sender:self];\\\n    [display2 insertText:\\[NSString localizedStringWithFormat:@\\\"\\\\nCC   %%d %%d %%d \\\",midiMessage[0],midiMessage[1],midiMessage[2]]];\\\n    [display insertText:[NSString localizedStringWithFormat:@\\\"\\\\n\\\\n%s %%d\\\",[sender intValue]]];\\\n    [cableView setNeedsDisplay:true];\\\n    [defaults setInteger:[sender intValue] forKey:@\\\"%s\\\"];\\\n    //NSLog(@\\\"****%%@****\\\",previousSlider);\\\n    //if(![previousSlider isEqual:@\\\"%s\\\"])\\\n         //[self setAllUnlit];\\\n    //[previousSlider setString:@\\\"%s\\\"];\\\n    [self initAll];\\\n    \",$1,$1,$5,toupper(substr($1,1,1)) substr($1,2),$1,$1,$1,$1;\\\n    for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n    printf( \"\\\n\\}\\n\")}' parameters/CCConnections >>GeneratedFiles/IBActions\n\necho \"*********** Building Cases ****************************************************\"\n\nawk '{printf \"        case %s:\\\n            //[%s setLit];\\\n            [%s setIntValue:value];\\\n            [progr set%s:value];\\\n            \",$5,$1,$1,toupper(substr($1,1,1)) substr($1,2);\\\n            for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n            printf( \"\\\n            break;\\\n\\n\")}' parameters/NRPN parameters/NRPNConnections >GeneratedFiles/NrpnCases\n            \nawk '{printf \"        case %s:\\\n            //[%s setLit];\\\n            [%s setIntValue:value];\\\n            [progr set%s:value];\\\n            \",$5,$1,$1,toupper(substr($1,1,1)) substr($1,2),$1;\\\n            for(i=9;i<=NF;i++) printf(\"%s \",$i);\\\n            printf( \"\\\n            break;\\\n\\n\")}' parameters/CC parameters/CCConnections >GeneratedFiles/CcCases\n\nawk '{\n      if ($5!=this)\n      {\n          if (first==0)\n          {\n              print \"            }\"\n              print \"            break;\"\n          }\n          print \"        case \" $5 \":\\\n            switch(value)\\\n            {\";\\\n      }\n      this=$5;\n      first=0;\n      for (i = $6; i <= $7; i++)\n      {\n            print \"                case \" i\":\";\\\n      }\n      print \"                   [\"$1 \" selectCellWithTag:(value-\" $6 \")];\";\n      print \"                   [progr set\" toupper(substr($1,1,1)) substr($1,2) \":(value-\" $6 \")];\";\n      print \"                   break;\";\n} END {\n      print \"            }\"\n      print \"            break;\"\n}' this=9999 first=1 parameters/NRPNButtons > GeneratedFiles/NrpnCases2\n\necho \"*********** Building InitIBOutlets ********************************************\"\nawk '{printf \"    [%s setIntValue:[program %s]];\\\n    //[%s setUnlit];\\\n\",$1,$1,$1}'  parameters/CC parameters/NRPN parameters/CCConnections parameters/NRPNConnections                 >GeneratedFiles/InitIBOutlets\nawk '{printf \"    [%s setIntValue:([program %s]+%s)];\\\n    //[%s setUnlit];\\\n\",$1,$1,$6,$1}'  parameters/NRPNParts                                                                          >>GeneratedFiles/InitIBOutlets\nawk '{printf \"    [%s selectCellWithTag:[program %s]];\\n\",$1,$1}'  parameters/NRPNButtons                         >>GeneratedFiles/InitIBOutlets\n\necho \"*********** Building SetAllUnlit **********************************************\"\nawk '{printf \"    [%s setUnlit];\\\n\",$1}'  parameters/NRPNParts parameters/CC parameters/NRPN parameters/CCConnections parameters/NRPNConnections >>GeneratedFiles/SetAllUnlit\n\necho \"*********** Creating files for IWCableView ************************************\"\n\nawk '{\\\nprint \"   \" $1 \"Start=NSMakePoint(0,y1);\";\\\nprint \"   \" $1 \"End=NSMakePoint(0,y2);\";\\\nprint \"   \" $1 \"Colour=[NSColor blueColor];\";\\\n}' parameters/NRPNConnections parameters/CCConnections >GeneratedFiles/IWCableViewVariablesInit\n\nawk '{\\\nprint \"-(void)draw\" toupper(substr($1,1,1)) substr($1,2) \":(int)width colour:(NSColor *)colour\";\\\nprint \"{\";\\\nprint \"    [self drawLine:width colour:colour start:\" $1 \"Start end:\" $1 \"End];\";\\\nprint \"}\";\\\nprint \"-(void)draw\" toupper(substr($1,1,1)) substr($1,2) \":(int)width\";\\\nprint \"{\";\\\nprint \"    [self drawLine:width colour:[self \" $1 \"Colour] start:\" $1 \"Start end:\" $1 \"End];\";\\\nprint \"}\";\\\n}' parameters/NRPNConnections parameters/CCConnections >GeneratedFiles/IWCableViewProcs\n\nawk '{\\\nprint \"-(void)set\" toupper(substr($1,1,1)) substr($1,2) \"Colour:(NSColor *)value\";\\\nprint \"{\";\\\nprint \"    \" $1 \"Colour=value;\";\\\nprint \"}\";\\\n}' parameters/NRPNConnections parameters/CCConnections >GeneratedFiles/IWCableViewSetMethods\n\nawk '{\\\nprint \"-(NSColor *)\" $1 \"Colour\";\\\nprint \"{\";\\\nprint \"    return \" $1 \"Colour;\";\\\nprint \"}\";\\\n}' parameters/NRPNConnections parameters/CCConnections >GeneratedFiles/IWCableViewAccessMethods\n\nawk '{\\\nprint \"[self draw\" toupper(substr($1,1,1)) substr($1,2) \":abs([program \" $1 \"]-64)];\"\\\n}' parameters/NRPNConnections parameters/CCConnections >GeneratedFiles/IWCableViewDrawRect";
+		};
+		4691908F05E050CE0053AF10 = {
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"sedCommands/buildProgSetMethods\n/Users/ndiw/prog/Nova/NRPN",
+				"parameters/NRPN\n/Users/ndiw/prog/Nova/buildProgSetMethods",
+				parameters/NRPNButtons,
+				parameters/CC,
+				parameters/NRPNParts,
+				sedCommands/buildProgAccessMethods,
+				parameters/NRPNConnections,
+				sedCommands/buildProgInitialize,
+			);
+			isa = PBXShellScriptBuildPhase;
+			outputPaths = (
+				GeneratedFiles/ProgSetMethods,
+				GeneratedFiles/ProgAccessMethods,
+				GeneratedFiles/ProgAsDictionary,
+				GeneratedFiles/ProgInitialize,
+				GeneratedFiles/ProgFromDictionary,
+				GeneratedFiles/ProgInitWithSysex,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "echo \"************Building Prog Methods***********************************************\"\n\nawk '{\\\nprint \"-(void)set\" toupper(substr($1,1,1)) substr($1,2) \":(Byte)value\";\\\nprint \"{\";\\\nprint \"    \"$1\"=value;\";\\\nprint \"}\";\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgSetMethods\n\nawk '{\\\nprint \"-(Byte)\" $1;\\\nprint \"{\";\\\nprint \"    return \" $1 \";\";\\\nprint \"}\";\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgAccessMethods\n\nawk '{\\\nprint \"    [dict setObject:@\\\"\" $8 \"\\\"   forKey:@\\\"\" $1 \"\\\"];\"\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgInitialize\n\nawk '{\\\nprint \"    \" $1 \"=[defaults integerForKey:@\\\"\" $1 \"\\\"];\"\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgInit\n\nawk '{\\\nif ($2!=0)\\\n{;\\\n print \"    \" $1 \"=sysexBuffer[ \" $2 \" ]-\" $6 \";\";\\\n print \"    NSLog(@\\\"\" $1 \"-%d\\\",sysexBuffer[ \"$2 \" ]);\";\\\n};\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections | sort -n +1  > GeneratedFiles/ProgInitWithSysex\n\nawk '{\\\nprint \"    [dict setObject:[NSNumber numberWithInt:\" $1 \"] forKey:@\\\"\" $1 \"\\\"];\"\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgAsDictionary\n\nawk '{\\\nprint \"    if(value=[dict valueForKey:@\\\"\" $1 \"\\\"])\";\\\nprint \"        [self set\" toupper(substr($1,1,1)) substr($1,2) \":[value intValue]];\";\\\nprint \"    else\";\\\nprint \"        NSLog(@\\\"No Value for \" $1 \"\\\");\";\\\n}' parameters/NRPN parameters/NRPNButtons parameters/NRPNConnections parameters/NRPNParts parameters/CC parameters/CCConnections > GeneratedFiles/ProgFromDictionary\n";
+		};
+		4697A22E05B0DAFF008A45E2 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			path = README;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		469AE480089EE83800F0614C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = SetAllUnlit;
+			path = GeneratedFiles/SetAllUnlit;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		469AE481089EE83800F0614C = {
+			fileRef = 469AE480089EE83800F0614C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46A42BF50731944F008812FF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = IWCableViewProcs;
+			path = GeneratedFiles/IWCableViewProcs;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46A42BF60731944F008812FF = {
+			fileRef = 46A42BF50731944F008812FF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46A4676D05D171F00054076F = {
+			children = (
+				467AB45607E3918900DE9044,
+				4616487D073BB34400FA0E83,
+				4616487E073BB34400FA0E83,
+				4616487F073BB34400FA0E83,
+				46164881073BB34400FA0E83,
+				46164882073BB34400FA0E83,
+				46164883073BB34400FA0E83,
+			);
+			isa = PBXGroup;
+			name = parameters;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46B7FF0107DAFEEB0083BF90 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgInit;
+			path = GeneratedFiles/ProgInit;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46B7FF0207DAFEEB0083BF90 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgInitialize;
+			path = GeneratedFiles/ProgInitialize;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46B7FF0307DAFEEB0083BF90 = {
+			fileRef = 46B7FF0107DAFEEB0083BF90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46B7FF0407DAFEEB0083BF90 = {
+			fileRef = 46B7FF0207DAFEEB0083BF90;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46BB5CBD07084CC900F990FF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWCableView.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46BB5CBE07084CC900F990FF = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWCableView.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46BB5CBF07084CC900F990FF = {
+			fileRef = 46BB5CBD07084CC900F990FF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46BB5CC007084CC900F990FF = {
+			fileRef = 46BB5CBE07084CC900F990FF;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C0656A05F632DF00247536 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkKnobH.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C0656B05F632DF00247536 = {
+			fileRef = 46C0656A05F632DF00247536;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C0656E05F6332900247536 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkKnobV.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C0656F05F6332900247536 = {
+			fileRef = 46C0656E05F6332900247536;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C0657505F6345000247536 = {
+			children = (
+				46F895E40770BDFD00F1F441,
+				46C0659205F6648200247536,
+				46C0658505F6605100247536,
+				46C0656E05F6332900247536,
+				4688CAF7088C08C100430DDB,
+				4688CAF8088C08C100430DDB,
+				46C0656A05F632DF00247536,
+				462B924905EE0257009BEF6F,
+				462B924A05EE0257009BEF6F,
+			);
+			isa = PBXGroup;
+			name = Images;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C0658505F6605100247536 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkSlotV.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C0658605F6605100247536 = {
+			fileRef = 46C0658505F6605100247536;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C0659205F6648200247536 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.png;
+			path = DarkSlotH.png;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C0659305F6648200247536 = {
+			fileRef = 46C0659205F6648200247536;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C1548A0753617000501B69 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWNovaController.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C1548B0753617000501B69 = {
+			fileRef = 46C1548A0753617000501B69;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C154DA0753667C00501B69 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWNovaController.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C154DB0753667C00501B69 = {
+			fileRef = 46C154DA0753667C00501B69;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C1DF3006B72B68002182A5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = LFO1.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C1DF3106B72B68002182A5 = {
+			fileRef = 46C1DF3006B72B68002182A5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C5C20708256D340070B76E = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = NrpnCases2;
+			path = GeneratedFiles/NrpnCases2;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C5C20808256D340070B76E = {
+			fileRef = 46C5C20708256D340070B76E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C5C22E082578BE0070B76E = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = InitIBOutlets;
+			path = GeneratedFiles/InitIBOutlets;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C5C22F082578BE0070B76E = {
+			fileRef = 46C5C22E082578BE0070B76E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C6822A05FD47BA00E39941 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = CcCases;
+			path = GeneratedFiles/CcCases;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C6822B05FD47BA00E39941 = {
+			fileRef = 46C6822A05FD47BA00E39941;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C7AB0C073993290030834E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = LFO2Controls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C7AB0D073993290030834E = {
+			fileRef = 46C7AB0C073993290030834E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C7AB2207399E2A0030834E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc2.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C7AB2307399E2A0030834E = {
+			fileRef = 46C7AB2207399E2A0030834E;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46C7D6EA073C4B8A00D2E4C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = AfterTouchControls.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46C7D6EB073C4B8A00D2E4C7 = {
+			fileRef = 46C7D6EA073C4B8A00D2E4C7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46D8718E05A87F25000328C2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			path = PYMIDI.framework;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46D8718F05A87F25000328C2 = {
+			fileRef = 46D8718E05A87F25000328C2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46D8719A05A88091000328C2 = {
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				46D8719B05A880B2000328C2,
+			);
+			isa = PBXCopyFilesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46D8719B05A880B2000328C2 = {
+			fileRef = 46D8718E05A87F25000328C2;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46DFCF0F074E8B9C00DE1391 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = IWWindow.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46DFCF10074E8B9C00DE1391 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.objc;
+			path = IWWindow.m;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46DFCF11074E8B9C00DE1391 = {
+			fileRef = 46DFCF0F074E8B9C00DE1391;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46DFCF12074E8B9C00DE1391 = {
+			fileRef = 46DFCF10074E8B9C00DE1391;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46E668FF0897C3550080C763 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			lastKnownFileType = text;
+			name = ProgFromDictionary;
+			path = GeneratedFiles/ProgFromDictionary;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46E669000897C3550080C763 = {
+			fileRef = 46E668FF0897C3550080C763;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46F895E40770BDFD00F1F441 = {
+			isa = PBXFileReference;
+			lastKnownFileType = image.icns;
+			path = Nova.icns;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46F895E50770BDFD00F1F441 = {
+			fileRef = 46F895E40770BDFD00F1F441;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB340C05B32132008F0DBD = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			path = MIDICONST.h;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB340D05B32132008F0DBD = {
+			fileRef = 46FB340C05B32132008F0DBD;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34C00744C8EA0087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc1Controlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34C70744C8EA0087098F = {
+			fileRef = 46FB34C00744C8EA0087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34E00744CA1E0087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc2Controlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34E10744CA1E0087098F = {
+			fileRef = 46FB34E00744CA1E0087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34E40744CA4E0087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc3Controlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34E50744CA4E0087098F = {
+			fileRef = 46FB34E40744CA4E0087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34E60744CA700087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = NoiseControlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34E70744CA700087098F = {
+			fileRef = 46FB34E60744CA700087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34E80744CA7E0087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = FilterControlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34E90744CA7E0087098F = {
+			fileRef = 46FB34E80744CA7E0087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34EA0744CA8A0087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Ring13Controlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34EB0744CA8A0087098F = {
+			fileRef = 46FB34EA0744CA8A0087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FB34EC0744CA950087098F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Ring23Controlled.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FB34ED0744CA950087098F = {
+			fileRef = 46FB34EC0744CA950087098F;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		46FE63B10607E56100681108 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.nib;
+			path = Osc1.nib;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		46FE63B20607E56100681108 = {
+			fileRef = 46FE63B10607E56100681108;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//460
+//461
+//462
+//463
+//464
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504CCFFE6A4B311CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OPTIMIZATION_CFLAGS = "-O0";
+				ZERO_LINK = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504CDFFE6A4B311CA0CBA = {
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				ZERO_LINK = NO;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//8D0
+//8D1
+//8D2
+//8D3
+//8D4
+		8D1107260486CEB800E47090 = {
+			buildPhases = (
+				466AE5BD05E58DA9001FF11A,
+				4602FA3206054A60000A0BC9,
+				465076E80730612000927940,
+				4691905805E027B30053AF10,
+				4691908F05E050CE0053AF10,
+				8D1107270486CEB800E47090,
+				8D1107290486CEB800E47090,
+				8D11072C0486CEB800E47090,
+				8D11072E0486CEB800E47090,
+				46D8719A05A88091000328C2,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = /Users/ndiw/prog/Nova;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Nova_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Nova;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXNativeTarget;
+			name = Nova;
+			productInstallPath = "$(HOME)/Applications";
+			productName = PYMidiTest;
+			productReference = 8D1107320486CEB800E47090;
+			productType = "com.apple.product-type.application";
+		};
+		8D1107270486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D1107280486CEB800E47090,
+				46FB340D05B32132008F0DBD,
+				46BB5CBF07084CC900F990FF,
+				46DFCF11074E8B9C00DE1391,
+				46178BB1075018230051BB15,
+				4652FB1F0750CB2E004699AF,
+				4652FB450750CDBC004699AF,
+				4652FB88075133F6004699AF,
+				4652FCFE07515637004699AF,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D1107280486CEB800E47090 = {
+			fileRef = 32CA4F630368D1EE00C91783;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D1107290486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090,
+				8D11072B0486CEB800E47090,
+				463032F405CE5C6400C64A67,
+				466AE59905E4FF8B001FF11A,
+				466AE59C05E4FF8B001FF11A,
+				466AE59D05E4FF8B001FF11A,
+				466AE59F05E4FF8B001FF11A,
+				462B924B05EE0257009BEF6F,
+				462B924C05EE0257009BEF6F,
+				46C0656B05F632DF00247536,
+				46C0656F05F6332900247536,
+				46C0658605F6605100247536,
+				46C0659305F6648200247536,
+				46C6822B05FD47BA00E39941,
+				46FE63B20607E56100681108,
+				46C1DF3106B72B68002182A5,
+				4639AEC706B860400001CC57,
+				466D982006BC699A00B935D2,
+				466E941006BED59000887338,
+				460C955507132341002DA088,
+				4650778F073139CB00927940,
+				46A42BF60731944F008812FF,
+				460843D60732857300AFC5AA,
+				460844410732887500AFC5AA,
+				4600186E07358166008D047E,
+				46C7AB0D073993290030834E,
+				46C7AB2307399E2A0030834E,
+				463EC17A073ABDBF009DB983,
+				46164884073BB34400FA0E83,
+				46164885073BB34400FA0E83,
+				46164886073BB34400FA0E83,
+				46164888073BB34400FA0E83,
+				46164889073BB34400FA0E83,
+				4616488A073BB34400FA0E83,
+				46C7D6EB073C4B8A00D2E4C7,
+				467AC13D073EEDA000F54F70,
+				46380002073EF9BB00EFD06D,
+				46380004073EF9D300EFD06D,
+				465993B00742435A007D60BC,
+				465993B10742435A007D60BC,
+				46FB34C70744C8EA0087098F,
+				46FB34E10744CA1E0087098F,
+				46FB34E50744CA4E0087098F,
+				46FB34E70744CA700087098F,
+				46FB34E90744CA7E0087098F,
+				46FB34EB0744CA8A0087098F,
+				46FB34ED0744CA950087098F,
+				46C154DB0753667C00501B69,
+				4673D92507660192002013D7,
+				46F895E50770BDFD00F1F441,
+				46B7FF0307DAFEEB0083BF90,
+				46B7FF0407DAFEEB0083BF90,
+				467AB45707E3918900DE9044,
+				46C5C20808256D340070B76E,
+				46C5C22F082578BE0070B76E,
+				4688CAF9088C08C100430DDB,
+				4688CAFA088C08C100430DDB,
+				46482ECE0895B1A900606AF9,
+				46E669000897C3550080C763,
+				462C8D9C089BDC4C006C110D,
+				469AE481089EE83800F0614C,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072A0486CEB800E47090 = {
+			fileRef = 29B97318FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D11072B0486CEB800E47090 = {
+			fileRef = 089C165CFE840E0CC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D11072C0486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090,
+				46BB5CC007084CC900F990FF,
+				46DFCF12074E8B9C00DE1391,
+				46178BB0075018230051BB15,
+				4652FB200750CB2E004699AF,
+				4652FB460750CDBC004699AF,
+				4652FB89075133F6004699AF,
+				4652FCFF07515637004699AF,
+				46C1548B0753617000501B69,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072D0486CEB800E47090 = {
+			fileRef = 29B97316FDCFA39411CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		8D11072E0486CEB800E47090 = {
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090,
+				46D8718F05A87F25000328C2,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D11072F0486CEB800E47090 = {
+			fileRef = 1058C7A1FEA54F0111CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		8D1107310486CEB800E47090 = {
+			fileEncoding = 4;
+			isa = PBXFileReference;
+			lastKnownFileType = text.plist;
+			path = Info.plist;
+			refType = 4;
+			sourceTree = "<group>";
+		};
+		8D1107320486CEB800E47090 = {
+			explicitFileType = wrapper.application;
+			includeInIndex = 0;
+			isa = PBXFileReference;
+			path = Nova.app;
+			refType = 3;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA;
+}

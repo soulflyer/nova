@@ -1,0 +1,15 @@
+cat parameters/NRPNButtons | sed -e '/^0 /p' -e '1,$d' | sed -f sedCommands/buildNRPNButtonCases
+
+where buidNRPNButtonCases is:
+
+s/^\([0-9]*\)[ ]*\([a-z,A-Z,0-9]*\)[ ]*\([0-9,a-z,A-Z]*\)[ ]*\([0-9]*\)[ ]*\([0-9]*\)[ ]*\([0-9]*\)[ ]*\(.*\)/        case \6:\
+            [\3 selectCellWithTag:value];\
+            [progr set\2:value];\
+            break;\
+/
+
+gives almost the correct cases. Needs to have all numbers between \5 and \6 appearing as case: statements
+
+cat parameters/NRPNButtons | sed -e '/^0 /p' -e '1,$d' | awk '{for (i = $5; i < $6; i++) print i }  {print "--"}'
+
+cat parameters/NRPNButtons | sed -e '/^0 /p' -e '1,$d' | awk '{for (i = $5; i < $6; i++) print "            case" i":" }  {print "                ["$3 " selectCellWithTag:value];"} {print "                [progr set"$2 ":value];"} {print "                break;"}'

@@ -1,0 +1,10 @@
+Fields used in parameter files:
+
+Parameter SysexPosition Spare Spare CC/NRPN Low High Offset "Extra code to be run when parameter is changed"
+
+Low and High are the min and max values that the NRPN value take. Only relevant when the parameter
+doesn't take up the whole range of a particular NRPN number, but shares it. 
+
+Here is an awk command to modify the format of a parameter file:
+
+awk '{printf "%-30s%4s%4s%4s%4s%4s%4s   0 ", $1, $2, $3, $4, $5, $6, $7;for(i=8;i<=NF;i++) printf "%s ",$i;printf "\n"}' NRPN

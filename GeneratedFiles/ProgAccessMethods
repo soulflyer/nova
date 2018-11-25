@@ -1,0 +1,1276 @@
+-(Byte)osc1Pitch
+{
+    return osc1Pitch;
+}
+-(Byte)osc2Pitch
+{
+    return osc2Pitch;
+}
+-(Byte)osc3Pitch
+{
+    return osc3Pitch;
+}
+-(Byte)osc1FormantWidth
+{
+    return osc1FormantWidth;
+}
+-(Byte)osc2FormantWidth
+{
+    return osc2FormantWidth;
+}
+-(Byte)osc3FormantWidth
+{
+    return osc3FormantWidth;
+}
+-(Byte)osc1SyncKeyFollow
+{
+    return osc1SyncKeyFollow;
+}
+-(Byte)osc2SyncKeyFollow
+{
+    return osc2SyncKeyFollow;
+}
+-(Byte)osc3SyncKeyFollow
+{
+    return osc3SyncKeyFollow;
+}
+-(Byte)osc1SyncSkew
+{
+    return osc1SyncSkew;
+}
+-(Byte)osc2SyncSkew
+{
+    return osc2SyncSkew;
+}
+-(Byte)osc3SyncSkew
+{
+    return osc3SyncSkew;
+}
+-(Byte)combFrequency
+{
+    return combFrequency;
+}
+-(Byte)combBoost
+{
+    return combBoost;
+}
+-(Byte)panDryLevel
+{
+    return panDryLevel;
+}
+-(Byte)panSpeed
+{
+    return panSpeed;
+}
+-(Byte)panDepth
+{
+    return panDepth;
+}
+-(Byte)delayStereoWidth
+{
+    return delayStereoWidth;
+}
+-(Byte)vocoderBalance
+{
+    return vocoderBalance;
+}
+-(Byte)eqTreble
+{
+    return eqTreble;
+}
+-(Byte)eqBass
+{
+    return eqBass;
+}
+-(Byte)partSemiDetune
+{
+    return partSemiDetune;
+}
+-(Byte)partDetune
+{
+    return partDetune;
+}
+-(Byte)partRangeHigh
+{
+    return partRangeHigh;
+}
+-(Byte)partRangeLow
+{
+    return partRangeLow;
+}
+-(Byte)masterTune
+{
+    return masterTune;
+}
+-(Byte)breathControlRemap
+{
+    return breathControlRemap;
+}
+-(Byte)arpTransposeMidi
+{
+    return arpTransposeMidi;
+}
+-(Byte)arpTransposeRef
+{
+    return arpTransposeRef;
+}
+-(Byte)programMapEditLoc
+{
+    return programMapEditLoc;
+}
+-(Byte)programMapProgram
+{
+    return programMapProgram;
+}
+-(Byte)arpUserPatternEditLoc
+{
+    return arpUserPatternEditLoc;
+}
+-(Byte)arpUserPatternStep
+{
+    return arpUserPatternStep;
+}
+-(Byte)arpUserPatternNote
+{
+    return arpUserPatternNote;
+}
+-(Byte)arpUserPatternVel
+{
+    return arpUserPatternVel;
+}
+-(Byte)arpUserPatternSteps
+{
+    return arpUserPatternSteps;
+}
+-(Byte)filterQNorm
+{
+    return filterQNorm;
+}
+-(Byte)osc1Wave
+{
+    return osc1Wave;
+}
+-(Byte)osc2Wave
+{
+    return osc2Wave;
+}
+-(Byte)osc3Wave
+{
+    return osc3Wave;
+}
+-(Byte)osc1Oct
+{
+    return osc1Oct;
+}
+-(Byte)osc2Oct
+{
+    return osc2Oct;
+}
+-(Byte)osc3Oct
+{
+    return osc3Oct;
+}
+-(Byte)portamentoType
+{
+    return portamentoType;
+}
+-(Byte)lfo1DelayTrigger
+{
+    return lfo1DelayTrigger;
+}
+-(Byte)lfo2DelayTrigger
+{
+    return lfo2DelayTrigger;
+}
+-(Byte)filterDB
+{
+    return filterDB;
+}
+-(Byte)filterType
+{
+    return filterType;
+}
+-(Byte)lfo1Shape
+{
+    return lfo1Shape;
+}
+-(Byte)lfo2Shape
+{
+    return lfo2Shape;
+}
+-(Byte)lfo1Trigger
+{
+    return lfo1Trigger;
+}
+-(Byte)lfo2Trigger
+{
+    return lfo2Trigger;
+}
+-(Byte)lfo1Range
+{
+    return lfo1Range;
+}
+-(Byte)lfo2Range
+{
+    return lfo2Range;
+}
+-(Byte)env1Trigger
+{
+    return env1Trigger;
+}
+-(Byte)env2Trigger
+{
+    return env2Trigger;
+}
+-(Byte)env3Trigger
+{
+    return env3Trigger;
+}
+-(Byte)glide
+{
+    return glide;
+}
+-(Byte)chorusType
+{
+    return chorusType;
+}
+-(Byte)panType
+{
+    return panType;
+}
+-(Byte)arpConstPitch
+{
+    return arpConstPitch;
+}
+-(Byte)arpOn
+{
+    return arpOn;
+}
+-(Byte)arpKeyReset
+{
+    return arpKeyReset;
+}
+-(Byte)arpPatternBank
+{
+    return arpPatternBank;
+}
+-(Byte)arpLatchType
+{
+    return arpLatchType;
+}
+-(Byte)arpQuantize
+{
+    return arpQuantize;
+}
+-(Byte)arpVelocity
+{
+    return arpVelocity;
+}
+-(Byte)arpMute
+{
+    return arpMute;
+}
+-(Byte)arpRealTimeTranspose
+{
+    return arpRealTimeTranspose;
+}
+-(Byte)arpUserPatternGate
+{
+    return arpUserPatternGate;
+}
+-(Byte)partOutput
+{
+    return partOutput;
+}
+-(Byte)arpOutput
+{
+    return arpOutput;
+}
+-(Byte)clock
+{
+    return clock;
+}
+-(Byte)programMapBank
+{
+    return programMapBank;
+}
+-(Byte)arpFillin
+{
+    return arpFillin;
+}
+-(Byte)partFx
+{
+    return partFx;
+}
+-(Byte)partSustainMode
+{
+    return partSustainMode;
+}
+-(Byte)oscTrigger
+{
+    return oscTrigger;
+}
+-(Byte)polyphony
+{
+    return polyphony;
+}
+-(Byte)sysexTxOption
+{
+    return sysexTxOption;
+}
+-(Byte)delaySync
+{
+    return delaySync;
+}
+-(Byte)arpOctRange
+{
+    return arpOctRange;
+}
+-(Byte)arpGateTime
+{
+    return arpGateTime;
+}
+-(Byte)sysexRx
+{
+    return sysexRx;
+}
+-(Byte)partVelCurve
+{
+    return partVelCurve;
+}
+-(Byte)delayRatio
+{
+    return delayRatio;
+}
+-(Byte)globalMidi
+{
+    return globalMidi;
+}
+-(Byte)partMidi
+{
+    return partMidi;
+}
+-(Byte)arpSync
+{
+    return arpSync;
+}
+-(Byte)globalIncomingProgChange
+{
+    return globalIncomingProgChange;
+}
+-(Byte)progMapBank
+{
+    return progMapBank;
+}
+-(Byte)lfo1Sync
+{
+    return lfo1Sync;
+}
+-(Byte)globalIncomingContChange
+{
+    return globalIncomingContChange;
+}
+-(Byte)partProgChangeFilter
+{
+    return partProgChangeFilter;
+}
+-(Byte)arpOutputRanging
+{
+    return arpOutputRanging;
+}
+-(Byte)lfo2Sync
+{
+    return lfo2Sync;
+}
+-(Byte)partControlChangeFilt
+{
+    return partControlChangeFilt;
+}
+-(Byte)partPedal
+{
+    return partPedal;
+}
+-(Byte)partSustain
+{
+    return partSustain;
+}
+-(Byte)partPolyphony
+{
+    return partPolyphony;
+}
+-(Byte)pedalMode
+{
+    return pedalMode;
+}
+-(Byte)vocoderSibilanceType
+{
+    return vocoderSibilanceType;
+}
+-(Byte)vocoderInput
+{
+    return vocoderInput;
+}
+-(Byte)vocoderInsert
+{
+    return vocoderInsert;
+}
+-(Byte)fxConfig
+{
+    return fxConfig;
+}
+-(Byte)partMute
+{
+    return partMute;
+}
+-(Byte)fxSend
+{
+    return fxSend;
+}
+-(Byte)partSelect
+{
+    return partSelect;
+}
+-(Byte)arpEdit
+{
+    return arpEdit;
+}
+-(Byte)breathMode
+{
+    return breathMode;
+}
+-(Byte)phonesOutput
+{
+    return phonesOutput;
+}
+-(Byte)osc1PitchLfo2
+{
+    return osc1PitchLfo2;
+}
+-(Byte)osc1PitchWheel
+{
+    return osc1PitchWheel;
+}
+-(Byte)osc1WidthEnv3
+{
+    return osc1WidthEnv3;
+}
+-(Byte)osc1WidthWheel
+{
+    return osc1WidthWheel;
+}
+-(Byte)osc1SyncEnv3
+{
+    return osc1SyncEnv3;
+}
+-(Byte)osc1SyncLfo2
+{
+    return osc1SyncLfo2;
+}
+-(Byte)osc1SyncWheel
+{
+    return osc1SyncWheel;
+}
+-(Byte)osc1SoftenEnv3
+{
+    return osc1SoftenEnv3;
+}
+-(Byte)osc1SoftenLfo1
+{
+    return osc1SoftenLfo1;
+}
+-(Byte)osc1SoftenLfo2
+{
+    return osc1SoftenLfo2;
+}
+-(Byte)osc1SoftenWheel
+{
+    return osc1SoftenWheel;
+}
+-(Byte)osc1MixEnv3
+{
+    return osc1MixEnv3;
+}
+-(Byte)osc1MixLfo1
+{
+    return osc1MixLfo1;
+}
+-(Byte)osc1MixLfo2
+{
+    return osc1MixLfo2;
+}
+-(Byte)osc1MixWheel
+{
+    return osc1MixWheel;
+}
+-(Byte)osc2PitchLfo2
+{
+    return osc2PitchLfo2;
+}
+-(Byte)osc2PitchWheel
+{
+    return osc2PitchWheel;
+}
+-(Byte)osc2WidthEnv3
+{
+    return osc2WidthEnv3;
+}
+-(Byte)osc2WidthWheel
+{
+    return osc2WidthWheel;
+}
+-(Byte)osc2SyncEnv3
+{
+    return osc2SyncEnv3;
+}
+-(Byte)osc2SyncLfo2
+{
+    return osc2SyncLfo2;
+}
+-(Byte)osc2SyncWheel
+{
+    return osc2SyncWheel;
+}
+-(Byte)osc2SoftenEnv3
+{
+    return osc2SoftenEnv3;
+}
+-(Byte)osc2SoftenLfo1
+{
+    return osc2SoftenLfo1;
+}
+-(Byte)osc2SoftenLfo2
+{
+    return osc2SoftenLfo2;
+}
+-(Byte)osc2SoftenWheel
+{
+    return osc2SoftenWheel;
+}
+-(Byte)osc2MixEnv3
+{
+    return osc2MixEnv3;
+}
+-(Byte)osc2MixLfo1
+{
+    return osc2MixLfo1;
+}
+-(Byte)osc2MixLfo2
+{
+    return osc2MixLfo2;
+}
+-(Byte)osc2MixWheel
+{
+    return osc2MixWheel;
+}
+-(Byte)osc3PitchLfo2
+{
+    return osc3PitchLfo2;
+}
+-(Byte)osc3PitchWheel
+{
+    return osc3PitchWheel;
+}
+-(Byte)osc3WidthEnv3
+{
+    return osc3WidthEnv3;
+}
+-(Byte)osc3WidthWheel
+{
+    return osc3WidthWheel;
+}
+-(Byte)osc3SyncEnv3
+{
+    return osc3SyncEnv3;
+}
+-(Byte)osc3SyncLfo2
+{
+    return osc3SyncLfo2;
+}
+-(Byte)osc3SyncWheel
+{
+    return osc3SyncWheel;
+}
+-(Byte)osc3SoftenEnv3
+{
+    return osc3SoftenEnv3;
+}
+-(Byte)osc3SoftenLfo1
+{
+    return osc3SoftenLfo1;
+}
+-(Byte)osc3SoftenLfo2
+{
+    return osc3SoftenLfo2;
+}
+-(Byte)osc3SoftenWheel
+{
+    return osc3SoftenWheel;
+}
+-(Byte)osc3MixEnv3
+{
+    return osc3MixEnv3;
+}
+-(Byte)osc3MixLfo1
+{
+    return osc3MixLfo1;
+}
+-(Byte)osc3MixLfo2
+{
+    return osc3MixLfo2;
+}
+-(Byte)osc3MixWheel
+{
+    return osc3MixWheel;
+}
+-(Byte)ringMod13MixEnv2
+{
+    return ringMod13MixEnv2;
+}
+-(Byte)ringMod13MixEnv3
+{
+    return ringMod13MixEnv3;
+}
+-(Byte)ringMod13MixLfo1
+{
+    return ringMod13MixLfo1;
+}
+-(Byte)ringMod13MixLfo2
+{
+    return ringMod13MixLfo2;
+}
+-(Byte)ringMod13MixWheel
+{
+    return ringMod13MixWheel;
+}
+-(Byte)ringMod23MixEnv2
+{
+    return ringMod23MixEnv2;
+}
+-(Byte)ringMod23MixEnv3
+{
+    return ringMod23MixEnv3;
+}
+-(Byte)ringMod23MixLfo1
+{
+    return ringMod23MixLfo1;
+}
+-(Byte)ringMod23MixLfo2
+{
+    return ringMod23MixLfo2;
+}
+-(Byte)ringMod23MixWheel
+{
+    return ringMod23MixWheel;
+}
+-(Byte)noiseSoftenEnv2
+{
+    return noiseSoftenEnv2;
+}
+-(Byte)noiseSoftenEnv3
+{
+    return noiseSoftenEnv3;
+}
+-(Byte)noiseSoftenLfo1
+{
+    return noiseSoftenLfo1;
+}
+-(Byte)noiseSoftenLfo2
+{
+    return noiseSoftenLfo2;
+}
+-(Byte)noiseSoftenWheel
+{
+    return noiseSoftenWheel;
+}
+-(Byte)noiseMixEnv3
+{
+    return noiseMixEnv3;
+}
+-(Byte)noiseMixLfo1
+{
+    return noiseMixLfo1;
+}
+-(Byte)noiseMixLfo2
+{
+    return noiseMixLfo2;
+}
+-(Byte)noiseMixWheel
+{
+    return noiseMixWheel;
+}
+-(Byte)osc1WheelLfo1
+{
+    return osc1WheelLfo1;
+}
+-(Byte)osc2WheelLfo1
+{
+    return osc2WheelLfo1;
+}
+-(Byte)osc3WheelLfo1
+{
+    return osc3WheelLfo1;
+}
+-(Byte)osc1AfterTouchLfo1
+{
+    return osc1AfterTouchLfo1;
+}
+-(Byte)osc2AfterTouchLfo1
+{
+    return osc2AfterTouchLfo1;
+}
+-(Byte)osc3AfterTouchLfo1
+{
+    return osc3AfterTouchLfo1;
+}
+-(Byte)lfo1AfterTouchSpeedMod
+{
+    return lfo1AfterTouchSpeedMod;
+}
+-(Byte)lfo2AfterTouchSpeedMod
+{
+    return lfo2AfterTouchSpeedMod;
+}
+-(Byte)filterFrequencyWheel
+{
+    return filterFrequencyWheel;
+}
+-(Byte)filterResonanceWheel
+{
+    return filterResonanceWheel;
+}
+-(Byte)filterFrequencyWheelLfo2
+{
+    return filterFrequencyWheelLfo2;
+}
+-(Byte)filterResonanceWheelLfo2
+{
+    return filterResonanceWheelLfo2;
+}
+-(Byte)filterFrequencyAfterTouchLfo2
+{
+    return filterFrequencyAfterTouchLfo2;
+}
+-(Byte)filterResonanceAfterTouchLfo2
+{
+    return filterResonanceAfterTouchLfo2;
+}
+-(Byte)filterFrequencyAfterTouch
+{
+    return filterFrequencyAfterTouch;
+}
+-(Byte)filterResonanceAfterTouch
+{
+    return filterResonanceAfterTouch;
+}
+-(Byte)lfo1WheelSpeedMod
+{
+    return lfo1WheelSpeedMod;
+}
+-(Byte)lfo2WheelSpeedMod
+{
+    return lfo2WheelSpeedMod;
+}
+-(Byte)env1Wheel
+{
+    return env1Wheel;
+}
+-(Byte)env1AfterTouch
+{
+    return env1AfterTouch;
+}
+-(Byte)osc1Semi
+{
+    return osc1Semi;
+}
+-(Byte)osc2Semi
+{
+    return osc2Semi;
+}
+-(Byte)osc3Semi
+{
+    return osc3Semi;
+}
+-(Byte)breathSens
+{
+    return breathSens;
+}
+-(Byte)osc1PitchbendRange
+{
+    return osc1PitchbendRange;
+}
+-(Byte)osc2PitchbendRange
+{
+    return osc2PitchbendRange;
+}
+-(Byte)osc3PitchbendRange
+{
+    return osc3PitchbendRange;
+}
+-(Byte)input1Trim
+{
+    return input1Trim;
+}
+-(Byte)input2Trim
+{
+    return input2Trim;
+}
+-(Byte)filterWidth
+{
+    return filterWidth;
+}
+-(Byte)vocoderSibilanceLevel
+{
+    return vocoderSibilanceLevel;
+}
+-(Byte)vocoderWidth
+{
+    return vocoderWidth;
+}
+-(Byte)bankSelect
+{
+    return bankSelect;
+}
+-(Byte)sustain
+{
+    return sustain;
+}
+-(Byte)masterVolume
+{
+    return masterVolume;
+}
+-(Byte)portamento
+{
+    return portamento;
+}
+-(Byte)osc1Fine
+{
+    return osc1Fine;
+}
+-(Byte)osc1Soften
+{
+    return osc1Soften;
+}
+-(Byte)osc1Width
+{
+    return osc1Width;
+}
+-(Byte)osc1Sync
+{
+    return osc1Sync;
+}
+-(Byte)osc2Fine
+{
+    return osc2Fine;
+}
+-(Byte)osc2Soften
+{
+    return osc2Soften;
+}
+-(Byte)osc2Width
+{
+    return osc2Width;
+}
+-(Byte)osc2Sync
+{
+    return osc2Sync;
+}
+-(Byte)osc3Fine
+{
+    return osc3Fine;
+}
+-(Byte)osc3Soften
+{
+    return osc3Soften;
+}
+-(Byte)osc3Width
+{
+    return osc3Width;
+}
+-(Byte)osc3Sync
+{
+    return osc3Sync;
+}
+-(Byte)osc1Mix
+{
+    return osc1Mix;
+}
+-(Byte)osc2Mix
+{
+    return osc2Mix;
+}
+-(Byte)osc3Mix
+{
+    return osc3Mix;
+}
+-(Byte)ring13Mix
+{
+    return ring13Mix;
+}
+-(Byte)ring23Mix
+{
+    return ring23Mix;
+}
+-(Byte)noiseMix
+{
+    return noiseMix;
+}
+-(Byte)lfo1Delay
+{
+    return lfo1Delay;
+}
+-(Byte)lfo1Offset
+{
+    return lfo1Offset;
+}
+-(Byte)lfo1Speed
+{
+    return lfo1Speed;
+}
+-(Byte)lfo2Delay
+{
+    return lfo2Delay;
+}
+-(Byte)lfo2Offset
+{
+    return lfo2Offset;
+}
+-(Byte)lfo2Speed
+{
+    return lfo2Speed;
+}
+-(Byte)env3Attack
+{
+    return env3Attack;
+}
+-(Byte)env3Decay
+{
+    return env3Decay;
+}
+-(Byte)env3Sustain
+{
+    return env3Sustain;
+}
+-(Byte)env3Release
+{
+    return env3Release;
+}
+-(Byte)env3Velocity
+{
+    return env3Velocity;
+}
+-(Byte)env3Delay
+{
+    return env3Delay;
+}
+-(Byte)env2Attack
+{
+    return env2Attack;
+}
+-(Byte)env2Decay
+{
+    return env2Decay;
+}
+-(Byte)env2Sustain
+{
+    return env2Sustain;
+}
+-(Byte)env2Release
+{
+    return env2Release;
+}
+-(Byte)env2Velocity
+{
+    return env2Velocity;
+}
+-(Byte)env2Delay
+{
+    return env2Delay;
+}
+-(Byte)env1Attack
+{
+    return env1Attack;
+}
+-(Byte)env1Decay
+{
+    return env1Decay;
+}
+-(Byte)env1Sustain
+{
+    return env1Sustain;
+}
+-(Byte)env1Release
+{
+    return env1Release;
+}
+-(Byte)env1Velocity
+{
+    return env1Velocity;
+}
+-(Byte)noiseSoften
+{
+    return noiseSoften;
+}
+-(Byte)filterOverdrive
+{
+    return filterOverdrive;
+}
+-(Byte)filterFrequency
+{
+    return filterFrequency;
+}
+-(Byte)filterTracking
+{
+    return filterTracking;
+}
+-(Byte)filterResonance
+{
+    return filterResonance;
+}
+-(Byte)arpSpeed
+{
+    return arpSpeed;
+}
+-(Byte)arpPattern
+{
+    return arpPattern;
+}
+-(Byte)arpLatch
+{
+    return arpLatch;
+}
+-(Byte)distortionSend
+{
+    return distortionSend;
+}
+-(Byte)distortionWheel
+{
+    return distortionWheel;
+}
+-(Byte)panPosition
+{
+    return panPosition;
+}
+-(Byte)reverbSend
+{
+    return reverbSend;
+}
+-(Byte)reverbWheel
+{
+    return reverbWheel;
+}
+-(Byte)reverbDecay
+{
+    return reverbDecay;
+}
+-(Byte)reverbHfDamp
+{
+    return reverbHfDamp;
+}
+-(Byte)chorusSend
+{
+    return chorusSend;
+}
+-(Byte)chorusWheel
+{
+    return chorusWheel;
+}
+-(Byte)chorusSpeed
+{
+    return chorusSpeed;
+}
+-(Byte)chorusModDepth
+{
+    return chorusModDepth;
+}
+-(Byte)chorusFeedback
+{
+    return chorusFeedback;
+}
+-(Byte)delaySend
+{
+    return delaySend;
+}
+-(Byte)delayWheel
+{
+    return delayWheel;
+}
+-(Byte)delayTime
+{
+    return delayTime;
+}
+-(Byte)delayFeedback
+{
+    return delayFeedback;
+}
+-(Byte)delayHfDamp
+{
+    return delayHfDamp;
+}
+-(Byte)configMorph
+{
+    return configMorph;
+}
+-(Byte)osc1PitchEnv2
+{
+    return osc1PitchEnv2;
+}
+-(Byte)osc1PitchEnv3
+{
+    return osc1PitchEnv3;
+}
+-(Byte)osc1PitchLfo1
+{
+    return osc1PitchLfo1;
+}
+-(Byte)osc1SoftenEnv2
+{
+    return osc1SoftenEnv2;
+}
+-(Byte)osc1WidthEnv2
+{
+    return osc1WidthEnv2;
+}
+-(Byte)osc1WidthLfo1
+{
+    return osc1WidthLfo1;
+}
+-(Byte)osc1WidthLfo2
+{
+    return osc1WidthLfo2;
+}
+-(Byte)osc1SyncEnv2
+{
+    return osc1SyncEnv2;
+}
+-(Byte)osc1SyncLfo1
+{
+    return osc1SyncLfo1;
+}
+-(Byte)osc2PitchEnv2
+{
+    return osc2PitchEnv2;
+}
+-(Byte)osc2PitchEnv3
+{
+    return osc2PitchEnv3;
+}
+-(Byte)osc2PitchLfo1
+{
+    return osc2PitchLfo1;
+}
+-(Byte)osc2SoftenEnv2
+{
+    return osc2SoftenEnv2;
+}
+-(Byte)osc2WidthEnv2
+{
+    return osc2WidthEnv2;
+}
+-(Byte)osc2WidthLfo1
+{
+    return osc2WidthLfo1;
+}
+-(Byte)osc2WidthLfo2
+{
+    return osc2WidthLfo2;
+}
+-(Byte)osc2SyncEnv2
+{
+    return osc2SyncEnv2;
+}
+-(Byte)osc2SyncLfo1
+{
+    return osc2SyncLfo1;
+}
+-(Byte)osc3PitchEnv2
+{
+    return osc3PitchEnv2;
+}
+-(Byte)osc3PitchEnv3
+{
+    return osc3PitchEnv3;
+}
+-(Byte)osc3PitchLfo1
+{
+    return osc3PitchLfo1;
+}
+-(Byte)osc3SoftenEnv2
+{
+    return osc3SoftenEnv2;
+}
+-(Byte)osc3WidthEnv2
+{
+    return osc3WidthEnv2;
+}
+-(Byte)osc3WidthLfo1
+{
+    return osc3WidthLfo1;
+}
+-(Byte)osc3WidthLfo2
+{
+    return osc3WidthLfo2;
+}
+-(Byte)osc3SyncEnv2
+{
+    return osc3SyncEnv2;
+}
+-(Byte)osc3SyncLfo1
+{
+    return osc3SyncLfo1;
+}
+-(Byte)osc1MixEnv2
+{
+    return osc1MixEnv2;
+}
+-(Byte)osc2MixEnv2
+{
+    return osc2MixEnv2;
+}
+-(Byte)osc3MixEnv2
+{
+    return osc3MixEnv2;
+}
+-(Byte)filterFrequencyEnv2
+{
+    return filterFrequencyEnv2;
+}
+-(Byte)filterFrequencyEnv3
+{
+    return filterFrequencyEnv3;
+}
+-(Byte)filterFrequencyLfo1
+{
+    return filterFrequencyLfo1;
+}
+-(Byte)filterFrequencyLfo2
+{
+    return filterFrequencyLfo2;
+}
+-(Byte)filterResonanceEnv2
+{
+    return filterResonanceEnv2;
+}
+-(Byte)filterResonanceEnv3
+{
+    return filterResonanceEnv3;
+}
+-(Byte)filterResonanceLfo1
+{
+    return filterResonanceLfo1;
+}
+-(Byte)filterResonanceLfo2
+{
+    return filterResonanceLfo2;
+}
+-(Byte)lfo1Env3SpeedMod
+{
+    return lfo1Env3SpeedMod;
+}
+-(Byte)lfo2Env3SpeedMod
+{
+    return lfo2Env3SpeedMod;
+}
+-(Byte)noiseMixEnv2
+{
+    return noiseMixEnv2;
+}

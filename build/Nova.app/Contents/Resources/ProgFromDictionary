@@ -1,0 +1,1276 @@
+    if(value=[dict valueForKey:@"osc1Pitch"])
+        [self setOsc1Pitch:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Pitch");
+    if(value=[dict valueForKey:@"osc2Pitch"])
+        [self setOsc2Pitch:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Pitch");
+    if(value=[dict valueForKey:@"osc3Pitch"])
+        [self setOsc3Pitch:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Pitch");
+    if(value=[dict valueForKey:@"osc1FormantWidth"])
+        [self setOsc1FormantWidth:[value intValue]];
+    else
+        NSLog(@"No Value for osc1FormantWidth");
+    if(value=[dict valueForKey:@"osc2FormantWidth"])
+        [self setOsc2FormantWidth:[value intValue]];
+    else
+        NSLog(@"No Value for osc2FormantWidth");
+    if(value=[dict valueForKey:@"osc3FormantWidth"])
+        [self setOsc3FormantWidth:[value intValue]];
+    else
+        NSLog(@"No Value for osc3FormantWidth");
+    if(value=[dict valueForKey:@"osc1SyncKeyFollow"])
+        [self setOsc1SyncKeyFollow:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncKeyFollow");
+    if(value=[dict valueForKey:@"osc2SyncKeyFollow"])
+        [self setOsc2SyncKeyFollow:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncKeyFollow");
+    if(value=[dict valueForKey:@"osc3SyncKeyFollow"])
+        [self setOsc3SyncKeyFollow:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncKeyFollow");
+    if(value=[dict valueForKey:@"osc1SyncSkew"])
+        [self setOsc1SyncSkew:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncSkew");
+    if(value=[dict valueForKey:@"osc2SyncSkew"])
+        [self setOsc2SyncSkew:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncSkew");
+    if(value=[dict valueForKey:@"osc3SyncSkew"])
+        [self setOsc3SyncSkew:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncSkew");
+    if(value=[dict valueForKey:@"combFrequency"])
+        [self setCombFrequency:[value intValue]];
+    else
+        NSLog(@"No Value for combFrequency");
+    if(value=[dict valueForKey:@"combBoost"])
+        [self setCombBoost:[value intValue]];
+    else
+        NSLog(@"No Value for combBoost");
+    if(value=[dict valueForKey:@"panDryLevel"])
+        [self setPanDryLevel:[value intValue]];
+    else
+        NSLog(@"No Value for panDryLevel");
+    if(value=[dict valueForKey:@"panSpeed"])
+        [self setPanSpeed:[value intValue]];
+    else
+        NSLog(@"No Value for panSpeed");
+    if(value=[dict valueForKey:@"panDepth"])
+        [self setPanDepth:[value intValue]];
+    else
+        NSLog(@"No Value for panDepth");
+    if(value=[dict valueForKey:@"delayStereoWidth"])
+        [self setDelayStereoWidth:[value intValue]];
+    else
+        NSLog(@"No Value for delayStereoWidth");
+    if(value=[dict valueForKey:@"vocoderBalance"])
+        [self setVocoderBalance:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderBalance");
+    if(value=[dict valueForKey:@"eqTreble"])
+        [self setEqTreble:[value intValue]];
+    else
+        NSLog(@"No Value for eqTreble");
+    if(value=[dict valueForKey:@"eqBass"])
+        [self setEqBass:[value intValue]];
+    else
+        NSLog(@"No Value for eqBass");
+    if(value=[dict valueForKey:@"partSemiDetune"])
+        [self setPartSemiDetune:[value intValue]];
+    else
+        NSLog(@"No Value for partSemiDetune");
+    if(value=[dict valueForKey:@"partDetune"])
+        [self setPartDetune:[value intValue]];
+    else
+        NSLog(@"No Value for partDetune");
+    if(value=[dict valueForKey:@"partRangeHigh"])
+        [self setPartRangeHigh:[value intValue]];
+    else
+        NSLog(@"No Value for partRangeHigh");
+    if(value=[dict valueForKey:@"partRangeLow"])
+        [self setPartRangeLow:[value intValue]];
+    else
+        NSLog(@"No Value for partRangeLow");
+    if(value=[dict valueForKey:@"masterTune"])
+        [self setMasterTune:[value intValue]];
+    else
+        NSLog(@"No Value for masterTune");
+    if(value=[dict valueForKey:@"breathControlRemap"])
+        [self setBreathControlRemap:[value intValue]];
+    else
+        NSLog(@"No Value for breathControlRemap");
+    if(value=[dict valueForKey:@"arpTransposeMidi"])
+        [self setArpTransposeMidi:[value intValue]];
+    else
+        NSLog(@"No Value for arpTransposeMidi");
+    if(value=[dict valueForKey:@"arpTransposeRef"])
+        [self setArpTransposeRef:[value intValue]];
+    else
+        NSLog(@"No Value for arpTransposeRef");
+    if(value=[dict valueForKey:@"programMapEditLoc"])
+        [self setProgramMapEditLoc:[value intValue]];
+    else
+        NSLog(@"No Value for programMapEditLoc");
+    if(value=[dict valueForKey:@"programMapProgram"])
+        [self setProgramMapProgram:[value intValue]];
+    else
+        NSLog(@"No Value for programMapProgram");
+    if(value=[dict valueForKey:@"arpUserPatternEditLoc"])
+        [self setArpUserPatternEditLoc:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternEditLoc");
+    if(value=[dict valueForKey:@"arpUserPatternStep"])
+        [self setArpUserPatternStep:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternStep");
+    if(value=[dict valueForKey:@"arpUserPatternNote"])
+        [self setArpUserPatternNote:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternNote");
+    if(value=[dict valueForKey:@"arpUserPatternVel"])
+        [self setArpUserPatternVel:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternVel");
+    if(value=[dict valueForKey:@"arpUserPatternSteps"])
+        [self setArpUserPatternSteps:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternSteps");
+    if(value=[dict valueForKey:@"filterQNorm"])
+        [self setFilterQNorm:[value intValue]];
+    else
+        NSLog(@"No Value for filterQNorm");
+    if(value=[dict valueForKey:@"osc1Wave"])
+        [self setOsc1Wave:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Wave");
+    if(value=[dict valueForKey:@"osc2Wave"])
+        [self setOsc2Wave:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Wave");
+    if(value=[dict valueForKey:@"osc3Wave"])
+        [self setOsc3Wave:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Wave");
+    if(value=[dict valueForKey:@"osc1Oct"])
+        [self setOsc1Oct:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Oct");
+    if(value=[dict valueForKey:@"osc2Oct"])
+        [self setOsc2Oct:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Oct");
+    if(value=[dict valueForKey:@"osc3Oct"])
+        [self setOsc3Oct:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Oct");
+    if(value=[dict valueForKey:@"portamentoType"])
+        [self setPortamentoType:[value intValue]];
+    else
+        NSLog(@"No Value for portamentoType");
+    if(value=[dict valueForKey:@"lfo1DelayTrigger"])
+        [self setLfo1DelayTrigger:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1DelayTrigger");
+    if(value=[dict valueForKey:@"lfo2DelayTrigger"])
+        [self setLfo2DelayTrigger:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2DelayTrigger");
+    if(value=[dict valueForKey:@"filterDB"])
+        [self setFilterDB:[value intValue]];
+    else
+        NSLog(@"No Value for filterDB");
+    if(value=[dict valueForKey:@"filterType"])
+        [self setFilterType:[value intValue]];
+    else
+        NSLog(@"No Value for filterType");
+    if(value=[dict valueForKey:@"lfo1Shape"])
+        [self setLfo1Shape:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Shape");
+    if(value=[dict valueForKey:@"lfo2Shape"])
+        [self setLfo2Shape:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Shape");
+    if(value=[dict valueForKey:@"lfo1Trigger"])
+        [self setLfo1Trigger:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Trigger");
+    if(value=[dict valueForKey:@"lfo2Trigger"])
+        [self setLfo2Trigger:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Trigger");
+    if(value=[dict valueForKey:@"lfo1Range"])
+        [self setLfo1Range:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Range");
+    if(value=[dict valueForKey:@"lfo2Range"])
+        [self setLfo2Range:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Range");
+    if(value=[dict valueForKey:@"env1Trigger"])
+        [self setEnv1Trigger:[value intValue]];
+    else
+        NSLog(@"No Value for env1Trigger");
+    if(value=[dict valueForKey:@"env2Trigger"])
+        [self setEnv2Trigger:[value intValue]];
+    else
+        NSLog(@"No Value for env2Trigger");
+    if(value=[dict valueForKey:@"env3Trigger"])
+        [self setEnv3Trigger:[value intValue]];
+    else
+        NSLog(@"No Value for env3Trigger");
+    if(value=[dict valueForKey:@"glide"])
+        [self setGlide:[value intValue]];
+    else
+        NSLog(@"No Value for glide");
+    if(value=[dict valueForKey:@"chorusType"])
+        [self setChorusType:[value intValue]];
+    else
+        NSLog(@"No Value for chorusType");
+    if(value=[dict valueForKey:@"panType"])
+        [self setPanType:[value intValue]];
+    else
+        NSLog(@"No Value for panType");
+    if(value=[dict valueForKey:@"arpConstPitch"])
+        [self setArpConstPitch:[value intValue]];
+    else
+        NSLog(@"No Value for arpConstPitch");
+    if(value=[dict valueForKey:@"arpOn"])
+        [self setArpOn:[value intValue]];
+    else
+        NSLog(@"No Value for arpOn");
+    if(value=[dict valueForKey:@"arpKeyReset"])
+        [self setArpKeyReset:[value intValue]];
+    else
+        NSLog(@"No Value for arpKeyReset");
+    if(value=[dict valueForKey:@"arpPatternBank"])
+        [self setArpPatternBank:[value intValue]];
+    else
+        NSLog(@"No Value for arpPatternBank");
+    if(value=[dict valueForKey:@"arpLatchType"])
+        [self setArpLatchType:[value intValue]];
+    else
+        NSLog(@"No Value for arpLatchType");
+    if(value=[dict valueForKey:@"arpQuantize"])
+        [self setArpQuantize:[value intValue]];
+    else
+        NSLog(@"No Value for arpQuantize");
+    if(value=[dict valueForKey:@"arpVelocity"])
+        [self setArpVelocity:[value intValue]];
+    else
+        NSLog(@"No Value for arpVelocity");
+    if(value=[dict valueForKey:@"arpMute"])
+        [self setArpMute:[value intValue]];
+    else
+        NSLog(@"No Value for arpMute");
+    if(value=[dict valueForKey:@"arpRealTimeTranspose"])
+        [self setArpRealTimeTranspose:[value intValue]];
+    else
+        NSLog(@"No Value for arpRealTimeTranspose");
+    if(value=[dict valueForKey:@"arpUserPatternGate"])
+        [self setArpUserPatternGate:[value intValue]];
+    else
+        NSLog(@"No Value for arpUserPatternGate");
+    if(value=[dict valueForKey:@"partOutput"])
+        [self setPartOutput:[value intValue]];
+    else
+        NSLog(@"No Value for partOutput");
+    if(value=[dict valueForKey:@"arpOutput"])
+        [self setArpOutput:[value intValue]];
+    else
+        NSLog(@"No Value for arpOutput");
+    if(value=[dict valueForKey:@"clock"])
+        [self setClock:[value intValue]];
+    else
+        NSLog(@"No Value for clock");
+    if(value=[dict valueForKey:@"programMapBank"])
+        [self setProgramMapBank:[value intValue]];
+    else
+        NSLog(@"No Value for programMapBank");
+    if(value=[dict valueForKey:@"arpFillin"])
+        [self setArpFillin:[value intValue]];
+    else
+        NSLog(@"No Value for arpFillin");
+    if(value=[dict valueForKey:@"partFx"])
+        [self setPartFx:[value intValue]];
+    else
+        NSLog(@"No Value for partFx");
+    if(value=[dict valueForKey:@"partSustainMode"])
+        [self setPartSustainMode:[value intValue]];
+    else
+        NSLog(@"No Value for partSustainMode");
+    if(value=[dict valueForKey:@"oscTrigger"])
+        [self setOscTrigger:[value intValue]];
+    else
+        NSLog(@"No Value for oscTrigger");
+    if(value=[dict valueForKey:@"polyphony"])
+        [self setPolyphony:[value intValue]];
+    else
+        NSLog(@"No Value for polyphony");
+    if(value=[dict valueForKey:@"sysexTxOption"])
+        [self setSysexTxOption:[value intValue]];
+    else
+        NSLog(@"No Value for sysexTxOption");
+    if(value=[dict valueForKey:@"delaySync"])
+        [self setDelaySync:[value intValue]];
+    else
+        NSLog(@"No Value for delaySync");
+    if(value=[dict valueForKey:@"arpOctRange"])
+        [self setArpOctRange:[value intValue]];
+    else
+        NSLog(@"No Value for arpOctRange");
+    if(value=[dict valueForKey:@"arpGateTime"])
+        [self setArpGateTime:[value intValue]];
+    else
+        NSLog(@"No Value for arpGateTime");
+    if(value=[dict valueForKey:@"sysexRx"])
+        [self setSysexRx:[value intValue]];
+    else
+        NSLog(@"No Value for sysexRx");
+    if(value=[dict valueForKey:@"partVelCurve"])
+        [self setPartVelCurve:[value intValue]];
+    else
+        NSLog(@"No Value for partVelCurve");
+    if(value=[dict valueForKey:@"delayRatio"])
+        [self setDelayRatio:[value intValue]];
+    else
+        NSLog(@"No Value for delayRatio");
+    if(value=[dict valueForKey:@"globalMidi"])
+        [self setGlobalMidi:[value intValue]];
+    else
+        NSLog(@"No Value for globalMidi");
+    if(value=[dict valueForKey:@"partMidi"])
+        [self setPartMidi:[value intValue]];
+    else
+        NSLog(@"No Value for partMidi");
+    if(value=[dict valueForKey:@"arpSync"])
+        [self setArpSync:[value intValue]];
+    else
+        NSLog(@"No Value for arpSync");
+    if(value=[dict valueForKey:@"globalIncomingProgChange"])
+        [self setGlobalIncomingProgChange:[value intValue]];
+    else
+        NSLog(@"No Value for globalIncomingProgChange");
+    if(value=[dict valueForKey:@"progMapBank"])
+        [self setProgMapBank:[value intValue]];
+    else
+        NSLog(@"No Value for progMapBank");
+    if(value=[dict valueForKey:@"lfo1Sync"])
+        [self setLfo1Sync:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Sync");
+    if(value=[dict valueForKey:@"globalIncomingContChange"])
+        [self setGlobalIncomingContChange:[value intValue]];
+    else
+        NSLog(@"No Value for globalIncomingContChange");
+    if(value=[dict valueForKey:@"partProgChangeFilter"])
+        [self setPartProgChangeFilter:[value intValue]];
+    else
+        NSLog(@"No Value for partProgChangeFilter");
+    if(value=[dict valueForKey:@"arpOutputRanging"])
+        [self setArpOutputRanging:[value intValue]];
+    else
+        NSLog(@"No Value for arpOutputRanging");
+    if(value=[dict valueForKey:@"lfo2Sync"])
+        [self setLfo2Sync:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Sync");
+    if(value=[dict valueForKey:@"partControlChangeFilt"])
+        [self setPartControlChangeFilt:[value intValue]];
+    else
+        NSLog(@"No Value for partControlChangeFilt");
+    if(value=[dict valueForKey:@"partPedal"])
+        [self setPartPedal:[value intValue]];
+    else
+        NSLog(@"No Value for partPedal");
+    if(value=[dict valueForKey:@"partSustain"])
+        [self setPartSustain:[value intValue]];
+    else
+        NSLog(@"No Value for partSustain");
+    if(value=[dict valueForKey:@"partPolyphony"])
+        [self setPartPolyphony:[value intValue]];
+    else
+        NSLog(@"No Value for partPolyphony");
+    if(value=[dict valueForKey:@"pedalMode"])
+        [self setPedalMode:[value intValue]];
+    else
+        NSLog(@"No Value for pedalMode");
+    if(value=[dict valueForKey:@"vocoderSibilanceType"])
+        [self setVocoderSibilanceType:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderSibilanceType");
+    if(value=[dict valueForKey:@"vocoderInput"])
+        [self setVocoderInput:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderInput");
+    if(value=[dict valueForKey:@"vocoderInsert"])
+        [self setVocoderInsert:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderInsert");
+    if(value=[dict valueForKey:@"fxConfig"])
+        [self setFxConfig:[value intValue]];
+    else
+        NSLog(@"No Value for fxConfig");
+    if(value=[dict valueForKey:@"partMute"])
+        [self setPartMute:[value intValue]];
+    else
+        NSLog(@"No Value for partMute");
+    if(value=[dict valueForKey:@"fxSend"])
+        [self setFxSend:[value intValue]];
+    else
+        NSLog(@"No Value for fxSend");
+    if(value=[dict valueForKey:@"partSelect"])
+        [self setPartSelect:[value intValue]];
+    else
+        NSLog(@"No Value for partSelect");
+    if(value=[dict valueForKey:@"arpEdit"])
+        [self setArpEdit:[value intValue]];
+    else
+        NSLog(@"No Value for arpEdit");
+    if(value=[dict valueForKey:@"breathMode"])
+        [self setBreathMode:[value intValue]];
+    else
+        NSLog(@"No Value for breathMode");
+    if(value=[dict valueForKey:@"phonesOutput"])
+        [self setPhonesOutput:[value intValue]];
+    else
+        NSLog(@"No Value for phonesOutput");
+    if(value=[dict valueForKey:@"osc1PitchLfo2"])
+        [self setOsc1PitchLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchLfo2");
+    if(value=[dict valueForKey:@"osc1PitchWheel"])
+        [self setOsc1PitchWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchWheel");
+    if(value=[dict valueForKey:@"osc1WidthEnv3"])
+        [self setOsc1WidthEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WidthEnv3");
+    if(value=[dict valueForKey:@"osc1WidthWheel"])
+        [self setOsc1WidthWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WidthWheel");
+    if(value=[dict valueForKey:@"osc1SyncEnv3"])
+        [self setOsc1SyncEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncEnv3");
+    if(value=[dict valueForKey:@"osc1SyncLfo2"])
+        [self setOsc1SyncLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncLfo2");
+    if(value=[dict valueForKey:@"osc1SyncWheel"])
+        [self setOsc1SyncWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncWheel");
+    if(value=[dict valueForKey:@"osc1SoftenEnv3"])
+        [self setOsc1SoftenEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SoftenEnv3");
+    if(value=[dict valueForKey:@"osc1SoftenLfo1"])
+        [self setOsc1SoftenLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SoftenLfo1");
+    if(value=[dict valueForKey:@"osc1SoftenLfo2"])
+        [self setOsc1SoftenLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SoftenLfo2");
+    if(value=[dict valueForKey:@"osc1SoftenWheel"])
+        [self setOsc1SoftenWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SoftenWheel");
+    if(value=[dict valueForKey:@"osc1MixEnv3"])
+        [self setOsc1MixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc1MixEnv3");
+    if(value=[dict valueForKey:@"osc1MixLfo1"])
+        [self setOsc1MixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1MixLfo1");
+    if(value=[dict valueForKey:@"osc1MixLfo2"])
+        [self setOsc1MixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1MixLfo2");
+    if(value=[dict valueForKey:@"osc1MixWheel"])
+        [self setOsc1MixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc1MixWheel");
+    if(value=[dict valueForKey:@"osc2PitchLfo2"])
+        [self setOsc2PitchLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchLfo2");
+    if(value=[dict valueForKey:@"osc2PitchWheel"])
+        [self setOsc2PitchWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchWheel");
+    if(value=[dict valueForKey:@"osc2WidthEnv3"])
+        [self setOsc2WidthEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WidthEnv3");
+    if(value=[dict valueForKey:@"osc2WidthWheel"])
+        [self setOsc2WidthWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WidthWheel");
+    if(value=[dict valueForKey:@"osc2SyncEnv3"])
+        [self setOsc2SyncEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncEnv3");
+    if(value=[dict valueForKey:@"osc2SyncLfo2"])
+        [self setOsc2SyncLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncLfo2");
+    if(value=[dict valueForKey:@"osc2SyncWheel"])
+        [self setOsc2SyncWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncWheel");
+    if(value=[dict valueForKey:@"osc2SoftenEnv3"])
+        [self setOsc2SoftenEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SoftenEnv3");
+    if(value=[dict valueForKey:@"osc2SoftenLfo1"])
+        [self setOsc2SoftenLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SoftenLfo1");
+    if(value=[dict valueForKey:@"osc2SoftenLfo2"])
+        [self setOsc2SoftenLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SoftenLfo2");
+    if(value=[dict valueForKey:@"osc2SoftenWheel"])
+        [self setOsc2SoftenWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SoftenWheel");
+    if(value=[dict valueForKey:@"osc2MixEnv3"])
+        [self setOsc2MixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc2MixEnv3");
+    if(value=[dict valueForKey:@"osc2MixLfo1"])
+        [self setOsc2MixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2MixLfo1");
+    if(value=[dict valueForKey:@"osc2MixLfo2"])
+        [self setOsc2MixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2MixLfo2");
+    if(value=[dict valueForKey:@"osc2MixWheel"])
+        [self setOsc2MixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc2MixWheel");
+    if(value=[dict valueForKey:@"osc3PitchLfo2"])
+        [self setOsc3PitchLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchLfo2");
+    if(value=[dict valueForKey:@"osc3PitchWheel"])
+        [self setOsc3PitchWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchWheel");
+    if(value=[dict valueForKey:@"osc3WidthEnv3"])
+        [self setOsc3WidthEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WidthEnv3");
+    if(value=[dict valueForKey:@"osc3WidthWheel"])
+        [self setOsc3WidthWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WidthWheel");
+    if(value=[dict valueForKey:@"osc3SyncEnv3"])
+        [self setOsc3SyncEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncEnv3");
+    if(value=[dict valueForKey:@"osc3SyncLfo2"])
+        [self setOsc3SyncLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncLfo2");
+    if(value=[dict valueForKey:@"osc3SyncWheel"])
+        [self setOsc3SyncWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncWheel");
+    if(value=[dict valueForKey:@"osc3SoftenEnv3"])
+        [self setOsc3SoftenEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SoftenEnv3");
+    if(value=[dict valueForKey:@"osc3SoftenLfo1"])
+        [self setOsc3SoftenLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SoftenLfo1");
+    if(value=[dict valueForKey:@"osc3SoftenLfo2"])
+        [self setOsc3SoftenLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SoftenLfo2");
+    if(value=[dict valueForKey:@"osc3SoftenWheel"])
+        [self setOsc3SoftenWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SoftenWheel");
+    if(value=[dict valueForKey:@"osc3MixEnv3"])
+        [self setOsc3MixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc3MixEnv3");
+    if(value=[dict valueForKey:@"osc3MixLfo1"])
+        [self setOsc3MixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3MixLfo1");
+    if(value=[dict valueForKey:@"osc3MixLfo2"])
+        [self setOsc3MixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3MixLfo2");
+    if(value=[dict valueForKey:@"osc3MixWheel"])
+        [self setOsc3MixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for osc3MixWheel");
+    if(value=[dict valueForKey:@"ringMod13MixEnv2"])
+        [self setRingMod13MixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod13MixEnv2");
+    if(value=[dict valueForKey:@"ringMod13MixEnv3"])
+        [self setRingMod13MixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod13MixEnv3");
+    if(value=[dict valueForKey:@"ringMod13MixLfo1"])
+        [self setRingMod13MixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod13MixLfo1");
+    if(value=[dict valueForKey:@"ringMod13MixLfo2"])
+        [self setRingMod13MixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod13MixLfo2");
+    if(value=[dict valueForKey:@"ringMod13MixWheel"])
+        [self setRingMod13MixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod13MixWheel");
+    if(value=[dict valueForKey:@"ringMod23MixEnv2"])
+        [self setRingMod23MixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod23MixEnv2");
+    if(value=[dict valueForKey:@"ringMod23MixEnv3"])
+        [self setRingMod23MixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod23MixEnv3");
+    if(value=[dict valueForKey:@"ringMod23MixLfo1"])
+        [self setRingMod23MixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod23MixLfo1");
+    if(value=[dict valueForKey:@"ringMod23MixLfo2"])
+        [self setRingMod23MixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod23MixLfo2");
+    if(value=[dict valueForKey:@"ringMod23MixWheel"])
+        [self setRingMod23MixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for ringMod23MixWheel");
+    if(value=[dict valueForKey:@"noiseSoftenEnv2"])
+        [self setNoiseSoftenEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoftenEnv2");
+    if(value=[dict valueForKey:@"noiseSoftenEnv3"])
+        [self setNoiseSoftenEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoftenEnv3");
+    if(value=[dict valueForKey:@"noiseSoftenLfo1"])
+        [self setNoiseSoftenLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoftenLfo1");
+    if(value=[dict valueForKey:@"noiseSoftenLfo2"])
+        [self setNoiseSoftenLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoftenLfo2");
+    if(value=[dict valueForKey:@"noiseSoftenWheel"])
+        [self setNoiseSoftenWheel:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoftenWheel");
+    if(value=[dict valueForKey:@"noiseMixEnv3"])
+        [self setNoiseMixEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMixEnv3");
+    if(value=[dict valueForKey:@"noiseMixLfo1"])
+        [self setNoiseMixLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMixLfo1");
+    if(value=[dict valueForKey:@"noiseMixLfo2"])
+        [self setNoiseMixLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMixLfo2");
+    if(value=[dict valueForKey:@"noiseMixWheel"])
+        [self setNoiseMixWheel:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMixWheel");
+    if(value=[dict valueForKey:@"osc1WheelLfo1"])
+        [self setOsc1WheelLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WheelLfo1");
+    if(value=[dict valueForKey:@"osc2WheelLfo1"])
+        [self setOsc2WheelLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WheelLfo1");
+    if(value=[dict valueForKey:@"osc3WheelLfo1"])
+        [self setOsc3WheelLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WheelLfo1");
+    if(value=[dict valueForKey:@"osc1AfterTouchLfo1"])
+        [self setOsc1AfterTouchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1AfterTouchLfo1");
+    if(value=[dict valueForKey:@"osc2AfterTouchLfo1"])
+        [self setOsc2AfterTouchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2AfterTouchLfo1");
+    if(value=[dict valueForKey:@"osc3AfterTouchLfo1"])
+        [self setOsc3AfterTouchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3AfterTouchLfo1");
+    if(value=[dict valueForKey:@"lfo1AfterTouchSpeedMod"])
+        [self setLfo1AfterTouchSpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1AfterTouchSpeedMod");
+    if(value=[dict valueForKey:@"lfo2AfterTouchSpeedMod"])
+        [self setLfo2AfterTouchSpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2AfterTouchSpeedMod");
+    if(value=[dict valueForKey:@"filterFrequencyWheel"])
+        [self setFilterFrequencyWheel:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyWheel");
+    if(value=[dict valueForKey:@"filterResonanceWheel"])
+        [self setFilterResonanceWheel:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceWheel");
+    if(value=[dict valueForKey:@"filterFrequencyWheelLfo2"])
+        [self setFilterFrequencyWheelLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyWheelLfo2");
+    if(value=[dict valueForKey:@"filterResonanceWheelLfo2"])
+        [self setFilterResonanceWheelLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceWheelLfo2");
+    if(value=[dict valueForKey:@"filterFrequencyAfterTouchLfo2"])
+        [self setFilterFrequencyAfterTouchLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyAfterTouchLfo2");
+    if(value=[dict valueForKey:@"filterResonanceAfterTouchLfo2"])
+        [self setFilterResonanceAfterTouchLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceAfterTouchLfo2");
+    if(value=[dict valueForKey:@"filterFrequencyAfterTouch"])
+        [self setFilterFrequencyAfterTouch:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyAfterTouch");
+    if(value=[dict valueForKey:@"filterResonanceAfterTouch"])
+        [self setFilterResonanceAfterTouch:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceAfterTouch");
+    if(value=[dict valueForKey:@"lfo1WheelSpeedMod"])
+        [self setLfo1WheelSpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1WheelSpeedMod");
+    if(value=[dict valueForKey:@"lfo2WheelSpeedMod"])
+        [self setLfo2WheelSpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2WheelSpeedMod");
+    if(value=[dict valueForKey:@"env1Wheel"])
+        [self setEnv1Wheel:[value intValue]];
+    else
+        NSLog(@"No Value for env1Wheel");
+    if(value=[dict valueForKey:@"env1AfterTouch"])
+        [self setEnv1AfterTouch:[value intValue]];
+    else
+        NSLog(@"No Value for env1AfterTouch");
+    if(value=[dict valueForKey:@"osc1Semi"])
+        [self setOsc1Semi:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Semi");
+    if(value=[dict valueForKey:@"osc2Semi"])
+        [self setOsc2Semi:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Semi");
+    if(value=[dict valueForKey:@"osc3Semi"])
+        [self setOsc3Semi:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Semi");
+    if(value=[dict valueForKey:@"breathSens"])
+        [self setBreathSens:[value intValue]];
+    else
+        NSLog(@"No Value for breathSens");
+    if(value=[dict valueForKey:@"osc1PitchbendRange"])
+        [self setOsc1PitchbendRange:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchbendRange");
+    if(value=[dict valueForKey:@"osc2PitchbendRange"])
+        [self setOsc2PitchbendRange:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchbendRange");
+    if(value=[dict valueForKey:@"osc3PitchbendRange"])
+        [self setOsc3PitchbendRange:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchbendRange");
+    if(value=[dict valueForKey:@"input1Trim"])
+        [self setInput1Trim:[value intValue]];
+    else
+        NSLog(@"No Value for input1Trim");
+    if(value=[dict valueForKey:@"input2Trim"])
+        [self setInput2Trim:[value intValue]];
+    else
+        NSLog(@"No Value for input2Trim");
+    if(value=[dict valueForKey:@"filterWidth"])
+        [self setFilterWidth:[value intValue]];
+    else
+        NSLog(@"No Value for filterWidth");
+    if(value=[dict valueForKey:@"vocoderSibilanceLevel"])
+        [self setVocoderSibilanceLevel:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderSibilanceLevel");
+    if(value=[dict valueForKey:@"vocoderWidth"])
+        [self setVocoderWidth:[value intValue]];
+    else
+        NSLog(@"No Value for vocoderWidth");
+    if(value=[dict valueForKey:@"bankSelect"])
+        [self setBankSelect:[value intValue]];
+    else
+        NSLog(@"No Value for bankSelect");
+    if(value=[dict valueForKey:@"sustain"])
+        [self setSustain:[value intValue]];
+    else
+        NSLog(@"No Value for sustain");
+    if(value=[dict valueForKey:@"masterVolume"])
+        [self setMasterVolume:[value intValue]];
+    else
+        NSLog(@"No Value for masterVolume");
+    if(value=[dict valueForKey:@"portamento"])
+        [self setPortamento:[value intValue]];
+    else
+        NSLog(@"No Value for portamento");
+    if(value=[dict valueForKey:@"osc1Fine"])
+        [self setOsc1Fine:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Fine");
+    if(value=[dict valueForKey:@"osc1Soften"])
+        [self setOsc1Soften:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Soften");
+    if(value=[dict valueForKey:@"osc1Width"])
+        [self setOsc1Width:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Width");
+    if(value=[dict valueForKey:@"osc1Sync"])
+        [self setOsc1Sync:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Sync");
+    if(value=[dict valueForKey:@"osc2Fine"])
+        [self setOsc2Fine:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Fine");
+    if(value=[dict valueForKey:@"osc2Soften"])
+        [self setOsc2Soften:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Soften");
+    if(value=[dict valueForKey:@"osc2Width"])
+        [self setOsc2Width:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Width");
+    if(value=[dict valueForKey:@"osc2Sync"])
+        [self setOsc2Sync:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Sync");
+    if(value=[dict valueForKey:@"osc3Fine"])
+        [self setOsc3Fine:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Fine");
+    if(value=[dict valueForKey:@"osc3Soften"])
+        [self setOsc3Soften:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Soften");
+    if(value=[dict valueForKey:@"osc3Width"])
+        [self setOsc3Width:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Width");
+    if(value=[dict valueForKey:@"osc3Sync"])
+        [self setOsc3Sync:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Sync");
+    if(value=[dict valueForKey:@"osc1Mix"])
+        [self setOsc1Mix:[value intValue]];
+    else
+        NSLog(@"No Value for osc1Mix");
+    if(value=[dict valueForKey:@"osc2Mix"])
+        [self setOsc2Mix:[value intValue]];
+    else
+        NSLog(@"No Value for osc2Mix");
+    if(value=[dict valueForKey:@"osc3Mix"])
+        [self setOsc3Mix:[value intValue]];
+    else
+        NSLog(@"No Value for osc3Mix");
+    if(value=[dict valueForKey:@"ring13Mix"])
+        [self setRing13Mix:[value intValue]];
+    else
+        NSLog(@"No Value for ring13Mix");
+    if(value=[dict valueForKey:@"ring23Mix"])
+        [self setRing23Mix:[value intValue]];
+    else
+        NSLog(@"No Value for ring23Mix");
+    if(value=[dict valueForKey:@"noiseMix"])
+        [self setNoiseMix:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMix");
+    if(value=[dict valueForKey:@"lfo1Delay"])
+        [self setLfo1Delay:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Delay");
+    if(value=[dict valueForKey:@"lfo1Offset"])
+        [self setLfo1Offset:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Offset");
+    if(value=[dict valueForKey:@"lfo1Speed"])
+        [self setLfo1Speed:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Speed");
+    if(value=[dict valueForKey:@"lfo2Delay"])
+        [self setLfo2Delay:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Delay");
+    if(value=[dict valueForKey:@"lfo2Offset"])
+        [self setLfo2Offset:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Offset");
+    if(value=[dict valueForKey:@"lfo2Speed"])
+        [self setLfo2Speed:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Speed");
+    if(value=[dict valueForKey:@"env3Attack"])
+        [self setEnv3Attack:[value intValue]];
+    else
+        NSLog(@"No Value for env3Attack");
+    if(value=[dict valueForKey:@"env3Decay"])
+        [self setEnv3Decay:[value intValue]];
+    else
+        NSLog(@"No Value for env3Decay");
+    if(value=[dict valueForKey:@"env3Sustain"])
+        [self setEnv3Sustain:[value intValue]];
+    else
+        NSLog(@"No Value for env3Sustain");
+    if(value=[dict valueForKey:@"env3Release"])
+        [self setEnv3Release:[value intValue]];
+    else
+        NSLog(@"No Value for env3Release");
+    if(value=[dict valueForKey:@"env3Velocity"])
+        [self setEnv3Velocity:[value intValue]];
+    else
+        NSLog(@"No Value for env3Velocity");
+    if(value=[dict valueForKey:@"env3Delay"])
+        [self setEnv3Delay:[value intValue]];
+    else
+        NSLog(@"No Value for env3Delay");
+    if(value=[dict valueForKey:@"env2Attack"])
+        [self setEnv2Attack:[value intValue]];
+    else
+        NSLog(@"No Value for env2Attack");
+    if(value=[dict valueForKey:@"env2Decay"])
+        [self setEnv2Decay:[value intValue]];
+    else
+        NSLog(@"No Value for env2Decay");
+    if(value=[dict valueForKey:@"env2Sustain"])
+        [self setEnv2Sustain:[value intValue]];
+    else
+        NSLog(@"No Value for env2Sustain");
+    if(value=[dict valueForKey:@"env2Release"])
+        [self setEnv2Release:[value intValue]];
+    else
+        NSLog(@"No Value for env2Release");
+    if(value=[dict valueForKey:@"env2Velocity"])
+        [self setEnv2Velocity:[value intValue]];
+    else
+        NSLog(@"No Value for env2Velocity");
+    if(value=[dict valueForKey:@"env2Delay"])
+        [self setEnv2Delay:[value intValue]];
+    else
+        NSLog(@"No Value for env2Delay");
+    if(value=[dict valueForKey:@"env1Attack"])
+        [self setEnv1Attack:[value intValue]];
+    else
+        NSLog(@"No Value for env1Attack");
+    if(value=[dict valueForKey:@"env1Decay"])
+        [self setEnv1Decay:[value intValue]];
+    else
+        NSLog(@"No Value for env1Decay");
+    if(value=[dict valueForKey:@"env1Sustain"])
+        [self setEnv1Sustain:[value intValue]];
+    else
+        NSLog(@"No Value for env1Sustain");
+    if(value=[dict valueForKey:@"env1Release"])
+        [self setEnv1Release:[value intValue]];
+    else
+        NSLog(@"No Value for env1Release");
+    if(value=[dict valueForKey:@"env1Velocity"])
+        [self setEnv1Velocity:[value intValue]];
+    else
+        NSLog(@"No Value for env1Velocity");
+    if(value=[dict valueForKey:@"noiseSoften"])
+        [self setNoiseSoften:[value intValue]];
+    else
+        NSLog(@"No Value for noiseSoften");
+    if(value=[dict valueForKey:@"filterOverdrive"])
+        [self setFilterOverdrive:[value intValue]];
+    else
+        NSLog(@"No Value for filterOverdrive");
+    if(value=[dict valueForKey:@"filterFrequency"])
+        [self setFilterFrequency:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequency");
+    if(value=[dict valueForKey:@"filterTracking"])
+        [self setFilterTracking:[value intValue]];
+    else
+        NSLog(@"No Value for filterTracking");
+    if(value=[dict valueForKey:@"filterResonance"])
+        [self setFilterResonance:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonance");
+    if(value=[dict valueForKey:@"arpSpeed"])
+        [self setArpSpeed:[value intValue]];
+    else
+        NSLog(@"No Value for arpSpeed");
+    if(value=[dict valueForKey:@"arpPattern"])
+        [self setArpPattern:[value intValue]];
+    else
+        NSLog(@"No Value for arpPattern");
+    if(value=[dict valueForKey:@"arpLatch"])
+        [self setArpLatch:[value intValue]];
+    else
+        NSLog(@"No Value for arpLatch");
+    if(value=[dict valueForKey:@"distortionSend"])
+        [self setDistortionSend:[value intValue]];
+    else
+        NSLog(@"No Value for distortionSend");
+    if(value=[dict valueForKey:@"distortionWheel"])
+        [self setDistortionWheel:[value intValue]];
+    else
+        NSLog(@"No Value for distortionWheel");
+    if(value=[dict valueForKey:@"panPosition"])
+        [self setPanPosition:[value intValue]];
+    else
+        NSLog(@"No Value for panPosition");
+    if(value=[dict valueForKey:@"reverbSend"])
+        [self setReverbSend:[value intValue]];
+    else
+        NSLog(@"No Value for reverbSend");
+    if(value=[dict valueForKey:@"reverbWheel"])
+        [self setReverbWheel:[value intValue]];
+    else
+        NSLog(@"No Value for reverbWheel");
+    if(value=[dict valueForKey:@"reverbDecay"])
+        [self setReverbDecay:[value intValue]];
+    else
+        NSLog(@"No Value for reverbDecay");
+    if(value=[dict valueForKey:@"reverbHfDamp"])
+        [self setReverbHfDamp:[value intValue]];
+    else
+        NSLog(@"No Value for reverbHfDamp");
+    if(value=[dict valueForKey:@"chorusSend"])
+        [self setChorusSend:[value intValue]];
+    else
+        NSLog(@"No Value for chorusSend");
+    if(value=[dict valueForKey:@"chorusWheel"])
+        [self setChorusWheel:[value intValue]];
+    else
+        NSLog(@"No Value for chorusWheel");
+    if(value=[dict valueForKey:@"chorusSpeed"])
+        [self setChorusSpeed:[value intValue]];
+    else
+        NSLog(@"No Value for chorusSpeed");
+    if(value=[dict valueForKey:@"chorusModDepth"])
+        [self setChorusModDepth:[value intValue]];
+    else
+        NSLog(@"No Value for chorusModDepth");
+    if(value=[dict valueForKey:@"chorusFeedback"])
+        [self setChorusFeedback:[value intValue]];
+    else
+        NSLog(@"No Value for chorusFeedback");
+    if(value=[dict valueForKey:@"delaySend"])
+        [self setDelaySend:[value intValue]];
+    else
+        NSLog(@"No Value for delaySend");
+    if(value=[dict valueForKey:@"delayWheel"])
+        [self setDelayWheel:[value intValue]];
+    else
+        NSLog(@"No Value for delayWheel");
+    if(value=[dict valueForKey:@"delayTime"])
+        [self setDelayTime:[value intValue]];
+    else
+        NSLog(@"No Value for delayTime");
+    if(value=[dict valueForKey:@"delayFeedback"])
+        [self setDelayFeedback:[value intValue]];
+    else
+        NSLog(@"No Value for delayFeedback");
+    if(value=[dict valueForKey:@"delayHfDamp"])
+        [self setDelayHfDamp:[value intValue]];
+    else
+        NSLog(@"No Value for delayHfDamp");
+    if(value=[dict valueForKey:@"configMorph"])
+        [self setConfigMorph:[value intValue]];
+    else
+        NSLog(@"No Value for configMorph");
+    if(value=[dict valueForKey:@"osc1PitchEnv2"])
+        [self setOsc1PitchEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchEnv2");
+    if(value=[dict valueForKey:@"osc1PitchEnv3"])
+        [self setOsc1PitchEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchEnv3");
+    if(value=[dict valueForKey:@"osc1PitchLfo1"])
+        [self setOsc1PitchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1PitchLfo1");
+    if(value=[dict valueForKey:@"osc1SoftenEnv2"])
+        [self setOsc1SoftenEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SoftenEnv2");
+    if(value=[dict valueForKey:@"osc1WidthEnv2"])
+        [self setOsc1WidthEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WidthEnv2");
+    if(value=[dict valueForKey:@"osc1WidthLfo1"])
+        [self setOsc1WidthLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WidthLfo1");
+    if(value=[dict valueForKey:@"osc1WidthLfo2"])
+        [self setOsc1WidthLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1WidthLfo2");
+    if(value=[dict valueForKey:@"osc1SyncEnv2"])
+        [self setOsc1SyncEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncEnv2");
+    if(value=[dict valueForKey:@"osc1SyncLfo1"])
+        [self setOsc1SyncLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc1SyncLfo1");
+    if(value=[dict valueForKey:@"osc2PitchEnv2"])
+        [self setOsc2PitchEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchEnv2");
+    if(value=[dict valueForKey:@"osc2PitchEnv3"])
+        [self setOsc2PitchEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchEnv3");
+    if(value=[dict valueForKey:@"osc2PitchLfo1"])
+        [self setOsc2PitchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2PitchLfo1");
+    if(value=[dict valueForKey:@"osc2SoftenEnv2"])
+        [self setOsc2SoftenEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SoftenEnv2");
+    if(value=[dict valueForKey:@"osc2WidthEnv2"])
+        [self setOsc2WidthEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WidthEnv2");
+    if(value=[dict valueForKey:@"osc2WidthLfo1"])
+        [self setOsc2WidthLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WidthLfo1");
+    if(value=[dict valueForKey:@"osc2WidthLfo2"])
+        [self setOsc2WidthLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2WidthLfo2");
+    if(value=[dict valueForKey:@"osc2SyncEnv2"])
+        [self setOsc2SyncEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncEnv2");
+    if(value=[dict valueForKey:@"osc2SyncLfo1"])
+        [self setOsc2SyncLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc2SyncLfo1");
+    if(value=[dict valueForKey:@"osc3PitchEnv2"])
+        [self setOsc3PitchEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchEnv2");
+    if(value=[dict valueForKey:@"osc3PitchEnv3"])
+        [self setOsc3PitchEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchEnv3");
+    if(value=[dict valueForKey:@"osc3PitchLfo1"])
+        [self setOsc3PitchLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3PitchLfo1");
+    if(value=[dict valueForKey:@"osc3SoftenEnv2"])
+        [self setOsc3SoftenEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SoftenEnv2");
+    if(value=[dict valueForKey:@"osc3WidthEnv2"])
+        [self setOsc3WidthEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WidthEnv2");
+    if(value=[dict valueForKey:@"osc3WidthLfo1"])
+        [self setOsc3WidthLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WidthLfo1");
+    if(value=[dict valueForKey:@"osc3WidthLfo2"])
+        [self setOsc3WidthLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3WidthLfo2");
+    if(value=[dict valueForKey:@"osc3SyncEnv2"])
+        [self setOsc3SyncEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncEnv2");
+    if(value=[dict valueForKey:@"osc3SyncLfo1"])
+        [self setOsc3SyncLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for osc3SyncLfo1");
+    if(value=[dict valueForKey:@"osc1MixEnv2"])
+        [self setOsc1MixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc1MixEnv2");
+    if(value=[dict valueForKey:@"osc2MixEnv2"])
+        [self setOsc2MixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc2MixEnv2");
+    if(value=[dict valueForKey:@"osc3MixEnv2"])
+        [self setOsc3MixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for osc3MixEnv2");
+    if(value=[dict valueForKey:@"filterFrequencyEnv2"])
+        [self setFilterFrequencyEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyEnv2");
+    if(value=[dict valueForKey:@"filterFrequencyEnv3"])
+        [self setFilterFrequencyEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyEnv3");
+    if(value=[dict valueForKey:@"filterFrequencyLfo1"])
+        [self setFilterFrequencyLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyLfo1");
+    if(value=[dict valueForKey:@"filterFrequencyLfo2"])
+        [self setFilterFrequencyLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterFrequencyLfo2");
+    if(value=[dict valueForKey:@"filterResonanceEnv2"])
+        [self setFilterResonanceEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceEnv2");
+    if(value=[dict valueForKey:@"filterResonanceEnv3"])
+        [self setFilterResonanceEnv3:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceEnv3");
+    if(value=[dict valueForKey:@"filterResonanceLfo1"])
+        [self setFilterResonanceLfo1:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceLfo1");
+    if(value=[dict valueForKey:@"filterResonanceLfo2"])
+        [self setFilterResonanceLfo2:[value intValue]];
+    else
+        NSLog(@"No Value for filterResonanceLfo2");
+    if(value=[dict valueForKey:@"lfo1Env3SpeedMod"])
+        [self setLfo1Env3SpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo1Env3SpeedMod");
+    if(value=[dict valueForKey:@"lfo2Env3SpeedMod"])
+        [self setLfo2Env3SpeedMod:[value intValue]];
+    else
+        NSLog(@"No Value for lfo2Env3SpeedMod");
+    if(value=[dict valueForKey:@"noiseMixEnv2"])
+        [self setNoiseMixEnv2:[value intValue]];
+    else
+        NSLog(@"No Value for noiseMixEnv2");

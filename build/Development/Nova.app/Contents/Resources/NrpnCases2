@@ -1,0 +1,707 @@
+        case 0:
+            switch(value)
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                   [osc1Wave selectCellWithTag:(value-0)];
+                   [progr setOsc1Wave:(value-0)];
+                   break;
+                case 10:
+                case 11:
+                case 12:
+                case 13:
+                   [osc2Wave selectCellWithTag:(value-10)];
+                   [progr setOsc2Wave:(value-10)];
+                   break;
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                   [osc3Wave selectCellWithTag:(value-20)];
+                   [progr setOsc3Wave:(value-20)];
+                   break;
+                case 30:
+                case 31:
+                case 32:
+                case 33:
+                case 34:
+                   [osc1Oct selectCellWithTag:(value-30)];
+                   [progr setOsc1Oct:(value-30)];
+                   break;
+                case 35:
+                case 36:
+                case 37:
+                case 38:
+                case 39:
+                   [osc2Oct selectCellWithTag:(value-35)];
+                   [progr setOsc2Oct:(value-35)];
+                   break;
+                case 40:
+                case 41:
+                case 42:
+                case 43:
+                case 44:
+                   [osc3Oct selectCellWithTag:(value-40)];
+                   [progr setOsc3Oct:(value-40)];
+                   break;
+                case 120:
+                case 121:
+                case 122:
+                case 123:
+                   [portamentoType selectCellWithTag:(value-120)];
+                   [progr setPortamentoType:(value-120)];
+                   break;
+                case 124:
+                case 125:
+                   [lfo1DelayTrigger selectCellWithTag:(value-124)];
+                   [progr setLfo1DelayTrigger:(value-124)];
+                   break;
+                case 126:
+                case 127:
+                   [lfo2DelayTrigger selectCellWithTag:(value-126)];
+                   [progr setLfo2DelayTrigger:(value-126)];
+                   break;
+            }
+            break;
+        case 1:
+            switch(value)
+            {
+                case 0:
+                case 1:
+                case 2:
+                   [filterDB selectCellWithTag:(value-0)];
+                   [progr setFilterDB:(value-0)];
+                   break;
+                case 3:
+                case 4:
+                case 5:
+                   [filterType selectCellWithTag:(value-3)];
+                   [progr setFilterType:(value-3)];
+                   break;
+                case 16:
+                case 17:
+                case 18:
+                case 19:
+                   [lfo1Shape selectCellWithTag:(value-16)];
+                   [progr setLfo1Shape:(value-16)];
+                   break;
+                case 21:
+                case 22:
+                case 23:
+                   [lfo2Shape selectCellWithTag:(value-21)];
+                   [progr setLfo2Shape:(value-21)];
+                   break;
+                case 24:
+                case 25:
+                   [lfo1Trigger selectCellWithTag:(value-24)];
+                   [progr setLfo1Trigger:(value-24)];
+                   break;
+                case 26:
+                case 27:
+                   [lfo2Trigger selectCellWithTag:(value-26)];
+                   [progr setLfo2Trigger:(value-26)];
+                   break;
+                case 28:
+                case 29:
+                case 30:
+                   [lfo1Range selectCellWithTag:(value-28)];
+                   [progr setLfo1Range:(value-28)];
+                   break;
+                case 31:
+                case 32:
+                case 33:
+                   [lfo2Range selectCellWithTag:(value-31)];
+                   [progr setLfo2Range:(value-31)];
+                   break;
+                case 34:
+                case 35:
+                   [env1Trigger selectCellWithTag:(value-34)];
+                   [progr setEnv1Trigger:(value-34)];
+                   break;
+                case 36:
+                case 37:
+                   [env2Trigger selectCellWithTag:(value-36)];
+                   [progr setEnv2Trigger:(value-36)];
+                   break;
+                case 38:
+                case 39:
+                case 40:
+                case 41:
+                   [env3Trigger selectCellWithTag:(value-38)];
+                   [progr setEnv3Trigger:(value-38)];
+                   break;
+                case 42:
+                case 43:
+                case 44:
+                case 45:
+                case 46:
+                case 47:
+                case 48:
+                case 49:
+                case 50:
+                case 51:
+                   [glide selectCellWithTag:(value-42)];
+                   [progr setGlide:(value-42)];
+                   break;
+                case 52:
+                case 53:
+                case 54:
+                   [chorusType selectCellWithTag:(value-52)];
+                   [progr setChorusType:(value-52)];
+                   break;
+                case 55:
+                case 56:
+                case 57:
+                case 58:
+                   [panType selectCellWithTag:(value-55)];
+                   [progr setPanType:(value-55)];
+                   break;
+                case 70:
+                case 71:
+                   [arpConstPitch selectCellWithTag:(value-70)];
+                   [progr setArpConstPitch:(value-70)];
+                   break;
+                case 72:
+                case 73:
+                   [arpOn selectCellWithTag:(value-72)];
+                   [progr setArpOn:(value-72)];
+                   break;
+                case 74:
+                case 75:
+                   [arpKeyReset selectCellWithTag:(value-74)];
+                   [progr setArpKeyReset:(value-74)];
+                   break;
+                case 76:
+                case 77:
+                case 78:
+                   [arpPatternBank selectCellWithTag:(value-76)];
+                   [progr setArpPatternBank:(value-76)];
+                   break;
+                case 79:
+                case 80:
+                   [arpLatchType selectCellWithTag:(value-79)];
+                   [progr setArpLatchType:(value-79)];
+                   break;
+                case 81:
+                case 82:
+                case 83:
+                case 84:
+                case 85:
+                   [arpQuantize selectCellWithTag:(value-81)];
+                   [progr setArpQuantize:(value-81)];
+                   break;
+                case 86:
+                case 87:
+                case 88:
+                case 89:
+                   [arpVelocity selectCellWithTag:(value-86)];
+                   [progr setArpVelocity:(value-86)];
+                   break;
+                case 90:
+                case 91:
+                   [arpMute selectCellWithTag:(value-90)];
+                   [progr setArpMute:(value-90)];
+                   break;
+                case 92:
+                case 93:
+                   [arpRealTimeTranspose selectCellWithTag:(value-92)];
+                   [progr setArpRealTimeTranspose:(value-92)];
+                   break;
+                case 94:
+                case 95:
+                case 96:
+                case 97:
+                   [arpUserPatternGate selectCellWithTag:(value-94)];
+                   [progr setArpUserPatternGate:(value-94)];
+                   break;
+                case 98:
+                case 99:
+                case 100:
+                   [partOutput selectCellWithTag:(value-98)];
+                   [progr setPartOutput:(value-98)];
+                   break;
+                case 102:
+                case 103:
+                case 104:
+                   [arpOutput selectCellWithTag:(value-102)];
+                   [progr setArpOutput:(value-102)];
+                   break;
+                case 105:
+                case 106:
+                   [clock selectCellWithTag:(value-105)];
+                   [progr setClock:(value-105)];
+                   break;
+                case 107:
+                case 108:
+                case 109:
+                case 110:
+                case 111:
+                   [programMapBank selectCellWithTag:(value-107)];
+                   [progr setProgramMapBank:(value-107)];
+                   break;
+                case 122:
+                case 123:
+                case 124:
+                case 125:
+                case 126:
+                case 127:
+                   [arpFillin selectCellWithTag:(value-122)];
+                   [progr setArpFillin:(value-122)];
+                   break;
+            }
+            break;
+        case 84:
+            switch(value)
+            {
+                case 74:
+                case 75:
+                   [partFx selectCellWithTag:(value-74)];
+                   [progr setPartFx:(value-74)];
+                   break;
+                case 77:
+                case 78:
+                case 79:
+                case 80:
+                case 81:
+                case 82:
+                case 83:
+                   [partSustainMode selectCellWithTag:(value-77)];
+                   [progr setPartSustainMode:(value-77)];
+                   break;
+                case 84:
+                case 85:
+                   [oscTrigger selectCellWithTag:(value-84)];
+                   [progr setOscTrigger:(value-84)];
+                   break;
+                case 86:
+                case 87:
+                   [polyphony selectCellWithTag:(value-86)];
+                   [progr setPolyphony:(value-86)];
+                   break;
+                case 88:
+                case 89:
+                case 90:
+                case 91:
+                case 92:
+                case 93:
+                case 94:
+                case 95:
+                case 96:
+                case 97:
+                case 98:
+                case 99:
+                case 100:
+                case 101:
+                case 102:
+                case 103:
+                case 104:
+                case 105:
+                   [sysexTxOption selectCellWithTag:(value-88)];
+                   [progr setSysexTxOption:(value-88)];
+                   break;
+            }
+            break;
+        case 100:
+            switch(value)
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                case 11:
+                case 12:
+                case 13:
+                case 14:
+                case 15:
+                case 16:
+                case 17:
+                case 18:
+                case 19:
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                case 24:
+                case 25:
+                case 26:
+                case 27:
+                case 28:
+                case 29:
+                case 30:
+                case 31:
+                case 32:
+                case 33:
+                case 34:
+                   [delaySync selectCellWithTag:(value-0)];
+                   [progr setDelaySync:(value-0)];
+                   break;
+            }
+            break;
+        case 109:
+            switch(value)
+            {
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                   [arpOctRange selectCellWithTag:(value-1)];
+                   [progr setArpOctRange:(value-1)];
+                   break;
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                   [arpGateTime selectCellWithTag:(value-5)];
+                   [progr setArpGateTime:(value-5)];
+                   break;
+                case 66:
+                case 67:
+                case 68:
+                case 69:
+                   [sysexRx selectCellWithTag:(value-66)];
+                   [progr setSysexRx:(value-66)];
+                   break;
+                case 80:
+                case 81:
+                case 82:
+                case 83:
+                case 84:
+                case 85:
+                case 86:
+                case 87:
+                case 88:
+                case 89:
+                case 90:
+                case 91:
+                case 92:
+                case 93:
+                case 94:
+                case 95:
+                   [partVelCurve selectCellWithTag:(value-80)];
+                   [progr setPartVelCurve:(value-80)];
+                   break;
+                case 96:
+                case 97:
+                case 98:
+                case 99:
+                case 100:
+                case 101:
+                case 102:
+                case 103:
+                case 104:
+                case 105:
+                case 106:
+                   [delayRatio selectCellWithTag:(value-96)];
+                   [progr setDelayRatio:(value-96)];
+                   break;
+                case 107:
+                case 108:
+                case 109:
+                case 110:
+                case 111:
+                case 112:
+                case 113:
+                case 114:
+                case 115:
+                case 116:
+                case 117:
+                   [globalMidi selectCellWithTag:(value-107)];
+                   [progr setGlobalMidi:(value-107)];
+                   break;
+                case 118:
+                case 119:
+                case 120:
+                case 121:
+                case 122:
+                case 123:
+                case 124:
+                case 125:
+                case 126:
+                case 127:
+                   [partMidi selectCellWithTag:(value-118)];
+                   [progr setPartMidi:(value-118)];
+                   break;
+            }
+            break;
+        case 110:
+            switch(value)
+            {
+                case 0:
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 10:
+                case 11:
+                case 12:
+                case 13:
+                case 14:
+                case 15:
+                case 16:
+                case 17:
+                case 18:
+                case 19:
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                case 24:
+                case 25:
+                case 26:
+                case 27:
+                case 28:
+                case 29:
+                case 30:
+                case 31:
+                case 32:
+                case 33:
+                   [arpSync selectCellWithTag:(value-0)];
+                   [progr setArpSync:(value-0)];
+                   break;
+                case 34:
+                case 35:
+                case 36:
+                   [globalIncomingProgChange selectCellWithTag:(value-34)];
+                   [progr setGlobalIncomingProgChange:(value-34)];
+                   break;
+                case 37:
+                case 38:
+                case 39:
+                   [progMapBank selectCellWithTag:(value-37)];
+                   [progr setProgMapBank:(value-37)];
+                   break;
+                case 40:
+                case 41:
+                case 42:
+                case 43:
+                case 44:
+                case 45:
+                case 46:
+                case 47:
+                case 48:
+                case 49:
+                case 50:
+                case 51:
+                case 52:
+                case 53:
+                case 54:
+                case 55:
+                case 56:
+                case 57:
+                case 58:
+                case 59:
+                case 60:
+                case 61:
+                case 62:
+                case 63:
+                case 64:
+                case 65:
+                case 66:
+                case 67:
+                case 68:
+                case 69:
+                case 70:
+                case 71:
+                case 72:
+                case 73:
+                case 74:
+                   [lfo1Sync selectCellWithTag:(value-40)];
+                   [progr setLfo1Sync:(value-40)];
+                   break;
+                case 75:
+                   [globalIncomingContChange selectCellWithTag:(value-75)];
+                   [progr setGlobalIncomingContChange:(value-75)];
+                   break;
+                case 76:
+                case 77:
+                   [partProgChangeFilter selectCellWithTag:(value-76)];
+                   [progr setPartProgChangeFilter:(value-76)];
+                   break;
+                case 78:
+                case 79:
+                   [arpOutputRanging selectCellWithTag:(value-78)];
+                   [progr setArpOutputRanging:(value-78)];
+                   break;
+                case 80:
+                case 81:
+                case 82:
+                case 83:
+                case 84:
+                case 85:
+                case 86:
+                case 87:
+                case 88:
+                case 89:
+                case 90:
+                case 91:
+                case 92:
+                case 93:
+                case 94:
+                case 95:
+                case 96:
+                case 97:
+                case 98:
+                case 99:
+                case 100:
+                case 101:
+                case 102:
+                case 103:
+                case 104:
+                case 105:
+                case 106:
+                case 107:
+                case 108:
+                case 109:
+                case 110:
+                case 111:
+                case 112:
+                case 113:
+                case 114:
+                   [lfo2Sync selectCellWithTag:(value-80)];
+                   [progr setLfo2Sync:(value-80)];
+                   break;
+                case 116:
+                case 117:
+                   [partControlChangeFilt selectCellWithTag:(value-116)];
+                   [progr setPartControlChangeFilt:(value-116)];
+                   break;
+                case 118:
+                case 119:
+                   [partPedal selectCellWithTag:(value-118)];
+                   [progr setPartPedal:(value-118)];
+                   break;
+                case 126:
+                case 127:
+                   [partSustain selectCellWithTag:(value-126)];
+                   [progr setPartSustain:(value-126)];
+                   break;
+            }
+            break;
+        case 113:
+            switch(value)
+            {
+                case 0:
+                case 1:
+                case 2:
+                   [partPolyphony selectCellWithTag:(value-0)];
+                   [progr setPartPolyphony:(value-0)];
+                   break;
+                case 11:
+                case 12:
+                case 13:
+                case 14:
+                case 15:
+                   [pedalMode selectCellWithTag:(value-11)];
+                   [progr setPedalMode:(value-11)];
+                   break;
+                case 16:
+                case 17:
+                   [vocoderSibilanceType selectCellWithTag:(value-16)];
+                   [progr setVocoderSibilanceType:(value-16)];
+                   break;
+                case 18:
+                case 19:
+                case 20:
+                case 21:
+                case 22:
+                case 23:
+                case 24:
+                case 25:
+                   [vocoderInput selectCellWithTag:(value-18)];
+                   [progr setVocoderInput:(value-18)];
+                   break;
+                case 28:
+                case 29:
+                case 30:
+                case 31:
+                case 32:
+                case 33:
+                   [vocoderInsert selectCellWithTag:(value-28)];
+                   [progr setVocoderInsert:(value-28)];
+                   break;
+                case 36:
+                case 37:
+                case 38:
+                case 39:
+                case 40:
+                case 41:
+                case 42:
+                case 43:
+                case 44:
+                case 45:
+                case 46:
+                case 47:
+                case 48:
+                case 49:
+                case 50:
+                case 51:
+                case 52:
+                case 53:
+                case 54:
+                   [fxConfig selectCellWithTag:(value-36)];
+                   [progr setFxConfig:(value-36)];
+                   break;
+                case 63:
+                case 64:
+                case 65:
+                case 66:
+                case 67:
+                case 68:
+                   [partMute selectCellWithTag:(value-63)];
+                   [progr setPartMute:(value-63)];
+                   break;
+                case 71:
+                case 72:
+                case 73:
+                case 74:
+                case 75:
+                   [fxSend selectCellWithTag:(value-71)];
+                   [progr setFxSend:(value-71)];
+                   break;
+                case 76:
+                case 77:
+                case 78:
+                case 79:
+                case 80:
+                case 81:
+                   [partSelect selectCellWithTag:(value-76)];
+                   [progr setPartSelect:(value-76)];
+                   break;
+                case 84:
+                case 85:
+                case 86:
+                case 87:
+                case 88:
+                   [arpEdit selectCellWithTag:(value-84)];
+                   [progr setArpEdit:(value-84)];
+                   break;
+                case 89:
+                case 90:
+                case 91:
+                   [breathMode selectCellWithTag:(value-89)];
+                   [progr setBreathMode:(value-89)];
+                   break;
+                case 92:
+                case 93:
+                case 94:
+                case 95:
+                   [phonesOutput selectCellWithTag:(value-92)];
+                   [progr setPhonesOutput:(value-92)];
+                   break;
+            }
+            break;

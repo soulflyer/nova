@@ -1,0 +1,2 @@
+s/^\([0-9]*\)[ ]*\([a-z,A-Z,0-9]*\)[ ]*\([0-9,a-z,A-Z]*\)[ ]*\([0-9]*\)\(.*\)/-(void)draw\2:(int)width colour:(NSColor *)colour;\
+-(void)draw\2:(int)width;/

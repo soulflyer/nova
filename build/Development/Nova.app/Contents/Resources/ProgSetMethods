@@ -1,0 +1,1276 @@
+-(void)setOsc1Pitch:(Byte)value
+{
+    osc1Pitch=value;
+}
+-(void)setOsc2Pitch:(Byte)value
+{
+    osc2Pitch=value;
+}
+-(void)setOsc3Pitch:(Byte)value
+{
+    osc3Pitch=value;
+}
+-(void)setOsc1FormantWidth:(Byte)value
+{
+    osc1FormantWidth=value;
+}
+-(void)setOsc2FormantWidth:(Byte)value
+{
+    osc2FormantWidth=value;
+}
+-(void)setOsc3FormantWidth:(Byte)value
+{
+    osc3FormantWidth=value;
+}
+-(void)setOsc1SyncKeyFollow:(Byte)value
+{
+    osc1SyncKeyFollow=value;
+}
+-(void)setOsc2SyncKeyFollow:(Byte)value
+{
+    osc2SyncKeyFollow=value;
+}
+-(void)setOsc3SyncKeyFollow:(Byte)value
+{
+    osc3SyncKeyFollow=value;
+}
+-(void)setOsc1SyncSkew:(Byte)value
+{
+    osc1SyncSkew=value;
+}
+-(void)setOsc2SyncSkew:(Byte)value
+{
+    osc2SyncSkew=value;
+}
+-(void)setOsc3SyncSkew:(Byte)value
+{
+    osc3SyncSkew=value;
+}
+-(void)setCombFrequency:(Byte)value
+{
+    combFrequency=value;
+}
+-(void)setCombBoost:(Byte)value
+{
+    combBoost=value;
+}
+-(void)setPanDryLevel:(Byte)value
+{
+    panDryLevel=value;
+}
+-(void)setPanSpeed:(Byte)value
+{
+    panSpeed=value;
+}
+-(void)setPanDepth:(Byte)value
+{
+    panDepth=value;
+}
+-(void)setDelayStereoWidth:(Byte)value
+{
+    delayStereoWidth=value;
+}
+-(void)setVocoderBalance:(Byte)value
+{
+    vocoderBalance=value;
+}
+-(void)setEqTreble:(Byte)value
+{
+    eqTreble=value;
+}
+-(void)setEqBass:(Byte)value
+{
+    eqBass=value;
+}
+-(void)setPartSemiDetune:(Byte)value
+{
+    partSemiDetune=value;
+}
+-(void)setPartDetune:(Byte)value
+{
+    partDetune=value;
+}
+-(void)setPartRangeHigh:(Byte)value
+{
+    partRangeHigh=value;
+}
+-(void)setPartRangeLow:(Byte)value
+{
+    partRangeLow=value;
+}
+-(void)setMasterTune:(Byte)value
+{
+    masterTune=value;
+}
+-(void)setBreathControlRemap:(Byte)value
+{
+    breathControlRemap=value;
+}
+-(void)setArpTransposeMidi:(Byte)value
+{
+    arpTransposeMidi=value;
+}
+-(void)setArpTransposeRef:(Byte)value
+{
+    arpTransposeRef=value;
+}
+-(void)setProgramMapEditLoc:(Byte)value
+{
+    programMapEditLoc=value;
+}
+-(void)setProgramMapProgram:(Byte)value
+{
+    programMapProgram=value;
+}
+-(void)setArpUserPatternEditLoc:(Byte)value
+{
+    arpUserPatternEditLoc=value;
+}
+-(void)setArpUserPatternStep:(Byte)value
+{
+    arpUserPatternStep=value;
+}
+-(void)setArpUserPatternNote:(Byte)value
+{
+    arpUserPatternNote=value;
+}
+-(void)setArpUserPatternVel:(Byte)value
+{
+    arpUserPatternVel=value;
+}
+-(void)setArpUserPatternSteps:(Byte)value
+{
+    arpUserPatternSteps=value;
+}
+-(void)setFilterQNorm:(Byte)value
+{
+    filterQNorm=value;
+}
+-(void)setOsc1Wave:(Byte)value
+{
+    osc1Wave=value;
+}
+-(void)setOsc2Wave:(Byte)value
+{
+    osc2Wave=value;
+}
+-(void)setOsc3Wave:(Byte)value
+{
+    osc3Wave=value;
+}
+-(void)setOsc1Oct:(Byte)value
+{
+    osc1Oct=value;
+}
+-(void)setOsc2Oct:(Byte)value
+{
+    osc2Oct=value;
+}
+-(void)setOsc3Oct:(Byte)value
+{
+    osc3Oct=value;
+}
+-(void)setPortamentoType:(Byte)value
+{
+    portamentoType=value;
+}
+-(void)setLfo1DelayTrigger:(Byte)value
+{
+    lfo1DelayTrigger=value;
+}
+-(void)setLfo2DelayTrigger:(Byte)value
+{
+    lfo2DelayTrigger=value;
+}
+-(void)setFilterDB:(Byte)value
+{
+    filterDB=value;
+}
+-(void)setFilterType:(Byte)value
+{
+    filterType=value;
+}
+-(void)setLfo1Shape:(Byte)value
+{
+    lfo1Shape=value;
+}
+-(void)setLfo2Shape:(Byte)value
+{
+    lfo2Shape=value;
+}
+-(void)setLfo1Trigger:(Byte)value
+{
+    lfo1Trigger=value;
+}
+-(void)setLfo2Trigger:(Byte)value
+{
+    lfo2Trigger=value;
+}
+-(void)setLfo1Range:(Byte)value
+{
+    lfo1Range=value;
+}
+-(void)setLfo2Range:(Byte)value
+{
+    lfo2Range=value;
+}
+-(void)setEnv1Trigger:(Byte)value
+{
+    env1Trigger=value;
+}
+-(void)setEnv2Trigger:(Byte)value
+{
+    env2Trigger=value;
+}
+-(void)setEnv3Trigger:(Byte)value
+{
+    env3Trigger=value;
+}
+-(void)setGlide:(Byte)value
+{
+    glide=value;
+}
+-(void)setChorusType:(Byte)value
+{
+    chorusType=value;
+}
+-(void)setPanType:(Byte)value
+{
+    panType=value;
+}
+-(void)setArpConstPitch:(Byte)value
+{
+    arpConstPitch=value;
+}
+-(void)setArpOn:(Byte)value
+{
+    arpOn=value;
+}
+-(void)setArpKeyReset:(Byte)value
+{
+    arpKeyReset=value;
+}
+-(void)setArpPatternBank:(Byte)value
+{
+    arpPatternBank=value;
+}
+-(void)setArpLatchType:(Byte)value
+{
+    arpLatchType=value;
+}
+-(void)setArpQuantize:(Byte)value
+{
+    arpQuantize=value;
+}
+-(void)setArpVelocity:(Byte)value
+{
+    arpVelocity=value;
+}
+-(void)setArpMute:(Byte)value
+{
+    arpMute=value;
+}
+-(void)setArpRealTimeTranspose:(Byte)value
+{
+    arpRealTimeTranspose=value;
+}
+-(void)setArpUserPatternGate:(Byte)value
+{
+    arpUserPatternGate=value;
+}
+-(void)setPartOutput:(Byte)value
+{
+    partOutput=value;
+}
+-(void)setArpOutput:(Byte)value
+{
+    arpOutput=value;
+}
+-(void)setClock:(Byte)value
+{
+    clock=value;
+}
+-(void)setProgramMapBank:(Byte)value
+{
+    programMapBank=value;
+}
+-(void)setArpFillin:(Byte)value
+{
+    arpFillin=value;
+}
+-(void)setPartFx:(Byte)value
+{
+    partFx=value;
+}
+-(void)setPartSustainMode:(Byte)value
+{
+    partSustainMode=value;
+}
+-(void)setOscTrigger:(Byte)value
+{
+    oscTrigger=value;
+}
+-(void)setPolyphony:(Byte)value
+{
+    polyphony=value;
+}
+-(void)setSysexTxOption:(Byte)value
+{
+    sysexTxOption=value;
+}
+-(void)setDelaySync:(Byte)value
+{
+    delaySync=value;
+}
+-(void)setArpOctRange:(Byte)value
+{
+    arpOctRange=value;
+}
+-(void)setArpGateTime:(Byte)value
+{
+    arpGateTime=value;
+}
+-(void)setSysexRx:(Byte)value
+{
+    sysexRx=value;
+}
+-(void)setPartVelCurve:(Byte)value
+{
+    partVelCurve=value;
+}
+-(void)setDelayRatio:(Byte)value
+{
+    delayRatio=value;
+}
+-(void)setGlobalMidi:(Byte)value
+{
+    globalMidi=value;
+}
+-(void)setPartMidi:(Byte)value
+{
+    partMidi=value;
+}
+-(void)setArpSync:(Byte)value
+{
+    arpSync=value;
+}
+-(void)setGlobalIncomingProgChange:(Byte)value
+{
+    globalIncomingProgChange=value;
+}
+-(void)setProgMapBank:(Byte)value
+{
+    progMapBank=value;
+}
+-(void)setLfo1Sync:(Byte)value
+{
+    lfo1Sync=value;
+}
+-(void)setGlobalIncomingContChange:(Byte)value
+{
+    globalIncomingContChange=value;
+}
+-(void)setPartProgChangeFilter:(Byte)value
+{
+    partProgChangeFilter=value;
+}
+-(void)setArpOutputRanging:(Byte)value
+{
+    arpOutputRanging=value;
+}
+-(void)setLfo2Sync:(Byte)value
+{
+    lfo2Sync=value;
+}
+-(void)setPartControlChangeFilt:(Byte)value
+{
+    partControlChangeFilt=value;
+}
+-(void)setPartPedal:(Byte)value
+{
+    partPedal=value;
+}
+-(void)setPartSustain:(Byte)value
+{
+    partSustain=value;
+}
+-(void)setPartPolyphony:(Byte)value
+{
+    partPolyphony=value;
+}
+-(void)setPedalMode:(Byte)value
+{
+    pedalMode=value;
+}
+-(void)setVocoderSibilanceType:(Byte)value
+{
+    vocoderSibilanceType=value;
+}
+-(void)setVocoderInput:(Byte)value
+{
+    vocoderInput=value;
+}
+-(void)setVocoderInsert:(Byte)value
+{
+    vocoderInsert=value;
+}
+-(void)setFxConfig:(Byte)value
+{
+    fxConfig=value;
+}
+-(void)setPartMute:(Byte)value
+{
+    partMute=value;
+}
+-(void)setFxSend:(Byte)value
+{
+    fxSend=value;
+}
+-(void)setPartSelect:(Byte)value
+{
+    partSelect=value;
+}
+-(void)setArpEdit:(Byte)value
+{
+    arpEdit=value;
+}
+-(void)setBreathMode:(Byte)value
+{
+    breathMode=value;
+}
+-(void)setPhonesOutput:(Byte)value
+{
+    phonesOutput=value;
+}
+-(void)setOsc1PitchLfo2:(Byte)value
+{
+    osc1PitchLfo2=value;
+}
+-(void)setOsc1PitchWheel:(Byte)value
+{
+    osc1PitchWheel=value;
+}
+-(void)setOsc1WidthEnv3:(Byte)value
+{
+    osc1WidthEnv3=value;
+}
+-(void)setOsc1WidthWheel:(Byte)value
+{
+    osc1WidthWheel=value;
+}
+-(void)setOsc1SyncEnv3:(Byte)value
+{
+    osc1SyncEnv3=value;
+}
+-(void)setOsc1SyncLfo2:(Byte)value
+{
+    osc1SyncLfo2=value;
+}
+-(void)setOsc1SyncWheel:(Byte)value
+{
+    osc1SyncWheel=value;
+}
+-(void)setOsc1SoftenEnv3:(Byte)value
+{
+    osc1SoftenEnv3=value;
+}
+-(void)setOsc1SoftenLfo1:(Byte)value
+{
+    osc1SoftenLfo1=value;
+}
+-(void)setOsc1SoftenLfo2:(Byte)value
+{
+    osc1SoftenLfo2=value;
+}
+-(void)setOsc1SoftenWheel:(Byte)value
+{
+    osc1SoftenWheel=value;
+}
+-(void)setOsc1MixEnv3:(Byte)value
+{
+    osc1MixEnv3=value;
+}
+-(void)setOsc1MixLfo1:(Byte)value
+{
+    osc1MixLfo1=value;
+}
+-(void)setOsc1MixLfo2:(Byte)value
+{
+    osc1MixLfo2=value;
+}
+-(void)setOsc1MixWheel:(Byte)value
+{
+    osc1MixWheel=value;
+}
+-(void)setOsc2PitchLfo2:(Byte)value
+{
+    osc2PitchLfo2=value;
+}
+-(void)setOsc2PitchWheel:(Byte)value
+{
+    osc2PitchWheel=value;
+}
+-(void)setOsc2WidthEnv3:(Byte)value
+{
+    osc2WidthEnv3=value;
+}
+-(void)setOsc2WidthWheel:(Byte)value
+{
+    osc2WidthWheel=value;
+}
+-(void)setOsc2SyncEnv3:(Byte)value
+{
+    osc2SyncEnv3=value;
+}
+-(void)setOsc2SyncLfo2:(Byte)value
+{
+    osc2SyncLfo2=value;
+}
+-(void)setOsc2SyncWheel:(Byte)value
+{
+    osc2SyncWheel=value;
+}
+-(void)setOsc2SoftenEnv3:(Byte)value
+{
+    osc2SoftenEnv3=value;
+}
+-(void)setOsc2SoftenLfo1:(Byte)value
+{
+    osc2SoftenLfo1=value;
+}
+-(void)setOsc2SoftenLfo2:(Byte)value
+{
+    osc2SoftenLfo2=value;
+}
+-(void)setOsc2SoftenWheel:(Byte)value
+{
+    osc2SoftenWheel=value;
+}
+-(void)setOsc2MixEnv3:(Byte)value
+{
+    osc2MixEnv3=value;
+}
+-(void)setOsc2MixLfo1:(Byte)value
+{
+    osc2MixLfo1=value;
+}
+-(void)setOsc2MixLfo2:(Byte)value
+{
+    osc2MixLfo2=value;
+}
+-(void)setOsc2MixWheel:(Byte)value
+{
+    osc2MixWheel=value;
+}
+-(void)setOsc3PitchLfo2:(Byte)value
+{
+    osc3PitchLfo2=value;
+}
+-(void)setOsc3PitchWheel:(Byte)value
+{
+    osc3PitchWheel=value;
+}
+-(void)setOsc3WidthEnv3:(Byte)value
+{
+    osc3WidthEnv3=value;
+}
+-(void)setOsc3WidthWheel:(Byte)value
+{
+    osc3WidthWheel=value;
+}
+-(void)setOsc3SyncEnv3:(Byte)value
+{
+    osc3SyncEnv3=value;
+}
+-(void)setOsc3SyncLfo2:(Byte)value
+{
+    osc3SyncLfo2=value;
+}
+-(void)setOsc3SyncWheel:(Byte)value
+{
+    osc3SyncWheel=value;
+}
+-(void)setOsc3SoftenEnv3:(Byte)value
+{
+    osc3SoftenEnv3=value;
+}
+-(void)setOsc3SoftenLfo1:(Byte)value
+{
+    osc3SoftenLfo1=value;
+}
+-(void)setOsc3SoftenLfo2:(Byte)value
+{
+    osc3SoftenLfo2=value;
+}
+-(void)setOsc3SoftenWheel:(Byte)value
+{
+    osc3SoftenWheel=value;
+}
+-(void)setOsc3MixEnv3:(Byte)value
+{
+    osc3MixEnv3=value;
+}
+-(void)setOsc3MixLfo1:(Byte)value
+{
+    osc3MixLfo1=value;
+}
+-(void)setOsc3MixLfo2:(Byte)value
+{
+    osc3MixLfo2=value;
+}
+-(void)setOsc3MixWheel:(Byte)value
+{
+    osc3MixWheel=value;
+}
+-(void)setRingMod13MixEnv2:(Byte)value
+{
+    ringMod13MixEnv2=value;
+}
+-(void)setRingMod13MixEnv3:(Byte)value
+{
+    ringMod13MixEnv3=value;
+}
+-(void)setRingMod13MixLfo1:(Byte)value
+{
+    ringMod13MixLfo1=value;
+}
+-(void)setRingMod13MixLfo2:(Byte)value
+{
+    ringMod13MixLfo2=value;
+}
+-(void)setRingMod13MixWheel:(Byte)value
+{
+    ringMod13MixWheel=value;
+}
+-(void)setRingMod23MixEnv2:(Byte)value
+{
+    ringMod23MixEnv2=value;
+}
+-(void)setRingMod23MixEnv3:(Byte)value
+{
+    ringMod23MixEnv3=value;
+}
+-(void)setRingMod23MixLfo1:(Byte)value
+{
+    ringMod23MixLfo1=value;
+}
+-(void)setRingMod23MixLfo2:(Byte)value
+{
+    ringMod23MixLfo2=value;
+}
+-(void)setRingMod23MixWheel:(Byte)value
+{
+    ringMod23MixWheel=value;
+}
+-(void)setNoiseSoftenEnv2:(Byte)value
+{
+    noiseSoftenEnv2=value;
+}
+-(void)setNoiseSoftenEnv3:(Byte)value
+{
+    noiseSoftenEnv3=value;
+}
+-(void)setNoiseSoftenLfo1:(Byte)value
+{
+    noiseSoftenLfo1=value;
+}
+-(void)setNoiseSoftenLfo2:(Byte)value
+{
+    noiseSoftenLfo2=value;
+}
+-(void)setNoiseSoftenWheel:(Byte)value
+{
+    noiseSoftenWheel=value;
+}
+-(void)setNoiseMixEnv3:(Byte)value
+{
+    noiseMixEnv3=value;
+}
+-(void)setNoiseMixLfo1:(Byte)value
+{
+    noiseMixLfo1=value;
+}
+-(void)setNoiseMixLfo2:(Byte)value
+{
+    noiseMixLfo2=value;
+}
+-(void)setNoiseMixWheel:(Byte)value
+{
+    noiseMixWheel=value;
+}
+-(void)setOsc1WheelLfo1:(Byte)value
+{
+    osc1WheelLfo1=value;
+}
+-(void)setOsc2WheelLfo1:(Byte)value
+{
+    osc2WheelLfo1=value;
+}
+-(void)setOsc3WheelLfo1:(Byte)value
+{
+    osc3WheelLfo1=value;
+}
+-(void)setOsc1AfterTouchLfo1:(Byte)value
+{
+    osc1AfterTouchLfo1=value;
+}
+-(void)setOsc2AfterTouchLfo1:(Byte)value
+{
+    osc2AfterTouchLfo1=value;
+}
+-(void)setOsc3AfterTouchLfo1:(Byte)value
+{
+    osc3AfterTouchLfo1=value;
+}
+-(void)setLfo1AfterTouchSpeedMod:(Byte)value
+{
+    lfo1AfterTouchSpeedMod=value;
+}
+-(void)setLfo2AfterTouchSpeedMod:(Byte)value
+{
+    lfo2AfterTouchSpeedMod=value;
+}
+-(void)setFilterFrequencyWheel:(Byte)value
+{
+    filterFrequencyWheel=value;
+}
+-(void)setFilterResonanceWheel:(Byte)value
+{
+    filterResonanceWheel=value;
+}
+-(void)setFilterFrequencyWheelLfo2:(Byte)value
+{
+    filterFrequencyWheelLfo2=value;
+}
+-(void)setFilterResonanceWheelLfo2:(Byte)value
+{
+    filterResonanceWheelLfo2=value;
+}
+-(void)setFilterFrequencyAfterTouchLfo2:(Byte)value
+{
+    filterFrequencyAfterTouchLfo2=value;
+}
+-(void)setFilterResonanceAfterTouchLfo2:(Byte)value
+{
+    filterResonanceAfterTouchLfo2=value;
+}
+-(void)setFilterFrequencyAfterTouch:(Byte)value
+{
+    filterFrequencyAfterTouch=value;
+}
+-(void)setFilterResonanceAfterTouch:(Byte)value
+{
+    filterResonanceAfterTouch=value;
+}
+-(void)setLfo1WheelSpeedMod:(Byte)value
+{
+    lfo1WheelSpeedMod=value;
+}
+-(void)setLfo2WheelSpeedMod:(Byte)value
+{
+    lfo2WheelSpeedMod=value;
+}
+-(void)setEnv1Wheel:(Byte)value
+{
+    env1Wheel=value;
+}
+-(void)setEnv1AfterTouch:(Byte)value
+{
+    env1AfterTouch=value;
+}
+-(void)setOsc1Semi:(Byte)value
+{
+    osc1Semi=value;
+}
+-(void)setOsc2Semi:(Byte)value
+{
+    osc2Semi=value;
+}
+-(void)setOsc3Semi:(Byte)value
+{
+    osc3Semi=value;
+}
+-(void)setBreathSens:(Byte)value
+{
+    breathSens=value;
+}
+-(void)setOsc1PitchbendRange:(Byte)value
+{
+    osc1PitchbendRange=value;
+}
+-(void)setOsc2PitchbendRange:(Byte)value
+{
+    osc2PitchbendRange=value;
+}
+-(void)setOsc3PitchbendRange:(Byte)value
+{
+    osc3PitchbendRange=value;
+}
+-(void)setInput1Trim:(Byte)value
+{
+    input1Trim=value;
+}
+-(void)setInput2Trim:(Byte)value
+{
+    input2Trim=value;
+}
+-(void)setFilterWidth:(Byte)value
+{
+    filterWidth=value;
+}
+-(void)setVocoderSibilanceLevel:(Byte)value
+{
+    vocoderSibilanceLevel=value;
+}
+-(void)setVocoderWidth:(Byte)value
+{
+    vocoderWidth=value;
+}
+-(void)setBankSelect:(Byte)value
+{
+    bankSelect=value;
+}
+-(void)setSustain:(Byte)value
+{
+    sustain=value;
+}
+-(void)setMasterVolume:(Byte)value
+{
+    masterVolume=value;
+}
+-(void)setPortamento:(Byte)value
+{
+    portamento=value;
+}
+-(void)setOsc1Fine:(Byte)value
+{
+    osc1Fine=value;
+}
+-(void)setOsc1Soften:(Byte)value
+{
+    osc1Soften=value;
+}
+-(void)setOsc1Width:(Byte)value
+{
+    osc1Width=value;
+}
+-(void)setOsc1Sync:(Byte)value
+{
+    osc1Sync=value;
+}
+-(void)setOsc2Fine:(Byte)value
+{
+    osc2Fine=value;
+}
+-(void)setOsc2Soften:(Byte)value
+{
+    osc2Soften=value;
+}
+-(void)setOsc2Width:(Byte)value
+{
+    osc2Width=value;
+}
+-(void)setOsc2Sync:(Byte)value
+{
+    osc2Sync=value;
+}
+-(void)setOsc3Fine:(Byte)value
+{
+    osc3Fine=value;
+}
+-(void)setOsc3Soften:(Byte)value
+{
+    osc3Soften=value;
+}
+-(void)setOsc3Width:(Byte)value
+{
+    osc3Width=value;
+}
+-(void)setOsc3Sync:(Byte)value
+{
+    osc3Sync=value;
+}
+-(void)setOsc1Mix:(Byte)value
+{
+    osc1Mix=value;
+}
+-(void)setOsc2Mix:(Byte)value
+{
+    osc2Mix=value;
+}
+-(void)setOsc3Mix:(Byte)value
+{
+    osc3Mix=value;
+}
+-(void)setRing13Mix:(Byte)value
+{
+    ring13Mix=value;
+}
+-(void)setRing23Mix:(Byte)value
+{
+    ring23Mix=value;
+}
+-(void)setNoiseMix:(Byte)value
+{
+    noiseMix=value;
+}
+-(void)setLfo1Delay:(Byte)value
+{
+    lfo1Delay=value;
+}
+-(void)setLfo1Offset:(Byte)value
+{
+    lfo1Offset=value;
+}
+-(void)setLfo1Speed:(Byte)value
+{
+    lfo1Speed=value;
+}
+-(void)setLfo2Delay:(Byte)value
+{
+    lfo2Delay=value;
+}
+-(void)setLfo2Offset:(Byte)value
+{
+    lfo2Offset=value;
+}
+-(void)setLfo2Speed:(Byte)value
+{
+    lfo2Speed=value;
+}
+-(void)setEnv3Attack:(Byte)value
+{
+    env3Attack=value;
+}
+-(void)setEnv3Decay:(Byte)value
+{
+    env3Decay=value;
+}
+-(void)setEnv3Sustain:(Byte)value
+{
+    env3Sustain=value;
+}
+-(void)setEnv3Release:(Byte)value
+{
+    env3Release=value;
+}
+-(void)setEnv3Velocity:(Byte)value
+{
+    env3Velocity=value;
+}
+-(void)setEnv3Delay:(Byte)value
+{
+    env3Delay=value;
+}
+-(void)setEnv2Attack:(Byte)value
+{
+    env2Attack=value;
+}
+-(void)setEnv2Decay:(Byte)value
+{
+    env2Decay=value;
+}
+-(void)setEnv2Sustain:(Byte)value
+{
+    env2Sustain=value;
+}
+-(void)setEnv2Release:(Byte)value
+{
+    env2Release=value;
+}
+-(void)setEnv2Velocity:(Byte)value
+{
+    env2Velocity=value;
+}
+-(void)setEnv2Delay:(Byte)value
+{
+    env2Delay=value;
+}
+-(void)setEnv1Attack:(Byte)value
+{
+    env1Attack=value;
+}
+-(void)setEnv1Decay:(Byte)value
+{
+    env1Decay=value;
+}
+-(void)setEnv1Sustain:(Byte)value
+{
+    env1Sustain=value;
+}
+-(void)setEnv1Release:(Byte)value
+{
+    env1Release=value;
+}
+-(void)setEnv1Velocity:(Byte)value
+{
+    env1Velocity=value;
+}
+-(void)setNoiseSoften:(Byte)value
+{
+    noiseSoften=value;
+}
+-(void)setFilterOverdrive:(Byte)value
+{
+    filterOverdrive=value;
+}
+-(void)setFilterFrequency:(Byte)value
+{
+    filterFrequency=value;
+}
+-(void)setFilterTracking:(Byte)value
+{
+    filterTracking=value;
+}
+-(void)setFilterResonance:(Byte)value
+{
+    filterResonance=value;
+}
+-(void)setArpSpeed:(Byte)value
+{
+    arpSpeed=value;
+}
+-(void)setArpPattern:(Byte)value
+{
+    arpPattern=value;
+}
+-(void)setArpLatch:(Byte)value
+{
+    arpLatch=value;
+}
+-(void)setDistortionSend:(Byte)value
+{
+    distortionSend=value;
+}
+-(void)setDistortionWheel:(Byte)value
+{
+    distortionWheel=value;
+}
+-(void)setPanPosition:(Byte)value
+{
+    panPosition=value;
+}
+-(void)setReverbSend:(Byte)value
+{
+    reverbSend=value;
+}
+-(void)setReverbWheel:(Byte)value
+{
+    reverbWheel=value;
+}
+-(void)setReverbDecay:(Byte)value
+{
+    reverbDecay=value;
+}
+-(void)setReverbHfDamp:(Byte)value
+{
+    reverbHfDamp=value;
+}
+-(void)setChorusSend:(Byte)value
+{
+    chorusSend=value;
+}
+-(void)setChorusWheel:(Byte)value
+{
+    chorusWheel=value;
+}
+-(void)setChorusSpeed:(Byte)value
+{
+    chorusSpeed=value;
+}
+-(void)setChorusModDepth:(Byte)value
+{
+    chorusModDepth=value;
+}
+-(void)setChorusFeedback:(Byte)value
+{
+    chorusFeedback=value;
+}
+-(void)setDelaySend:(Byte)value
+{
+    delaySend=value;
+}
+-(void)setDelayWheel:(Byte)value
+{
+    delayWheel=value;
+}
+-(void)setDelayTime:(Byte)value
+{
+    delayTime=value;
+}
+-(void)setDelayFeedback:(Byte)value
+{
+    delayFeedback=value;
+}
+-(void)setDelayHfDamp:(Byte)value
+{
+    delayHfDamp=value;
+}
+-(void)setConfigMorph:(Byte)value
+{
+    configMorph=value;
+}
+-(void)setOsc1PitchEnv2:(Byte)value
+{
+    osc1PitchEnv2=value;
+}
+-(void)setOsc1PitchEnv3:(Byte)value
+{
+    osc1PitchEnv3=value;
+}
+-(void)setOsc1PitchLfo1:(Byte)value
+{
+    osc1PitchLfo1=value;
+}
+-(void)setOsc1SoftenEnv2:(Byte)value
+{
+    osc1SoftenEnv2=value;
+}
+-(void)setOsc1WidthEnv2:(Byte)value
+{
+    osc1WidthEnv2=value;
+}
+-(void)setOsc1WidthLfo1:(Byte)value
+{
+    osc1WidthLfo1=value;
+}
+-(void)setOsc1WidthLfo2:(Byte)value
+{
+    osc1WidthLfo2=value;
+}
+-(void)setOsc1SyncEnv2:(Byte)value
+{
+    osc1SyncEnv2=value;
+}
+-(void)setOsc1SyncLfo1:(Byte)value
+{
+    osc1SyncLfo1=value;
+}
+-(void)setOsc2PitchEnv2:(Byte)value
+{
+    osc2PitchEnv2=value;
+}
+-(void)setOsc2PitchEnv3:(Byte)value
+{
+    osc2PitchEnv3=value;
+}
+-(void)setOsc2PitchLfo1:(Byte)value
+{
+    osc2PitchLfo1=value;
+}
+-(void)setOsc2SoftenEnv2:(Byte)value
+{
+    osc2SoftenEnv2=value;
+}
+-(void)setOsc2WidthEnv2:(Byte)value
+{
+    osc2WidthEnv2=value;
+}
+-(void)setOsc2WidthLfo1:(Byte)value
+{
+    osc2WidthLfo1=value;
+}
+-(void)setOsc2WidthLfo2:(Byte)value
+{
+    osc2WidthLfo2=value;
+}
+-(void)setOsc2SyncEnv2:(Byte)value
+{
+    osc2SyncEnv2=value;
+}
+-(void)setOsc2SyncLfo1:(Byte)value
+{
+    osc2SyncLfo1=value;
+}
+-(void)setOsc3PitchEnv2:(Byte)value
+{
+    osc3PitchEnv2=value;
+}
+-(void)setOsc3PitchEnv3:(Byte)value
+{
+    osc3PitchEnv3=value;
+}
+-(void)setOsc3PitchLfo1:(Byte)value
+{
+    osc3PitchLfo1=value;
+}
+-(void)setOsc3SoftenEnv2:(Byte)value
+{
+    osc3SoftenEnv2=value;
+}
+-(void)setOsc3WidthEnv2:(Byte)value
+{
+    osc3WidthEnv2=value;
+}
+-(void)setOsc3WidthLfo1:(Byte)value
+{
+    osc3WidthLfo1=value;
+}
+-(void)setOsc3WidthLfo2:(Byte)value
+{
+    osc3WidthLfo2=value;
+}
+-(void)setOsc3SyncEnv2:(Byte)value
+{
+    osc3SyncEnv2=value;
+}
+-(void)setOsc3SyncLfo1:(Byte)value
+{
+    osc3SyncLfo1=value;
+}
+-(void)setOsc1MixEnv2:(Byte)value
+{
+    osc1MixEnv2=value;
+}
+-(void)setOsc2MixEnv2:(Byte)value
+{
+    osc2MixEnv2=value;
+}
+-(void)setOsc3MixEnv2:(Byte)value
+{
+    osc3MixEnv2=value;
+}
+-(void)setFilterFrequencyEnv2:(Byte)value
+{
+    filterFrequencyEnv2=value;
+}
+-(void)setFilterFrequencyEnv3:(Byte)value
+{
+    filterFrequencyEnv3=value;
+}
+-(void)setFilterFrequencyLfo1:(Byte)value
+{
+    filterFrequencyLfo1=value;
+}
+-(void)setFilterFrequencyLfo2:(Byte)value
+{
+    filterFrequencyLfo2=value;
+}
+-(void)setFilterResonanceEnv2:(Byte)value
+{
+    filterResonanceEnv2=value;
+}
+-(void)setFilterResonanceEnv3:(Byte)value
+{
+    filterResonanceEnv3=value;
+}
+-(void)setFilterResonanceLfo1:(Byte)value
+{
+    filterResonanceLfo1=value;
+}
+-(void)setFilterResonanceLfo2:(Byte)value
+{
+    filterResonanceLfo2=value;
+}
+-(void)setLfo1Env3SpeedMod:(Byte)value
+{
+    lfo1Env3SpeedMod=value;
+}
+-(void)setLfo2Env3SpeedMod:(Byte)value
+{
+    lfo2Env3SpeedMod=value;
+}
+-(void)setNoiseMixEnv2:(Byte)value
+{
+    noiseMixEnv2=value;
+}

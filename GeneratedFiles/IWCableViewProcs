@@ -1,0 +1,1000 @@
+-(void)drawOsc1PitchLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1PitchLfo2Start end:osc1PitchLfo2End];
+}
+-(void)drawOsc1PitchLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc1PitchLfo2Colour] start:osc1PitchLfo2Start end:osc1PitchLfo2End];
+}
+-(void)drawOsc1PitchWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1PitchWheelStart end:osc1PitchWheelEnd];
+}
+-(void)drawOsc1PitchWheel:(int)width
+{
+    [self drawLine:width colour:[self osc1PitchWheelColour] start:osc1PitchWheelStart end:osc1PitchWheelEnd];
+}
+-(void)drawOsc1WidthEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WidthEnv3Start end:osc1WidthEnv3End];
+}
+-(void)drawOsc1WidthEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc1WidthEnv3Colour] start:osc1WidthEnv3Start end:osc1WidthEnv3End];
+}
+-(void)drawOsc1WidthWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WidthWheelStart end:osc1WidthWheelEnd];
+}
+-(void)drawOsc1WidthWheel:(int)width
+{
+    [self drawLine:width colour:[self osc1WidthWheelColour] start:osc1WidthWheelStart end:osc1WidthWheelEnd];
+}
+-(void)drawOsc1SyncEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SyncEnv3Start end:osc1SyncEnv3End];
+}
+-(void)drawOsc1SyncEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc1SyncEnv3Colour] start:osc1SyncEnv3Start end:osc1SyncEnv3End];
+}
+-(void)drawOsc1SyncLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SyncLfo2Start end:osc1SyncLfo2End];
+}
+-(void)drawOsc1SyncLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc1SyncLfo2Colour] start:osc1SyncLfo2Start end:osc1SyncLfo2End];
+}
+-(void)drawOsc1SyncWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SyncWheelStart end:osc1SyncWheelEnd];
+}
+-(void)drawOsc1SyncWheel:(int)width
+{
+    [self drawLine:width colour:[self osc1SyncWheelColour] start:osc1SyncWheelStart end:osc1SyncWheelEnd];
+}
+-(void)drawOsc1SoftenEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SoftenEnv3Start end:osc1SoftenEnv3End];
+}
+-(void)drawOsc1SoftenEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc1SoftenEnv3Colour] start:osc1SoftenEnv3Start end:osc1SoftenEnv3End];
+}
+-(void)drawOsc1SoftenLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SoftenLfo1Start end:osc1SoftenLfo1End];
+}
+-(void)drawOsc1SoftenLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1SoftenLfo1Colour] start:osc1SoftenLfo1Start end:osc1SoftenLfo1End];
+}
+-(void)drawOsc1SoftenLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SoftenLfo2Start end:osc1SoftenLfo2End];
+}
+-(void)drawOsc1SoftenLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc1SoftenLfo2Colour] start:osc1SoftenLfo2Start end:osc1SoftenLfo2End];
+}
+-(void)drawOsc1SoftenWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SoftenWheelStart end:osc1SoftenWheelEnd];
+}
+-(void)drawOsc1SoftenWheel:(int)width
+{
+    [self drawLine:width colour:[self osc1SoftenWheelColour] start:osc1SoftenWheelStart end:osc1SoftenWheelEnd];
+}
+-(void)drawOsc1MixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1MixEnv3Start end:osc1MixEnv3End];
+}
+-(void)drawOsc1MixEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc1MixEnv3Colour] start:osc1MixEnv3Start end:osc1MixEnv3End];
+}
+-(void)drawOsc1MixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1MixLfo1Start end:osc1MixLfo1End];
+}
+-(void)drawOsc1MixLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1MixLfo1Colour] start:osc1MixLfo1Start end:osc1MixLfo1End];
+}
+-(void)drawOsc1MixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1MixLfo2Start end:osc1MixLfo2End];
+}
+-(void)drawOsc1MixLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc1MixLfo2Colour] start:osc1MixLfo2Start end:osc1MixLfo2End];
+}
+-(void)drawOsc1MixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1MixWheelStart end:osc1MixWheelEnd];
+}
+-(void)drawOsc1MixWheel:(int)width
+{
+    [self drawLine:width colour:[self osc1MixWheelColour] start:osc1MixWheelStart end:osc1MixWheelEnd];
+}
+-(void)drawOsc2PitchLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2PitchLfo2Start end:osc2PitchLfo2End];
+}
+-(void)drawOsc2PitchLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc2PitchLfo2Colour] start:osc2PitchLfo2Start end:osc2PitchLfo2End];
+}
+-(void)drawOsc2PitchWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2PitchWheelStart end:osc2PitchWheelEnd];
+}
+-(void)drawOsc2PitchWheel:(int)width
+{
+    [self drawLine:width colour:[self osc2PitchWheelColour] start:osc2PitchWheelStart end:osc2PitchWheelEnd];
+}
+-(void)drawOsc2WidthEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WidthEnv3Start end:osc2WidthEnv3End];
+}
+-(void)drawOsc2WidthEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc2WidthEnv3Colour] start:osc2WidthEnv3Start end:osc2WidthEnv3End];
+}
+-(void)drawOsc2WidthWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WidthWheelStart end:osc2WidthWheelEnd];
+}
+-(void)drawOsc2WidthWheel:(int)width
+{
+    [self drawLine:width colour:[self osc2WidthWheelColour] start:osc2WidthWheelStart end:osc2WidthWheelEnd];
+}
+-(void)drawOsc2SyncEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SyncEnv3Start end:osc2SyncEnv3End];
+}
+-(void)drawOsc2SyncEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc2SyncEnv3Colour] start:osc2SyncEnv3Start end:osc2SyncEnv3End];
+}
+-(void)drawOsc2SyncLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SyncLfo2Start end:osc2SyncLfo2End];
+}
+-(void)drawOsc2SyncLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc2SyncLfo2Colour] start:osc2SyncLfo2Start end:osc2SyncLfo2End];
+}
+-(void)drawOsc2SyncWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SyncWheelStart end:osc2SyncWheelEnd];
+}
+-(void)drawOsc2SyncWheel:(int)width
+{
+    [self drawLine:width colour:[self osc2SyncWheelColour] start:osc2SyncWheelStart end:osc2SyncWheelEnd];
+}
+-(void)drawOsc2SoftenEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SoftenEnv3Start end:osc2SoftenEnv3End];
+}
+-(void)drawOsc2SoftenEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc2SoftenEnv3Colour] start:osc2SoftenEnv3Start end:osc2SoftenEnv3End];
+}
+-(void)drawOsc2SoftenLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SoftenLfo1Start end:osc2SoftenLfo1End];
+}
+-(void)drawOsc2SoftenLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2SoftenLfo1Colour] start:osc2SoftenLfo1Start end:osc2SoftenLfo1End];
+}
+-(void)drawOsc2SoftenLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SoftenLfo2Start end:osc2SoftenLfo2End];
+}
+-(void)drawOsc2SoftenLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc2SoftenLfo2Colour] start:osc2SoftenLfo2Start end:osc2SoftenLfo2End];
+}
+-(void)drawOsc2SoftenWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SoftenWheelStart end:osc2SoftenWheelEnd];
+}
+-(void)drawOsc2SoftenWheel:(int)width
+{
+    [self drawLine:width colour:[self osc2SoftenWheelColour] start:osc2SoftenWheelStart end:osc2SoftenWheelEnd];
+}
+-(void)drawOsc2MixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2MixEnv3Start end:osc2MixEnv3End];
+}
+-(void)drawOsc2MixEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc2MixEnv3Colour] start:osc2MixEnv3Start end:osc2MixEnv3End];
+}
+-(void)drawOsc2MixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2MixLfo1Start end:osc2MixLfo1End];
+}
+-(void)drawOsc2MixLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2MixLfo1Colour] start:osc2MixLfo1Start end:osc2MixLfo1End];
+}
+-(void)drawOsc2MixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2MixLfo2Start end:osc2MixLfo2End];
+}
+-(void)drawOsc2MixLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc2MixLfo2Colour] start:osc2MixLfo2Start end:osc2MixLfo2End];
+}
+-(void)drawOsc2MixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2MixWheelStart end:osc2MixWheelEnd];
+}
+-(void)drawOsc2MixWheel:(int)width
+{
+    [self drawLine:width colour:[self osc2MixWheelColour] start:osc2MixWheelStart end:osc2MixWheelEnd];
+}
+-(void)drawOsc3PitchLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3PitchLfo2Start end:osc3PitchLfo2End];
+}
+-(void)drawOsc3PitchLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc3PitchLfo2Colour] start:osc3PitchLfo2Start end:osc3PitchLfo2End];
+}
+-(void)drawOsc3PitchWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3PitchWheelStart end:osc3PitchWheelEnd];
+}
+-(void)drawOsc3PitchWheel:(int)width
+{
+    [self drawLine:width colour:[self osc3PitchWheelColour] start:osc3PitchWheelStart end:osc3PitchWheelEnd];
+}
+-(void)drawOsc3WidthEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WidthEnv3Start end:osc3WidthEnv3End];
+}
+-(void)drawOsc3WidthEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc3WidthEnv3Colour] start:osc3WidthEnv3Start end:osc3WidthEnv3End];
+}
+-(void)drawOsc3WidthWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WidthWheelStart end:osc3WidthWheelEnd];
+}
+-(void)drawOsc3WidthWheel:(int)width
+{
+    [self drawLine:width colour:[self osc3WidthWheelColour] start:osc3WidthWheelStart end:osc3WidthWheelEnd];
+}
+-(void)drawOsc3SyncEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SyncEnv3Start end:osc3SyncEnv3End];
+}
+-(void)drawOsc3SyncEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc3SyncEnv3Colour] start:osc3SyncEnv3Start end:osc3SyncEnv3End];
+}
+-(void)drawOsc3SyncLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SyncLfo2Start end:osc3SyncLfo2End];
+}
+-(void)drawOsc3SyncLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc3SyncLfo2Colour] start:osc3SyncLfo2Start end:osc3SyncLfo2End];
+}
+-(void)drawOsc3SyncWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SyncWheelStart end:osc3SyncWheelEnd];
+}
+-(void)drawOsc3SyncWheel:(int)width
+{
+    [self drawLine:width colour:[self osc3SyncWheelColour] start:osc3SyncWheelStart end:osc3SyncWheelEnd];
+}
+-(void)drawOsc3SoftenEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SoftenEnv3Start end:osc3SoftenEnv3End];
+}
+-(void)drawOsc3SoftenEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc3SoftenEnv3Colour] start:osc3SoftenEnv3Start end:osc3SoftenEnv3End];
+}
+-(void)drawOsc3SoftenLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SoftenLfo1Start end:osc3SoftenLfo1End];
+}
+-(void)drawOsc3SoftenLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3SoftenLfo1Colour] start:osc3SoftenLfo1Start end:osc3SoftenLfo1End];
+}
+-(void)drawOsc3SoftenLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SoftenLfo2Start end:osc3SoftenLfo2End];
+}
+-(void)drawOsc3SoftenLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc3SoftenLfo2Colour] start:osc3SoftenLfo2Start end:osc3SoftenLfo2End];
+}
+-(void)drawOsc3SoftenWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SoftenWheelStart end:osc3SoftenWheelEnd];
+}
+-(void)drawOsc3SoftenWheel:(int)width
+{
+    [self drawLine:width colour:[self osc3SoftenWheelColour] start:osc3SoftenWheelStart end:osc3SoftenWheelEnd];
+}
+-(void)drawOsc3MixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3MixEnv3Start end:osc3MixEnv3End];
+}
+-(void)drawOsc3MixEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc3MixEnv3Colour] start:osc3MixEnv3Start end:osc3MixEnv3End];
+}
+-(void)drawOsc3MixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3MixLfo1Start end:osc3MixLfo1End];
+}
+-(void)drawOsc3MixLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3MixLfo1Colour] start:osc3MixLfo1Start end:osc3MixLfo1End];
+}
+-(void)drawOsc3MixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3MixLfo2Start end:osc3MixLfo2End];
+}
+-(void)drawOsc3MixLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc3MixLfo2Colour] start:osc3MixLfo2Start end:osc3MixLfo2End];
+}
+-(void)drawOsc3MixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3MixWheelStart end:osc3MixWheelEnd];
+}
+-(void)drawOsc3MixWheel:(int)width
+{
+    [self drawLine:width colour:[self osc3MixWheelColour] start:osc3MixWheelStart end:osc3MixWheelEnd];
+}
+-(void)drawRingMod13MixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod13MixEnv2Start end:ringMod13MixEnv2End];
+}
+-(void)drawRingMod13MixEnv2:(int)width
+{
+    [self drawLine:width colour:[self ringMod13MixEnv2Colour] start:ringMod13MixEnv2Start end:ringMod13MixEnv2End];
+}
+-(void)drawRingMod13MixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod13MixEnv3Start end:ringMod13MixEnv3End];
+}
+-(void)drawRingMod13MixEnv3:(int)width
+{
+    [self drawLine:width colour:[self ringMod13MixEnv3Colour] start:ringMod13MixEnv3Start end:ringMod13MixEnv3End];
+}
+-(void)drawRingMod13MixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod13MixLfo1Start end:ringMod13MixLfo1End];
+}
+-(void)drawRingMod13MixLfo1:(int)width
+{
+    [self drawLine:width colour:[self ringMod13MixLfo1Colour] start:ringMod13MixLfo1Start end:ringMod13MixLfo1End];
+}
+-(void)drawRingMod13MixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod13MixLfo2Start end:ringMod13MixLfo2End];
+}
+-(void)drawRingMod13MixLfo2:(int)width
+{
+    [self drawLine:width colour:[self ringMod13MixLfo2Colour] start:ringMod13MixLfo2Start end:ringMod13MixLfo2End];
+}
+-(void)drawRingMod13MixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod13MixWheelStart end:ringMod13MixWheelEnd];
+}
+-(void)drawRingMod13MixWheel:(int)width
+{
+    [self drawLine:width colour:[self ringMod13MixWheelColour] start:ringMod13MixWheelStart end:ringMod13MixWheelEnd];
+}
+-(void)drawRingMod23MixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod23MixEnv2Start end:ringMod23MixEnv2End];
+}
+-(void)drawRingMod23MixEnv2:(int)width
+{
+    [self drawLine:width colour:[self ringMod23MixEnv2Colour] start:ringMod23MixEnv2Start end:ringMod23MixEnv2End];
+}
+-(void)drawRingMod23MixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod23MixEnv3Start end:ringMod23MixEnv3End];
+}
+-(void)drawRingMod23MixEnv3:(int)width
+{
+    [self drawLine:width colour:[self ringMod23MixEnv3Colour] start:ringMod23MixEnv3Start end:ringMod23MixEnv3End];
+}
+-(void)drawRingMod23MixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod23MixLfo1Start end:ringMod23MixLfo1End];
+}
+-(void)drawRingMod23MixLfo1:(int)width
+{
+    [self drawLine:width colour:[self ringMod23MixLfo1Colour] start:ringMod23MixLfo1Start end:ringMod23MixLfo1End];
+}
+-(void)drawRingMod23MixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod23MixLfo2Start end:ringMod23MixLfo2End];
+}
+-(void)drawRingMod23MixLfo2:(int)width
+{
+    [self drawLine:width colour:[self ringMod23MixLfo2Colour] start:ringMod23MixLfo2Start end:ringMod23MixLfo2End];
+}
+-(void)drawRingMod23MixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:ringMod23MixWheelStart end:ringMod23MixWheelEnd];
+}
+-(void)drawRingMod23MixWheel:(int)width
+{
+    [self drawLine:width colour:[self ringMod23MixWheelColour] start:ringMod23MixWheelStart end:ringMod23MixWheelEnd];
+}
+-(void)drawNoiseSoftenEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseSoftenEnv2Start end:noiseSoftenEnv2End];
+}
+-(void)drawNoiseSoftenEnv2:(int)width
+{
+    [self drawLine:width colour:[self noiseSoftenEnv2Colour] start:noiseSoftenEnv2Start end:noiseSoftenEnv2End];
+}
+-(void)drawNoiseSoftenEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseSoftenEnv3Start end:noiseSoftenEnv3End];
+}
+-(void)drawNoiseSoftenEnv3:(int)width
+{
+    [self drawLine:width colour:[self noiseSoftenEnv3Colour] start:noiseSoftenEnv3Start end:noiseSoftenEnv3End];
+}
+-(void)drawNoiseSoftenLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseSoftenLfo1Start end:noiseSoftenLfo1End];
+}
+-(void)drawNoiseSoftenLfo1:(int)width
+{
+    [self drawLine:width colour:[self noiseSoftenLfo1Colour] start:noiseSoftenLfo1Start end:noiseSoftenLfo1End];
+}
+-(void)drawNoiseSoftenLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseSoftenLfo2Start end:noiseSoftenLfo2End];
+}
+-(void)drawNoiseSoftenLfo2:(int)width
+{
+    [self drawLine:width colour:[self noiseSoftenLfo2Colour] start:noiseSoftenLfo2Start end:noiseSoftenLfo2End];
+}
+-(void)drawNoiseSoftenWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseSoftenWheelStart end:noiseSoftenWheelEnd];
+}
+-(void)drawNoiseSoftenWheel:(int)width
+{
+    [self drawLine:width colour:[self noiseSoftenWheelColour] start:noiseSoftenWheelStart end:noiseSoftenWheelEnd];
+}
+-(void)drawNoiseMixEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseMixEnv3Start end:noiseMixEnv3End];
+}
+-(void)drawNoiseMixEnv3:(int)width
+{
+    [self drawLine:width colour:[self noiseMixEnv3Colour] start:noiseMixEnv3Start end:noiseMixEnv3End];
+}
+-(void)drawNoiseMixLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseMixLfo1Start end:noiseMixLfo1End];
+}
+-(void)drawNoiseMixLfo1:(int)width
+{
+    [self drawLine:width colour:[self noiseMixLfo1Colour] start:noiseMixLfo1Start end:noiseMixLfo1End];
+}
+-(void)drawNoiseMixLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseMixLfo2Start end:noiseMixLfo2End];
+}
+-(void)drawNoiseMixLfo2:(int)width
+{
+    [self drawLine:width colour:[self noiseMixLfo2Colour] start:noiseMixLfo2Start end:noiseMixLfo2End];
+}
+-(void)drawNoiseMixWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseMixWheelStart end:noiseMixWheelEnd];
+}
+-(void)drawNoiseMixWheel:(int)width
+{
+    [self drawLine:width colour:[self noiseMixWheelColour] start:noiseMixWheelStart end:noiseMixWheelEnd];
+}
+-(void)drawOsc1WheelLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WheelLfo1Start end:osc1WheelLfo1End];
+}
+-(void)drawOsc1WheelLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1WheelLfo1Colour] start:osc1WheelLfo1Start end:osc1WheelLfo1End];
+}
+-(void)drawOsc2WheelLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WheelLfo1Start end:osc2WheelLfo1End];
+}
+-(void)drawOsc2WheelLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2WheelLfo1Colour] start:osc2WheelLfo1Start end:osc2WheelLfo1End];
+}
+-(void)drawOsc3WheelLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WheelLfo1Start end:osc3WheelLfo1End];
+}
+-(void)drawOsc3WheelLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3WheelLfo1Colour] start:osc3WheelLfo1Start end:osc3WheelLfo1End];
+}
+-(void)drawOsc1AfterTouchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1AfterTouchLfo1Start end:osc1AfterTouchLfo1End];
+}
+-(void)drawOsc1AfterTouchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1AfterTouchLfo1Colour] start:osc1AfterTouchLfo1Start end:osc1AfterTouchLfo1End];
+}
+-(void)drawOsc2AfterTouchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2AfterTouchLfo1Start end:osc2AfterTouchLfo1End];
+}
+-(void)drawOsc2AfterTouchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2AfterTouchLfo1Colour] start:osc2AfterTouchLfo1Start end:osc2AfterTouchLfo1End];
+}
+-(void)drawOsc3AfterTouchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3AfterTouchLfo1Start end:osc3AfterTouchLfo1End];
+}
+-(void)drawOsc3AfterTouchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3AfterTouchLfo1Colour] start:osc3AfterTouchLfo1Start end:osc3AfterTouchLfo1End];
+}
+-(void)drawLfo1AfterTouchSpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo1AfterTouchSpeedModStart end:lfo1AfterTouchSpeedModEnd];
+}
+-(void)drawLfo1AfterTouchSpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo1AfterTouchSpeedModColour] start:lfo1AfterTouchSpeedModStart end:lfo1AfterTouchSpeedModEnd];
+}
+-(void)drawLfo2AfterTouchSpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo2AfterTouchSpeedModStart end:lfo2AfterTouchSpeedModEnd];
+}
+-(void)drawLfo2AfterTouchSpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo2AfterTouchSpeedModColour] start:lfo2AfterTouchSpeedModStart end:lfo2AfterTouchSpeedModEnd];
+}
+-(void)drawFilterFrequencyWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyWheelStart end:filterFrequencyWheelEnd];
+}
+-(void)drawFilterFrequencyWheel:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyWheelColour] start:filterFrequencyWheelStart end:filterFrequencyWheelEnd];
+}
+-(void)drawFilterResonanceWheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceWheelStart end:filterResonanceWheelEnd];
+}
+-(void)drawFilterResonanceWheel:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceWheelColour] start:filterResonanceWheelStart end:filterResonanceWheelEnd];
+}
+-(void)drawFilterFrequencyWheelLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyWheelLfo2Start end:filterFrequencyWheelLfo2End];
+}
+-(void)drawFilterFrequencyWheelLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyWheelLfo2Colour] start:filterFrequencyWheelLfo2Start end:filterFrequencyWheelLfo2End];
+}
+-(void)drawFilterResonanceWheelLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceWheelLfo2Start end:filterResonanceWheelLfo2End];
+}
+-(void)drawFilterResonanceWheelLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceWheelLfo2Colour] start:filterResonanceWheelLfo2Start end:filterResonanceWheelLfo2End];
+}
+-(void)drawFilterFrequencyAfterTouchLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyAfterTouchLfo2Start end:filterFrequencyAfterTouchLfo2End];
+}
+-(void)drawFilterFrequencyAfterTouchLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyAfterTouchLfo2Colour] start:filterFrequencyAfterTouchLfo2Start end:filterFrequencyAfterTouchLfo2End];
+}
+-(void)drawFilterResonanceAfterTouchLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceAfterTouchLfo2Start end:filterResonanceAfterTouchLfo2End];
+}
+-(void)drawFilterResonanceAfterTouchLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceAfterTouchLfo2Colour] start:filterResonanceAfterTouchLfo2Start end:filterResonanceAfterTouchLfo2End];
+}
+-(void)drawFilterFrequencyAfterTouch:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyAfterTouchStart end:filterFrequencyAfterTouchEnd];
+}
+-(void)drawFilterFrequencyAfterTouch:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyAfterTouchColour] start:filterFrequencyAfterTouchStart end:filterFrequencyAfterTouchEnd];
+}
+-(void)drawFilterResonanceAfterTouch:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceAfterTouchStart end:filterResonanceAfterTouchEnd];
+}
+-(void)drawFilterResonanceAfterTouch:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceAfterTouchColour] start:filterResonanceAfterTouchStart end:filterResonanceAfterTouchEnd];
+}
+-(void)drawLfo1WheelSpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo1WheelSpeedModStart end:lfo1WheelSpeedModEnd];
+}
+-(void)drawLfo1WheelSpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo1WheelSpeedModColour] start:lfo1WheelSpeedModStart end:lfo1WheelSpeedModEnd];
+}
+-(void)drawLfo2WheelSpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo2WheelSpeedModStart end:lfo2WheelSpeedModEnd];
+}
+-(void)drawLfo2WheelSpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo2WheelSpeedModColour] start:lfo2WheelSpeedModStart end:lfo2WheelSpeedModEnd];
+}
+-(void)drawEnv1Wheel:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:env1WheelStart end:env1WheelEnd];
+}
+-(void)drawEnv1Wheel:(int)width
+{
+    [self drawLine:width colour:[self env1WheelColour] start:env1WheelStart end:env1WheelEnd];
+}
+-(void)drawEnv1AfterTouch:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:env1AfterTouchStart end:env1AfterTouchEnd];
+}
+-(void)drawEnv1AfterTouch:(int)width
+{
+    [self drawLine:width colour:[self env1AfterTouchColour] start:env1AfterTouchStart end:env1AfterTouchEnd];
+}
+-(void)drawOsc1PitchEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1PitchEnv2Start end:osc1PitchEnv2End];
+}
+-(void)drawOsc1PitchEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc1PitchEnv2Colour] start:osc1PitchEnv2Start end:osc1PitchEnv2End];
+}
+-(void)drawOsc1PitchEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1PitchEnv3Start end:osc1PitchEnv3End];
+}
+-(void)drawOsc1PitchEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc1PitchEnv3Colour] start:osc1PitchEnv3Start end:osc1PitchEnv3End];
+}
+-(void)drawOsc1PitchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1PitchLfo1Start end:osc1PitchLfo1End];
+}
+-(void)drawOsc1PitchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1PitchLfo1Colour] start:osc1PitchLfo1Start end:osc1PitchLfo1End];
+}
+-(void)drawOsc1SoftenEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SoftenEnv2Start end:osc1SoftenEnv2End];
+}
+-(void)drawOsc1SoftenEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc1SoftenEnv2Colour] start:osc1SoftenEnv2Start end:osc1SoftenEnv2End];
+}
+-(void)drawOsc1WidthEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WidthEnv2Start end:osc1WidthEnv2End];
+}
+-(void)drawOsc1WidthEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc1WidthEnv2Colour] start:osc1WidthEnv2Start end:osc1WidthEnv2End];
+}
+-(void)drawOsc1WidthLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WidthLfo1Start end:osc1WidthLfo1End];
+}
+-(void)drawOsc1WidthLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1WidthLfo1Colour] start:osc1WidthLfo1Start end:osc1WidthLfo1End];
+}
+-(void)drawOsc1WidthLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1WidthLfo2Start end:osc1WidthLfo2End];
+}
+-(void)drawOsc1WidthLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc1WidthLfo2Colour] start:osc1WidthLfo2Start end:osc1WidthLfo2End];
+}
+-(void)drawOsc1SyncEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SyncEnv2Start end:osc1SyncEnv2End];
+}
+-(void)drawOsc1SyncEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc1SyncEnv2Colour] start:osc1SyncEnv2Start end:osc1SyncEnv2End];
+}
+-(void)drawOsc1SyncLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1SyncLfo1Start end:osc1SyncLfo1End];
+}
+-(void)drawOsc1SyncLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc1SyncLfo1Colour] start:osc1SyncLfo1Start end:osc1SyncLfo1End];
+}
+-(void)drawOsc2PitchEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2PitchEnv2Start end:osc2PitchEnv2End];
+}
+-(void)drawOsc2PitchEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc2PitchEnv2Colour] start:osc2PitchEnv2Start end:osc2PitchEnv2End];
+}
+-(void)drawOsc2PitchEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2PitchEnv3Start end:osc2PitchEnv3End];
+}
+-(void)drawOsc2PitchEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc2PitchEnv3Colour] start:osc2PitchEnv3Start end:osc2PitchEnv3End];
+}
+-(void)drawOsc2PitchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2PitchLfo1Start end:osc2PitchLfo1End];
+}
+-(void)drawOsc2PitchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2PitchLfo1Colour] start:osc2PitchLfo1Start end:osc2PitchLfo1End];
+}
+-(void)drawOsc2SoftenEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SoftenEnv2Start end:osc2SoftenEnv2End];
+}
+-(void)drawOsc2SoftenEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc2SoftenEnv2Colour] start:osc2SoftenEnv2Start end:osc2SoftenEnv2End];
+}
+-(void)drawOsc2WidthEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WidthEnv2Start end:osc2WidthEnv2End];
+}
+-(void)drawOsc2WidthEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc2WidthEnv2Colour] start:osc2WidthEnv2Start end:osc2WidthEnv2End];
+}
+-(void)drawOsc2WidthLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WidthLfo1Start end:osc2WidthLfo1End];
+}
+-(void)drawOsc2WidthLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2WidthLfo1Colour] start:osc2WidthLfo1Start end:osc2WidthLfo1End];
+}
+-(void)drawOsc2WidthLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2WidthLfo2Start end:osc2WidthLfo2End];
+}
+-(void)drawOsc2WidthLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc2WidthLfo2Colour] start:osc2WidthLfo2Start end:osc2WidthLfo2End];
+}
+-(void)drawOsc2SyncEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SyncEnv2Start end:osc2SyncEnv2End];
+}
+-(void)drawOsc2SyncEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc2SyncEnv2Colour] start:osc2SyncEnv2Start end:osc2SyncEnv2End];
+}
+-(void)drawOsc2SyncLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2SyncLfo1Start end:osc2SyncLfo1End];
+}
+-(void)drawOsc2SyncLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc2SyncLfo1Colour] start:osc2SyncLfo1Start end:osc2SyncLfo1End];
+}
+-(void)drawOsc3PitchEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3PitchEnv2Start end:osc3PitchEnv2End];
+}
+-(void)drawOsc3PitchEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc3PitchEnv2Colour] start:osc3PitchEnv2Start end:osc3PitchEnv2End];
+}
+-(void)drawOsc3PitchEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3PitchEnv3Start end:osc3PitchEnv3End];
+}
+-(void)drawOsc3PitchEnv3:(int)width
+{
+    [self drawLine:width colour:[self osc3PitchEnv3Colour] start:osc3PitchEnv3Start end:osc3PitchEnv3End];
+}
+-(void)drawOsc3PitchLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3PitchLfo1Start end:osc3PitchLfo1End];
+}
+-(void)drawOsc3PitchLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3PitchLfo1Colour] start:osc3PitchLfo1Start end:osc3PitchLfo1End];
+}
+-(void)drawOsc3SoftenEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SoftenEnv2Start end:osc3SoftenEnv2End];
+}
+-(void)drawOsc3SoftenEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc3SoftenEnv2Colour] start:osc3SoftenEnv2Start end:osc3SoftenEnv2End];
+}
+-(void)drawOsc3WidthEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WidthEnv2Start end:osc3WidthEnv2End];
+}
+-(void)drawOsc3WidthEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc3WidthEnv2Colour] start:osc3WidthEnv2Start end:osc3WidthEnv2End];
+}
+-(void)drawOsc3WidthLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WidthLfo1Start end:osc3WidthLfo1End];
+}
+-(void)drawOsc3WidthLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3WidthLfo1Colour] start:osc3WidthLfo1Start end:osc3WidthLfo1End];
+}
+-(void)drawOsc3WidthLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3WidthLfo2Start end:osc3WidthLfo2End];
+}
+-(void)drawOsc3WidthLfo2:(int)width
+{
+    [self drawLine:width colour:[self osc3WidthLfo2Colour] start:osc3WidthLfo2Start end:osc3WidthLfo2End];
+}
+-(void)drawOsc3SyncEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SyncEnv2Start end:osc3SyncEnv2End];
+}
+-(void)drawOsc3SyncEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc3SyncEnv2Colour] start:osc3SyncEnv2Start end:osc3SyncEnv2End];
+}
+-(void)drawOsc3SyncLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3SyncLfo1Start end:osc3SyncLfo1End];
+}
+-(void)drawOsc3SyncLfo1:(int)width
+{
+    [self drawLine:width colour:[self osc3SyncLfo1Colour] start:osc3SyncLfo1Start end:osc3SyncLfo1End];
+}
+-(void)drawOsc1MixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc1MixEnv2Start end:osc1MixEnv2End];
+}
+-(void)drawOsc1MixEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc1MixEnv2Colour] start:osc1MixEnv2Start end:osc1MixEnv2End];
+}
+-(void)drawOsc2MixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc2MixEnv2Start end:osc2MixEnv2End];
+}
+-(void)drawOsc2MixEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc2MixEnv2Colour] start:osc2MixEnv2Start end:osc2MixEnv2End];
+}
+-(void)drawOsc3MixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:osc3MixEnv2Start end:osc3MixEnv2End];
+}
+-(void)drawOsc3MixEnv2:(int)width
+{
+    [self drawLine:width colour:[self osc3MixEnv2Colour] start:osc3MixEnv2Start end:osc3MixEnv2End];
+}
+-(void)drawFilterFrequencyEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyEnv2Start end:filterFrequencyEnv2End];
+}
+-(void)drawFilterFrequencyEnv2:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyEnv2Colour] start:filterFrequencyEnv2Start end:filterFrequencyEnv2End];
+}
+-(void)drawFilterFrequencyEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyEnv3Start end:filterFrequencyEnv3End];
+}
+-(void)drawFilterFrequencyEnv3:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyEnv3Colour] start:filterFrequencyEnv3Start end:filterFrequencyEnv3End];
+}
+-(void)drawFilterFrequencyLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyLfo1Start end:filterFrequencyLfo1End];
+}
+-(void)drawFilterFrequencyLfo1:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyLfo1Colour] start:filterFrequencyLfo1Start end:filterFrequencyLfo1End];
+}
+-(void)drawFilterFrequencyLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterFrequencyLfo2Start end:filterFrequencyLfo2End];
+}
+-(void)drawFilterFrequencyLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterFrequencyLfo2Colour] start:filterFrequencyLfo2Start end:filterFrequencyLfo2End];
+}
+-(void)drawFilterResonanceEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceEnv2Start end:filterResonanceEnv2End];
+}
+-(void)drawFilterResonanceEnv2:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceEnv2Colour] start:filterResonanceEnv2Start end:filterResonanceEnv2End];
+}
+-(void)drawFilterResonanceEnv3:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceEnv3Start end:filterResonanceEnv3End];
+}
+-(void)drawFilterResonanceEnv3:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceEnv3Colour] start:filterResonanceEnv3Start end:filterResonanceEnv3End];
+}
+-(void)drawFilterResonanceLfo1:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceLfo1Start end:filterResonanceLfo1End];
+}
+-(void)drawFilterResonanceLfo1:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceLfo1Colour] start:filterResonanceLfo1Start end:filterResonanceLfo1End];
+}
+-(void)drawFilterResonanceLfo2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:filterResonanceLfo2Start end:filterResonanceLfo2End];
+}
+-(void)drawFilterResonanceLfo2:(int)width
+{
+    [self drawLine:width colour:[self filterResonanceLfo2Colour] start:filterResonanceLfo2Start end:filterResonanceLfo2End];
+}
+-(void)drawLfo1Env3SpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo1Env3SpeedModStart end:lfo1Env3SpeedModEnd];
+}
+-(void)drawLfo1Env3SpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo1Env3SpeedModColour] start:lfo1Env3SpeedModStart end:lfo1Env3SpeedModEnd];
+}
+-(void)drawLfo2Env3SpeedMod:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:lfo2Env3SpeedModStart end:lfo2Env3SpeedModEnd];
+}
+-(void)drawLfo2Env3SpeedMod:(int)width
+{
+    [self drawLine:width colour:[self lfo2Env3SpeedModColour] start:lfo2Env3SpeedModStart end:lfo2Env3SpeedModEnd];
+}
+-(void)drawNoiseMixEnv2:(int)width colour:(NSColor *)colour
+{
+    [self drawLine:width colour:colour start:noiseMixEnv2Start end:noiseMixEnv2End];
+}
+-(void)drawNoiseMixEnv2:(int)width
+{
+    [self drawLine:width colour:[self noiseMixEnv2Colour] start:noiseMixEnv2Start end:noiseMixEnv2End];
+}

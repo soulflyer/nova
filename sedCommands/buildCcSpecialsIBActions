@@ -1,0 +1,17 @@
+s/^\([0-9]*\)[ ]*\([a-z,A-Z,0-9]*\)[ ]*\([0-9,a-z,A-Z]*\)[ ]*\([0-9]*\)\(.*\)/-(IBAction)\3In:(id)sender\
+{\
+    MIDITimeStamp now = 0;\
+    MIDIPacketList *packetList=(MIDIPacketList *)messageBuffer;\
+    MIDIPacket *packet;\
+    packet=MIDIPacketListInit (packetList);\
+    midiMessage[0]=175+channel;\
+    midiMessage[2]=[sender intValue];\
+    midiMessage[1]=\1;\
+    MIDIPacketListAdd(packetList,sizeof(messageBuffer),packet,now,3,midiMessage);\
+    [program set\2:[sender intValue]];\
+    [destination processMIDIPacketList:packetList sender:self];\
+    [display2 insertText:[NSString localizedStringWithFormat:@"\\nCC %d %d %d",midiMessage[0],midiMessage[1],midiMessage[2]]];\
+    [display insertText:[NSString localizedStringWithFormat:@"\\n\n\2 %d",midiMessage[2]]];\
+    \5\
+}\
+/

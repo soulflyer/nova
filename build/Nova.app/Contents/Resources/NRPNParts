@@ -1,0 +1,12 @@
+osc1Semi                        33   0   0   0  45  69   12 [osc1PitchText setIntValue:([program osc1Oct]-2)*12+[program osc1Semi]-12]; 
+osc2Semi                        67   0   0   0  70  94   12 [osc2PitchText setIntValue:([program osc2Oct]-2)*12+[program osc2Semi]-12]; 
+osc3Semi                       101   0   0   0  95 119   12 [osc3PitchText setIntValue:([program osc3Oct]-2)*12+[program osc3Semi]-12]; 
+breathSens                       0   0   0   1   0   0   0 
+osc1PitchbendRange              35   0   0  84   0  24   0 
+osc2PitchbendRange              69   0   0  84  25  49   0 
+osc3PitchbendRange             103   0   0  84  50  74   0 
+input1Trim                       0   0   0 100  37  57   0 
+input2Trim                       0   0   0 100  58  78   0 
+filterWidth                    218   0   0 100 102 109   0 [filter drawFilter:[program filterType] slope:[program filterDB] frequency:[program filterFrequency] resonance:[program filterResonance] width:[program filterWidth]]; 
+vocoderSibilanceLevel          255   0   0 113  96 111   0 
+vocoderWidth                   262   0   0 113   0   0   0 
