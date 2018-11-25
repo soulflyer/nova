@@ -435,9 +435,15 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = AE3603C71240DA96000C0312 /* Build configuration list for PBXProject "Nova" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = en;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* PYMidiTest */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -698,7 +704,7 @@
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 				DEBUGGING_SYMBOLS = YES;
-				FRAMEWORK_SEARCH_PATHS = /Users/ndiw/prog/Nova;
+				FRAMEWORK_SEARCH_PATHS = /Users/iain/Documents/prog/Nova;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_TRIGRAPHS = NO;
@@ -731,7 +737,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = YES;
-				FRAMEWORK_SEARCH_PATHS = /Users/ndiw/prog/Nova;
+				FRAMEWORK_SEARCH_PATHS = /Users/iain/Documents/prog/Nova;
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -761,7 +767,7 @@
 		AE3603C61240DA96000C0312 /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = /Users/ndiw/prog/Nova;
+				FRAMEWORK_SEARCH_PATHS = /Users/iain/Documents/prog/Nova;
 				GCC_ENABLE_TRIGRAPHS = NO;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
