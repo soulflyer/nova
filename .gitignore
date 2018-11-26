@@ -1,8 +1,5 @@
 .DS_Store
 trunk/
-<<<<<<< HEAD
 *.xcuserstate
 project.xcworkspace/
 xcuserdata/
-=======
->>>>>>> b41394c... add .gitignore
