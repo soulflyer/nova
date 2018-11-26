@@ -33,13 +33,13 @@
     {
         [knobImageVUnlit setSize:knobRect.size];
         [knobImageVUnlit compositeToPoint:NSMakePoint(knobRect.origin.x,knobRect.origin.y+knobRect.size.height)
-                           operation:NSCompositeSourceOver];
+                                operation:NSCompositingOperationSourceOver];
     }   
     else
     {
         [knobImageHUnlit setSize:knobRect.size];
         [knobImageHUnlit compositeToPoint:NSMakePoint(knobRect.origin.x,knobRect.origin.y+knobRect.size.height)
-                           operation:NSCompositeSourceOver];
+                                operation:NSCompositingOperationSourceOver];
     }    
 }
 
@@ -50,13 +50,13 @@
     {
         [knobImageVLit setSize:knobRect.size];
         [knobImageVLit compositeToPoint:NSMakePoint(knobRect.origin.x,knobRect.origin.y+knobRect.size.height)
-                           operation:NSCompositeSourceOver];
+                              operation:NSCompositingOperationSourceOver];
     }   
     else
     {
         [knobImageHLit setSize:knobRect.size];
         [knobImageHLit compositeToPoint:NSMakePoint(knobRect.origin.x,knobRect.origin.y+knobRect.size.height)
-                           operation:NSCompositeSourceOver];
+                              operation:NSCompositingOperationSourceOver];
     }    
 }
 
@@ -85,13 +85,13 @@
     {
         [slotImageV setSize:aRect.size];
         [slotImageV compositeToPoint:NSMakePoint(aRect.origin.x,aRect.origin.y+aRect.size.height)
-                           operation:NSCompositeSourceOver];
+                           operation:NSCompositingOperationSourceOver];
     }   
     else
     {
         [slotImageH setSize:aRect.size];
         [slotImageH compositeToPoint:NSMakePoint(aRect.origin.x,aRect.origin.y+aRect.size.height)
-                           operation:NSCompositeSourceOver];        
+                           operation:NSCompositingOperationSourceOver];
     }
 }
 

@@ -716,7 +716,7 @@ if(osc1Window==nil)
     int i;
     packet=MIDIPacketListInit (packetList);
     NSArray *temp=[[sender stringValue] componentsSeparatedByString:@" "];
-    NSLog(@"%d bytes:-------------------------",[temp count]);
+  NSLog(@"%lu bytes:-------------------------",(unsigned long)[temp count]);
     for(i=0;i<[temp count];i++)
     {
         midiMessage[i]=[[temp objectAtIndex:i] intValue];

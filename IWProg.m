@@ -24,7 +24,7 @@
     // Include the contents of GeneratedFiles/progInitialize
     // Do it by hand so it is poss to change the values
 #include "GeneratedFiles/ProgInitialize"
-/*    [dict setObject:@"0"   forKey:@"osc1Pitch"];
+    [dict setObject:@"0"   forKey:@"osc1Pitch"];
     [dict setObject:@"0"   forKey:@"osc2Pitch"];
     [dict setObject:@"0"   forKey:@"osc3Pitch"];
     [dict setObject:@"0"   forKey:@"osc1FormantWidth"];
@@ -343,7 +343,7 @@
     [dict setObject:@"0"   forKey:@"lfo2WheelSpeedMod"];
     [dict setObject:@"0"   forKey:@"env1Wheel"];
     [dict setObject:@"0"   forKey:@"env1AfterTouch"];
-*/
+
     [defaults registerDefaults:dict];
 }
 
