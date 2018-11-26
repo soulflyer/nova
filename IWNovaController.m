@@ -1,6 +1,6 @@
 #import "IWNovaController.h"
-#import <PYMIDI/PYMIDIManager.h>
-#import <PYMIDI/PYMIDIEndpoint.h>
+#import <PYMIDI13/PYMIDIManager.h>
+#import <PYMIDI13/PYMIDIEndpoint.h>
 #import "MIDICONST.h"
 #import "IWNovaColour.h"
 
