@@ -1,3 +1,15 @@
+# Nova
+
+![Nova](nova.jpg)
+
+An old project, incomplete, but close. Designed to make it easier to understand and change settings on a novation nova. 
+
+Relies on the now unsupported PYMidi library. I have a modified version compiled under OSX 10.13 in another repository that nova uses. This is just to get the thing working again so I can recycle the good bits for a new version which won't rely on any apple products. 
+
+Quite a lot of the code is generated in the build phases. There are hundreds of very similar midi calls, all of which needed getters and setters and initialisation. Rather than hand code them all there are lists in the parameters directory and these are used to generate things using awk and shell.
+
+The notes below are from 2004/2005
+
 Current State:
 
 10th Jan:
