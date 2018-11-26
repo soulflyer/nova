@@ -1,6 +1,6 @@
 #import "IWNovaController.h"
-#import <PYMIDI/PYMIDIManager.h>
-#import <PYMIDI/PYMIDIEndpoint.h>
+#import <PYMIDI13/PYMIDIManager.h>
+#import <PYMIDI13/PYMIDIEndpoint.h>
 #import "MIDICONST.h"
 #import "IWNovaColour.h"
 
@@ -196,29 +196,29 @@
 
 - (void)buildPopUps
 {
-    PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
-    NSArray*        endpointArray;
-    NSEnumerator*   enumerator;
-    PYMIDIEndpoint* endpoint;
-    
-    [sourcePopUp removeAllItems];
-    [destinationPopUp removeAllItems];
-    
-    endpointArray = [manager onlineRealSources];
-    
-    enumerator = [endpointArray objectEnumerator];
-    while (endpoint = [enumerator nextObject]) {
-        [sourcePopUp addItemWithTitle:[endpoint displayName]];
-        [[sourcePopUp lastItem] setRepresentedObject:endpoint];
-    }
-    
-    endpointArray = [manager onlineRealDestinations];
-    
-    enumerator = [endpointArray objectEnumerator];
-    while (endpoint = [enumerator nextObject]) {
-        [destinationPopUp addItemWithTitle:[endpoint displayName]];
-        [[destinationPopUp lastItem] setRepresentedObject:endpoint];
-    }    
+//    PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
+//    NSArray*        endpointArray;
+//    NSEnumerator*   enumerator;
+//    PYMIDIEndpoint* endpoint;
+//    
+//    [sourcePopUp removeAllItems];
+//    [destinationPopUp removeAllItems];
+//    
+//    endpointArray = [manager onlineRealSources];
+//    
+//    enumerator = [endpointArray objectEnumerator];
+//    while (endpoint = [enumerator nextObject]) {
+//        [sourcePopUp addItemWithTitle:[endpoint displayName]];
+//        [[sourcePopUp lastItem] setRepresentedObject:endpoint];
+//    }
+//    
+//    endpointArray = [manager onlineRealDestinations];
+//    
+//    enumerator = [endpointArray objectEnumerator];
+//    while (endpoint = [enumerator nextObject]) {
+//        [destinationPopUp addItemWithTitle:[endpoint displayName]];
+//        [[destinationPopUp lastItem] setRepresentedObject:endpoint];
+//    }    
 }
 
 -(void)connectToMidi
@@ -716,7 +716,7 @@ if(osc1Window==nil)
     int i;
     packet=MIDIPacketListInit (packetList);
     NSArray *temp=[[sender stringValue] componentsSeparatedByString:@" "];
-    NSLog(@"%d bytes:-------------------------",[temp count]);
+  NSLog(@"%lu bytes:-------------------------",(unsigned long)[temp count]);
     for(i=0;i<[temp count];i++)
     {
         midiMessage[i]=[[temp objectAtIndex:i] intValue];

@@ -4,7 +4,7 @@
    Edit the first shell script build phase */
    
 #import <Cocoa/Cocoa.h>
-#import <PYMIDI/PYMIDIEndpoint.h>
+#import <PYMIDI13/PYMIDIEndpoint.h>
 #import "IWProg.h"
 #import "IWGraphButton.h"
 #import "IWCableView.h"

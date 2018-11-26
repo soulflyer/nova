@@ -7,13 +7,13 @@
 //
 
 #import "IWProg.h"
-#import "MIDIConst.h"
+#import "MIDICONST.h"
 
 
 @implementation IWProg
 
-#include "GeneratedFiles/ProgSetMethods":
-#include "GeneratedFiles/ProgAccessMethods";
+#include "GeneratedFiles/ProgSetMethods"
+#include "GeneratedFiles/ProgAccessMethods"
 
 +(void)initialize
 {
@@ -23,8 +23,8 @@
     [dict setObject:@"7"   forKey:@"channel"];
     // Include the contents of GeneratedFiles/progInitialize
     // Do it by hand so it is poss to change the values
-#include "GeneratedFiles/progInitialize";
-/*    [dict setObject:@"0"   forKey:@"osc1Pitch"];
+#include "GeneratedFiles/ProgInitialize"
+    [dict setObject:@"0"   forKey:@"osc1Pitch"];
     [dict setObject:@"0"   forKey:@"osc2Pitch"];
     [dict setObject:@"0"   forKey:@"osc3Pitch"];
     [dict setObject:@"0"   forKey:@"osc1FormantWidth"];
@@ -343,7 +343,7 @@
     [dict setObject:@"0"   forKey:@"lfo2WheelSpeedMod"];
     [dict setObject:@"0"   forKey:@"env1Wheel"];
     [dict setObject:@"0"   forKey:@"env1AfterTouch"];
-*/
+
     [defaults registerDefaults:dict];
 }
 
@@ -351,7 +351,7 @@
 {
     self=[super init];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-#include "GeneratedFiles/ProgInit";
+#include "GeneratedFiles/ProgInit"
     return self;
 }
 
@@ -362,7 +362,7 @@
     [self init];
     
     //[self setVocoderBalance:sysexBuffer[25]];
-#include "GeneratedFiles/ProgInitWithSysex";  
+#include "GeneratedFiles/ProgInitWithSysex"
     //This lot should be set automatically !!!!!!
     //and maybe need to be offset by $6
   /*  vocoderBalance                  =sysexBuffer[25];
@@ -613,14 +613,14 @@
 -(NSDictionary *)asDictionary
 {
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-#include "GeneratedFiles/ProgAsDictionary";
+#include "GeneratedFiles/ProgAsDictionary"
     return dict;
 }
 
 -(void)fromDictionary:(NSDictionary*)dict
 {
     id value;
-#include "GeneratedFiles/ProgFromDictionary";
+#include "GeneratedFiles/ProgFromDictionary"
     }
 
 @end
