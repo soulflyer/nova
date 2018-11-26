@@ -540,7 +540,7 @@
 
 - (void)drawRect:(NSRect)rect
 {
-#include "GeneratedFiles/IWCableViewDrawrect"
+#include "GeneratedFiles/IWCableViewDrawRect"
 }
  
 -(void)drawLine:(int)width colour:(NSColor *)colour start:(NSPoint)start end:(NSPoint)end
@@ -572,6 +572,6 @@
 //}
     
 #include "GeneratedFiles/IWCableViewProcs"
-#include "GeneratedFiles/IWCableViewSetMethods":
-#include "GeneratedFiles/IWCableViewAccessMethods";
+#include "GeneratedFiles/IWCableViewSetMethods"
+#include "GeneratedFiles/IWCableViewAccessMethods"
 @end
