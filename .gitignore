@@ -1,0 +1,5 @@
+.DS_Store
+trunk/
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
