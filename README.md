@@ -4,6 +4,16 @@
 
 An old project, incomplete, but close. Designed to make it easier to understand and change settings on a novation nova. 
 
+![Nova](Screen-Shot.png)
+
+When I stopped working on it I had just implemented the display of the connections between the various modules of the nova. These show clearly which modules are being controlled by which other modules. This is something that is not at all obvious on the nova itself and is the main reason for developing this program. Here is a shot where LFO1 is controlling OSC2 and ENV2 is controlling OSC1. 
+
+![Nova](Screen-Shot-2.png)
+
+The width of the lines is designed to represent the amount of control being exerted. This can be adjusted from either end of the connection, and can be positive or negative. Currently +64 appears the same as -64.
+
+![Nova](Screen-Shot-3.png)
+
 Relies on the now unsupported PYMidi library. I have a modified version compiled under OSX 10.13 in another repository that nova uses. This is just to get the thing working again so I can recycle the good bits for a new version which won't rely on any apple products. 
 
 Quite a lot of the code is generated in the build phases. There are hundreds of very similar midi calls, all of which needed getters and setters and initialisation. Rather than hand code them all there are lists in the parameters directory and these are used to generate things using awk and shell.
