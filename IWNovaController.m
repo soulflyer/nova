@@ -196,29 +196,29 @@
 
 - (void)buildPopUps
 {
-    PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
-    NSArray*        endpointArray;
-    NSEnumerator*   enumerator;
-    PYMIDIEndpoint* endpoint;
-    
-    [sourcePopUp removeAllItems];
-    [destinationPopUp removeAllItems];
-    
-    endpointArray = [manager onlineRealSources];
-    
-    enumerator = [endpointArray objectEnumerator];
-    while (endpoint = [enumerator nextObject]) {
-        [sourcePopUp addItemWithTitle:[endpoint displayName]];
-        [[sourcePopUp lastItem] setRepresentedObject:endpoint];
-    }
-    
-    endpointArray = [manager onlineRealDestinations];
-    
-    enumerator = [endpointArray objectEnumerator];
-    while (endpoint = [enumerator nextObject]) {
-        [destinationPopUp addItemWithTitle:[endpoint displayName]];
-        [[destinationPopUp lastItem] setRepresentedObject:endpoint];
-    }    
+//    PYMIDIManager*  manager = [PYMIDIManager sharedInstance];
+//    NSArray*        endpointArray;
+//    NSEnumerator*   enumerator;
+//    PYMIDIEndpoint* endpoint;
+//    
+//    [sourcePopUp removeAllItems];
+//    [destinationPopUp removeAllItems];
+//    
+//    endpointArray = [manager onlineRealSources];
+//    
+//    enumerator = [endpointArray objectEnumerator];
+//    while (endpoint = [enumerator nextObject]) {
+//        [sourcePopUp addItemWithTitle:[endpoint displayName]];
+//        [[sourcePopUp lastItem] setRepresentedObject:endpoint];
+//    }
+//    
+//    endpointArray = [manager onlineRealDestinations];
+//    
+//    enumerator = [endpointArray objectEnumerator];
+//    while (endpoint = [enumerator nextObject]) {
+//        [destinationPopUp addItemWithTitle:[endpoint displayName]];
+//        [[destinationPopUp lastItem] setRepresentedObject:endpoint];
+//    }    
 }
 
 -(void)connectToMidi
